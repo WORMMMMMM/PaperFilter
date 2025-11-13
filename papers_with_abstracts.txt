@@ -1,0 +1,514 @@
+arXiv Robotics 论文信息汇总
+================================================================================
+生成时间: 2025-11-13 22:57:30
+总计: 50 篇论文
+================================================================================
+
+[1] SeFA-Policy: Fast and Accurate Visuomotor Policy Learning with Selective Flow Alignment
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08583v1
+摘要页面: https://arxiv.org/abs/2511.08583
+
+摘要:
+Developing efficient and accurate visuomotor policies poses a central challenge in robotic imitation learning. While recent rectified flow approaches have advanced visuomotor policy learning, they suffer from a key limitation: After iterative distillation, generated actions may deviate from the ground-truth actions corresponding to the current visual observation, leading to accumulated error as the reflow process repeats and unstable task execution. We present Selective Flow Alignment (SeFA), an efficient and accurate visuomotor policy learning framework. SeFA resolves this challenge by a selective flow alignment strategy, which leverages expert demonstrations to selectively correct generated actions and restore consistency with observations, while preserving multimodality. This design introduces a consistency correction mechanism that ensures generated actions remain observation-aligned without sacrificing the efficiency of one-step flow inference. Extensive experiments across both simulated and real-world manipulation tasks show that SeFA Policy surpasses state-of-the-art diffusion-based and flow-based policies, achieving superior accuracy and robustness while reducing inference latency by over 98%. By unifying rectified flow efficiency with observation-consistent action generation, SeFA provides a scalable and dependable solution for real-time visuomotor policy learning. Code is available on this https URL.
+
+================================================================================
+
+[2] Safe and Optimal Learning from Preferences via Weighted Temporal Logic with Applications in Robotics and Formula 1
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08502v1
+摘要页面: https://arxiv.org/abs/2511.08502
+
+摘要:
+Autonomous systems increasingly rely on human feedback to align their behavior, expressed as pairwise comparisons, rankings, or demonstrations. While existing methods can adapt behaviors, they often fail to guarantee safety in safety-critical domains. We propose a safety-guaranteed, optimal, and efficient approach to solve the learning problem from preferences, rankings, or demonstrations using Weighted Signal Temporal Logic (WSTL). WSTL learning problems, when implemented naively, lead to multi-linear constraints in the weights to be learned. By introducing structural pruning and log-transform procedures, we reduce the problem size and recast the problem as a Mixed-Integer Linear Program while preserving safety guarantees. Experiments on robotic navigation and real-world Formula 1 data demonstrate that the method effectively captures nuanced preferences and models complex task objectives.
+
+================================================================================
+
+[3] A Supervised Autonomous Resection and Retraction Framework for Transurethral Enucleation of the Prostatic Median Lobe
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08490v1
+摘要页面: https://arxiv.org/abs/2511.08490
+
+摘要:
+Concentric tube robots (CTRs) offer dexterous motion at millimeter scales, enabling minimally invasive procedures through natural orifices. This work presents a coordinated model-based resection planner and learning-based retraction network that work together to enable semi-autonomous tissue resection using a dual-arm transurethral concentric tube robot (the Virtuoso). The resection planner operates directly on segmented CT volumes of prostate phantoms, automatically generating tool trajectories for a three-phase median lobe resection workflow: left/median trough resection, right/median trough resection, and median blunt dissection. The retraction network, PushCVAE, trained on surgeon demonstrations, generates retractions according to the procedural phase. The procedure is executed under Level-3 (supervised) autonomy on a prostate phantom composed of hydrogel materials that replicate the mechanical and cutting properties of tissue. As a feasibility study, we demonstrate that our combined autonomous system achieves a 97.1% resection of the targeted volume of the median lobe. Our study establishes a foundation for image-guided autonomy in transurethral robotic surgery and represents a first step toward fully automated minimally-invasive prostate enucleation.
+
+================================================================================
+
+[4] Intuitive control of supernumerary robotic limbs through a tactile-encoded neural interface
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08454v1
+摘要页面: https://arxiv.org/abs/2511.08454
+
+摘要:
+Brain-computer interfaces (BCIs) promise to extend human movement capabilities by enabling direct neural control of supernumerary effectors, yet integrating augmented commands with multiple degrees of freedom without disrupting natural movement remains a key challenge. Here, we propose a tactile-encoded BCI that leverages sensory afferents through a novel tactile-evoked P300 paradigm, allowing intuitive and reliable decoding of supernumerary motor intentions even when superimposed with voluntary actions. The interface was evaluated in a multi-day experiment comprising of a single motor recognition task to validate baseline BCI performance and a dual task paradigm to assess the potential influence between the BCI and natural human movement. The brain interface achieved real-time and reliable decoding of four supernumerary degrees of freedom, with significant performance improvements after only three days of training. Importantly, after training, performance did not differ significantly between the single- and dual-BCI task conditions, and natural movement remained unimpaired during concurrent supernumerary control. Lastly, the interface was deployed in a movement augmentation task, demonstrating its ability to command two supernumerary robotic arms for functional assistance during bimanual tasks. These results establish a new neural interface paradigm for movement augmentation through stimulation of sensory afferents, expanding motor degrees of freedom without impairing natural movement.
+
+================================================================================
+
+[5] Human Motion Intent Inferencing in Teleoperation Through a SINDy Paradigm
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08377v1
+摘要页面: https://arxiv.org/abs/2511.08377
+
+摘要:
+Intent inferencing in teleoperation has been instrumental in aligning operator goals and coordinating actions with robotic partners. However, current intent inference methods often ignore subtle motion that can be strong indicators for a sudden change in intent. Specifically, we aim to tackle 1) if we can detect sudden jumps in operator trajectories, 2) how we appropriately use these sudden jump motions to infer an operator's goal state, and 3) how to incorporate these discontinuous and continuous dynamics to infer operator motion. Our framework, called Psychic, models these small indicative motions through a jump-drift-diffusion stochastic differential equation to cover discontinuous and continuous dynamics. Kramers-Moyal (KM) coefficients allow us to detect jumps with a trajectory which we pair with a statistical outlier detection algorithm to nominate goal transitions. Through identifying jumps, we can perform early detection of existing goals and discover undefined goals in unstructured scenarios. Our framework then applies a Sparse Identification of Nonlinear Dynamics (SINDy) model using KM coefficients with the goal transitions as a control input to infer an operator's motion behavior in unstructured scenarios. We demonstrate Psychic can produce probabilistic reachability sets and compare our strategy to a negative log-likelihood model fit. We perform a retrospective study on 600 operator trajectories in a hands-free teleoperation task to evaluate the efficacy of our opensource package, Psychic, in both offline and online learning.
+
+================================================================================
+
+[6] A CODECO Case Study and Initial Validation for Edge Orchestration of Autonomous Mobile Robots
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08354v1
+摘要页面: https://arxiv.org/abs/2511.08354
+
+摘要:
+Autonomous Mobile Robots (AMRs) increasingly adopt containerized micro-services across the Edge-Cloud continuum. While Kubernetes is the de-facto orchestrator for such systems, its assumptions of stable networks, homogeneous resources, and ample compute capacity do not fully hold in mobile, resource-constrained robotic environments.
+This paper describes a case study on smart-manufacturing AMRs and performs an initial comparison between CODECO orchestration and standard Kubernetes using a controlled KinD environment. Metrics include pod deployment and deletion times, CPU and memory usage, and inter-pod data rates. The observed results indicate that CODECO offers reduced CPU consumption and more stable communication patterns, at the cost of modest memory overhead (10-15%) and slightly increased pod lifecycle latency due to secure overlay initialization.
+
+================================================================================
+
+[7] Learning Omnidirectional Locomotion for a Salamander-Like Quadruped Robot
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08299v1
+摘要页面: https://arxiv.org/abs/2511.08299
+
+摘要:
+Salamander-like quadruped robots are designed inspired by the skeletal structure of their biological counterparts. However, existing controllers cannot fully exploit these morphological features and largely rely on predefined gait patterns or joint trajectories, which prevents the generation of diverse and flexible locomotion and limits their applicability in real-world scenarios. In this paper, we propose a learning framework that enables the robot to acquire a diverse repertoire of omnidirectional gaits without reference motions. Each body part is controlled by a phase variable capable of forward and backward evolution, with a phase coverage reward to promote the exploration of the leg phase space. Additionally, morphological symmetry of the robot is incorporated via data augmentation, improving sample efficiency and enforcing both motion-level and task-level symmetry in learned behaviors. Extensive experiments show that the robot successfully acquires 22 omnidirectional gaits exhibiting both dynamic and symmetric movements, demonstrating the effectiveness of the proposed learning framework.
+
+================================================================================
+
+[8] X-IONet: Cross-Platform Inertial Odometry Network with Dual-Stage Attention
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08277v1
+摘要页面: https://arxiv.org/abs/2511.08277
+
+摘要:
+Learning-based inertial odometry has achieved remarkable progress in pedestrian navigation. However, extending these methods to quadruped robots remains challenging due to their distinct and highly dynamic motion patterns. Models that perform well on pedestrian data often experience severe degradation when deployed on legged platforms. To tackle this challenge, we introduce X-IONet, a cross-platform inertial odometry framework that operates solely using a single Inertial Measurement Unit (IMU). X-IONet incorporates a rule-based expert selection module to classify motion platforms and route IMU sequences to platform-specific expert networks. The displacement prediction network features a dual-stage attention architecture that jointly models long-range temporal dependencies and inter-axis correlations, enabling accurate motion representation. It outputs both displacement and associated uncertainty, which are further fused through an Extended Kalman Filter (EKF) for robust state estimation. Extensive experiments on public pedestrian datasets and a self-collected quadruped robot dataset demonstrate that X-IONet achieves state-of-the-art performance, reducing Absolute Trajectory Error (ATE) by 14.3% and Relative Trajectory Error (RTE) by 11.4% on pedestrian data, and by 52.8% and 41.3% on quadruped robot data. These results highlight the effectiveness of X-IONet in advancing accurate and robust inertial navigation across both human and legged robot platforms.
+
+================================================================================
+
+[9] Real-Time Performance Analysis of Multi-Fidelity Residual Physics-Informed Neural Process-Based State Estimation for Robotic Systems
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08231v1
+摘要页面: https://arxiv.org/abs/2511.08231
+
+摘要:
+Various neural network architectures are used in many of the state-of-the-art approaches for real-time nonlinear state estimation. With the ever-increasing incorporation of these data-driven models into the estimation domain, model predictions with reliable margins of error are a requirement -- especially for safety-critical applications. This paper discusses the application of a novel real-time, data-driven estimation approach based on the multi-fidelity residual physics-informed neural process (MFR-PINP) toward the real-time state estimation of a robotic system. Specifically, we address the model-mismatch issue of selecting an accurate kinematic model by tasking the MFR-PINP to also learn the residuals between simple, low-fidelity predictions and complex, high-fidelity ground-truth dynamics. To account for model uncertainty present in a physical implementation, robust uncertainty guarantees from the split conformal (SC) prediction framework are modeled in the training and inference paradigms. We provide implementation details of our MFR-PINP-based estimator for a hybrid online learning setting to validate our model's usage in real-time applications. Experimental results of our approach's performance in comparison to the state-of-the-art variants of the Kalman filter (i.e. unscented Kalman filter and deep Kalman filter) in estimation scenarios showed promising results for the MFR-PINP model as a viable option in real-time estimation tasks.
+
+================================================================================
+
+[10] Prioritizing Perception-Guided Self-Supervision: A New Paradigm for Causal Modeling in End-to-End Autonomous Driving
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08214v1
+摘要页面: https://arxiv.org/abs/2511.08214
+
+摘要:
+End-to-end autonomous driving systems, predominantly trained through imitation learning, have demonstrated considerable effectiveness in leveraging large-scale expert driving data. Despite their success in open-loop evaluations, these systems often exhibit significant performance degradation in closed-loop scenarios due to causal confusion. This confusion is fundamentally exacerbated by the overreliance of the imitation learning paradigm on expert trajectories, which often contain unattributable noise and interfere with the modeling of causal relationships between environmental contexts and appropriate driving actions.
+To address this fundamental limitation, we propose Perception-Guided Self-Supervision (PGS) - a simple yet effective training paradigm that leverages perception outputs as the primary supervisory signals, explicitly modeling causal relationships in decision-making. The proposed framework aligns both the inputs and outputs of the decision-making module with perception results, such as lane centerlines and the predicted motions of surrounding agents, by introducing positive and negative self-supervision for the ego trajectory. This alignment is specifically designed to mitigate causal confusion arising from the inherent noise in expert trajectories.
+Equipped with perception-driven supervision, our method, built on a standard end-to-end architecture, achieves a Driving Score of 78.08 and a mean success rate of 48.64% on the challenging closed-loop Bench2Drive benchmark, significantly outperforming existing state-of-the-art methods, including those employing more complex network architectures and inference pipelines. These results underscore the effectiveness and robustness of the proposed PGS framework and point to a promising direction for addressing causal confusion and enhancing real-world generalization in autonomous driving.
+
+================================================================================
+
+[11] PerspAct: Enhancing LLM Situated Collaboration Skills through Perspective Taking and Active Vision
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08098v1
+摘要页面: https://arxiv.org/abs/2511.08098
+
+摘要:
+Recent advances in Large Language Models (LLMs) and multimodal foundation models have significantly broadened their application in robotics and collaborative systems. However, effective multi-agent interaction necessitates robust perspective-taking capabilities, enabling models to interpret both physical and epistemic viewpoints. Current training paradigms often neglect these interactive contexts, resulting in challenges when models must reason about the subjectivity of individual perspectives or navigate environments with multiple observers. This study evaluates whether explicitly incorporating diverse points of view using the ReAct framework, an approach that integrates reasoning and acting, can enhance an LLM's ability to understand and ground the demands of other agents. We extend the classic Director task by introducing active visual exploration across a suite of seven scenarios of increasing perspective-taking complexity. These scenarios are designed to challenge the agent's capacity to resolve referential ambiguity based on visual access and interaction, under varying state representations and prompting strategies, including ReAct-style reasoning. Our results demonstrate that explicit perspective cues, combined with active exploration strategies, significantly improve the model's interpretative accuracy and collaborative effectiveness. These findings highlight the potential of integrating active perception with perspective-taking mechanisms in advancing LLMs' application in robotics and multi-agent systems, setting a foundation for future research into adaptive and context-aware AI systems.
+
+================================================================================
+
+[12] Model Predictive Control via Probabilistic Inference: A Tutorial
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08019v1
+摘要页面: https://arxiv.org/abs/2511.08019
+
+摘要:
+Model Predictive Control (MPC) is a fundamental framework for optimizing robot behavior over a finite future horizon. While conventional numerical optimization methods can efficiently handle simple dynamics and cost structures, they often become intractable for the nonlinear or non-differentiable systems commonly encountered in robotics. This article provides a tutorial on probabilistic inference-based MPC, presenting a unified theoretical foundation and a comprehensive overview of representative methods. Probabilistic inference-based MPC approaches, such as Model Predictive Path Integral (MPPI) control, have gained significant attention by reinterpreting optimal control as a problem of probabilistic inference. Rather than relying on gradient-based numerical optimization, these methods estimate optimal control distributions through sampling-based techniques, accommodating arbitrary cost functions and dynamics. We first derive the optimal control distribution from the standard optimal control problem, elucidating its probabilistic interpretation and key characteristics. The widely used MPPI algorithm is then derived as a practical example, followed by discussions on prior and variational distribution design, tuning principles, and theoretical aspects. This article aims to serve as a systematic guide for researchers and practitioners seeking to understand, implement, and extend these methods in robotics and beyond.
+
+================================================================================
+
+[13] AVOID-JACK: Avoidance of Jackknifing for Swarms of Long Heavy Articulated Vehicles
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08016v1
+摘要页面: https://arxiv.org/abs/2511.08016
+
+摘要:
+This paper presents a novel approach to avoiding jackknifing and mutual collisions in Heavy Articulated Vehicles (HAVs) by leveraging decentralized swarm intelligence. In contrast to typical swarm robotics research, our robots are elongated and exhibit complex kinematics, introducing unique challenges. Despite its relevance to real-world applications such as logistics automation, remote mining, airport baggage transport, and agricultural operations, this problem has not been addressed in the existing literature.
+To tackle this new class of swarm robotics problems, we propose a purely reaction-based, decentralized swarm intelligence strategy tailored to automate elongated, articulated vehicles. The method presented in this paper prioritizes jackknifing avoidance and establishes a foundation for mutual collision avoidance. We validate our approach through extensive simulation experiments and provide a comprehensive analysis of its performance. For the experiments with a single HAV, we observe that for 99.8% jackknifing was successfully avoided and that 86.7% and 83.4% reach their first and second goals, respectively. With two HAVs interacting, we observe 98.9%, 79.4%, and 65.1%, respectively, while 99.7% of the HAVs do not experience mutual collisions.
+
+================================================================================
+
+[14] A Two-Layer Electrostatic Film Actuator with High Actuation Stress and Integrated Brake
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08005v1
+摘要页面: https://arxiv.org/abs/2511.08005
+
+摘要:
+Robotic systems driven by conventional motors often suffer from challenges such as large mass, complex control algorithms, and the need for additional braking mechanisms, which limit their applications in lightweight and compact robotic platforms. Electrostatic film actuators offer several advantages, including thinness, flexibility, lightweight construction, and high open-loop positioning accuracy. However, the actuation stress exhibited by conventional actuators in air still needs improvement, particularly for the widely used three-phase electrode design. To enhance the output performance of actuators, this paper presents a two-layer electrostatic film actuator with an integrated brake. By alternately distributing electrodes on both the top and bottom layers, a smaller effective electrode pitch is achieved under the same fabrication constraints, resulting in an actuation stress of approximately 241~N/m$^2$, representing a 90.5\% improvement over previous three-phase actuators operating in air. Furthermore, its integrated electrostatic adhesion mechanism enables load retention under braking mode. Several demonstrations, including a tug-of-war between a conventional single-layer actuator and the proposed two-layer actuator, a payload operation, a one-degree-of-freedom robotic arm, and a dual-mode gripper, were conducted to validate the actuator's advantageous capabilities in both actuation and braking modes.
+
+================================================================================
+
+[15] Effective Game-Theoretic Motion Planning via Nested Search
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08001v1
+摘要页面: https://arxiv.org/abs/2511.08001
+
+摘要:
+To facilitate effective, safe deployment in the real world, individual robots must reason about interactions with other agents, which often occur without explicit communication. Recent work has identified game theory, particularly the concept of Nash Equilibrium (NE), as a key enabler for behavior-aware decision-making. Yet, existing work falls short of fully unleashing the power of game-theoretic reasoning. Specifically, popular optimization-based methods require simplified robot dynamics and tend to get trapped in local minima due to convexification. Other works that rely on payoff matrices suffer from poor scalability due to the explicit enumeration of all possible trajectories. To bridge this gap, we introduce Game-Theoretic Nested Search (GTNS), a novel, scalable, and provably correct approach for computing NEs in general dynamical systems. GTNS efficiently searches the action space of all agents involved, while discarding trajectories that violate the NE constraint (no unilateral deviation) through an inner search over a lower-dimensional space. Our algorithm enables explicit selection among equilibria by utilizing a user-specified global objective, thereby capturing a rich set of realistic interactions. We demonstrate the approach on a variety of autonomous driving and racing scenarios where we achieve solutions in mere seconds on commodity hardware.
+
+================================================================================
+
+[16] USV Obstacles Detection and Tracking in Marine Environments
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07950v1
+摘要页面: https://arxiv.org/abs/2511.07950
+
+摘要:
+Developing a robust and effective obstacle detection and tracking system for Unmanned Surface Vehicle (USV) at marine environments is a challenging task. Research efforts have been made in this area during the past years by GRAAL lab at the university of Genova that resulted in a methodology for detecting and tracking obstacles on the image plane and, then, locating them in the 3D LiDAR point cloud. In this work, we continue on the developed system by, firstly, evaluating its performance on recently published marine datasets. Then, we integrate the different blocks of the system on ROS platform where we could test it in real-time on synchronized LiDAR and camera data collected in various marine conditions available in the MIT marine datasets. We present a thorough experimental analysis of the results obtained using two approaches; one that uses sensor fusion between the camera and LiDAR to detect and track the obstacles and the other uses only the LiDAR point cloud for the detection and tracking. In the end, we propose a hybrid approach that merges the advantages of both approaches to build an informative obstacles map of the surrounding environment to the USV.
+
+================================================================================
+
+[17] Local Path Planning with Dynamic Obstacle Avoidance in Unstructured Environments
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07927v1
+摘要页面: https://arxiv.org/abs/2511.07927
+
+摘要:
+Obstacle avoidance and path planning are essential for guiding unmanned ground vehicles (UGVs) through environments that are densely populated with dynamic obstacles. This paper develops a novel approach that combines tangentbased path planning and extrapolation methods to create a new decision-making algorithm for local path planning. In the assumed scenario, a UGV has a prior knowledge of its initial and target points within the dynamic environment. A global path has already been computed, and the robot is provided with waypoints along this path. As the UGV travels between these waypoints, the algorithm aims to avoid collisions with dynamic obstacles. These obstacles follow polynomial trajectories, with their initial positions randomized in the local map and velocities randomized between O and the allowable physical velocity limit of the robot, along with some random accelerations. The developed algorithm is tested in several scenarios where many dynamic obstacles move randomly in the environment. Simulation results show the effectiveness of the proposed local path planning strategy by gradually generating a collision free path which allows the robot to navigate safely between initial and the target locations.
+
+================================================================================
+
+[18] Dual-MPC Footstep Planning for Robust Quadruped Locomotion
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07921v1
+摘要页面: https://arxiv.org/abs/2511.07921
+
+摘要:
+In this paper, we propose a footstep planning strategy based on model predictive control (MPC) that enables robust regulation of body orientation against undesired body rotations by optimizing footstep placement. Model-based locomotion approaches typically adopt heuristic methods or planning based on the linear inverted pendulum model. These methods account for linear velocity in footstep planning, while excluding angular velocity, which leads to angular momentum being handled exclusively via ground reaction force (GRF). Footstep planning based on MPC that takes angular velocity into account recasts the angular momentum control problem as a dual-input approach that coordinates GRFs and footstep placement, instead of optimizing GRFs alone, thereby improving tracking performance. A mutual-feedback loop couples the footstep planner and the GRF MPC, with each using the other's solution to iteratively update footsteps and GRFs. The use of optimal solutions reduces body oscillation and enables extended stance and swing phases. The method is validated on a quadruped robot, demonstrating robust locomotion with reduced oscillations, longer stance and swing phases across various terrains.
+
+================================================================================
+
+[19] EquiMus: Energy-Equivalent Dynamic Modeling and Simulation of Musculoskeletal Robots Driven by Linear Elastic Actuators
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07887v1
+摘要页面: https://arxiv.org/abs/2511.07887
+
+摘要:
+Dynamic modeling and control are critical for unleashing soft robots' potential, yet remain challenging due to their complex constitutive behaviors and real-world operating conditions. Bio-inspired musculoskeletal robots, which integrate rigid skeletons with soft actuators, combine high load-bearing capacity with inherent flexibility. Although actuation dynamics have been studied through experimental methods and surrogate models, accurate and effective modeling and simulation remain a significant challenge, especially for large-scale hybrid rigid--soft robots with continuously distributed mass, kinematic loops, and diverse motion modes. To address these challenges, we propose EquiMus, an energy-equivalent dynamic modeling framework and MuJoCo-based simulation for musculoskeletal rigid--soft hybrid robots with linear elastic actuators. The equivalence and effectiveness of the proposed approach are validated and examined through both simulations and real-world experiments on a bionic robotic leg. EquiMus further demonstrates its utility for downstream tasks, including controller design and learning-based control strategies.
+
+================================================================================
+
+[20] A Comprehensive Experimental Characterization of Mechanical Layer Jamming Systems
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07882v1
+摘要页面: https://arxiv.org/abs/2511.07882
+
+摘要:
+Organisms in nature, such as Cephalopods and Pachyderms, exploit stiffness modulation to achieve amazing dexterity in the control of their appendages. In this paper, we explore the phenomenon of layer jamming, which is a popular stiffness modulation mechanism that provides an equivalent capability for soft robots. More specifically, we focus on mechanical layer jamming, which we realise through two-layer multi material structure with tooth-like protrusions. We identify key design parameters for mechanical layer jamming systems, including the ability to modulate stiffness, and perform a variety of comprehensive tests placing the specimens under bending and torsional loads to understand the influence of our selected design parameters (mainly tooth geometry) on the performance of the jammed structures. We note the ability of these structures to produce a peak change in stiffness of 5 times in bending and 3.2 times in torsion. We also measure the force required to separate the two jammed layers, an often ignored parameter in the study of jamming-induced stiffness change. This study aims to shed light on the principled design of mechanical layer jammed systems and guide researchers in the selection of appropriate designs for their specific application domains.
+
+================================================================================
+
+[21] Occlusion-Aware Ground Target Search by a UAV in an Urban Environment
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07822v1
+摘要页面: https://arxiv.org/abs/2511.07822
+
+摘要:
+This paper considers the problem of searching for a point of interest (POI) moving along an urban road network with an uncrewed aerial vehicle (UAV). The UAV is modeled as a variable-speed Dubins vehicle with a line-of-sight sensor in an urban environment that may occlude the sensor's view of the POI. A search strategy is proposed that exploits a probabilistic visibility volume (VV) to plan its future motion with iterative deepening $A^\ast$. The probabilistic VV is a time-varying three-dimensional representation of the sensing constraints for a particular distribution of the POI's state. To find the path most likely to view the POI, the planner uses a heuristic to optimistically estimate the probability of viewing the POI over a time horizon. The probabilistic VV is max-pooled to create a variable-timestep planner that reduces the search space and balances long-term and short-term planning. The proposed path planning method is compared to prior work with a Monte-Carlo simulation and is shown to outperform the baseline methods in cluttered environments when the UAV's sensor has a higher false alarm probability.
+
+================================================================================
+
+[22] SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07820v1
+摘要页面: https://arxiv.org/abs/2511.07820
+
+摘要:
+Despite the rise of billion-parameter foundation models trained across thousands of GPUs, similar scaling gains have not been shown for humanoid control. Current neural controllers for humanoids remain modest in size, target a limited behavior set, and are trained on a handful of GPUs over several days. We show that scaling up model capacity, data, and compute yields a generalist humanoid controller capable of creating natural and robust whole-body movements. Specifically, we posit motion tracking as a natural and scalable task for humanoid control, leverageing dense supervision from diverse motion-capture data to acquire human motion priors without manual reward engineering. We build a foundation model for motion tracking by scaling along three axes: network size (from 1.2M to 42M parameters), dataset volume (over 100M frames, 700 hours of high-quality motion data), and compute (9k GPU hours). Beyond demonstrating the benefits of scale, we show the practical utility of our model through two mechanisms: (1) a real-time universal kinematic planner that bridges motion tracking to downstream task execution, enabling natural and interactive control, and (2) a unified token space that supports various motion input interfaces, such as VR teleoperation devices, human videos, and vision-language-action (VLA) models, all using the same policy. Scaling motion tracking exhibits favorable properties: performance improves steadily with increased compute and data diversity, and learned representations generalize to unseen motions, establishing motion tracking at scale as a practical foundation for humanoid control.
+
+================================================================================
+
+[23] Virtual Traffic Lights for Multi-Robot Navigation: Decentralized Planning with Centralized Conflict Resolution
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07811v1
+摘要页面: https://arxiv.org/abs/2511.07811
+
+摘要:
+We present a hybrid multi-robot coordination framework that combines decentralized path planning with centralized conflict resolution. In our approach, each robot autonomously plans its path and shares this information with a centralized node. The centralized system detects potential conflicts and allows only one of the conflicting robots to proceed at a time, instructing others to stop outside the conflicting area to avoid deadlocks. Unlike traditional centralized planning methods, our system does not dictate robot paths but instead provides stop commands, functioning as a virtual traffic light. In simulation experiments with multiple robots, our approach increased the success rate of robots reaching their goals while reducing deadlocks. Furthermore, we successfully validated the system in real-world experiments with two quadruped robots and separately with wheeled Duckiebots.
+
+================================================================================
+
+[24] Benchmarking Resilience and Sensitivity of Polyurethane-Based Vision-Based Tactile Sensors
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07797v1
+摘要页面: https://arxiv.org/abs/2511.07797
+
+摘要:
+Vision-based tactile sensors (VBTSs) are a promising technology for robots, providing them with dense signals that can be translated into an understanding of normal and shear load, contact region, texture classification, and more. However, existing VBTS tactile surfaces make use of silicone gels, which provide high sensitivity but easily deteriorate from loading and surface wear. We propose that polyurethane rubber, used for high-load applications like shoe soles, rubber wheels, and industrial gaskets, may provide improved physical gel resilience, potentially at the cost of sensitivity. To compare the resilience and sensitivity of silicone and polyurethane VBTS gels, we propose a series of standard evaluation benchmarking protocols. Our resilience tests assess sensor durability across normal loading, shear loading, and abrasion. For sensitivity, we introduce model-free assessments of force and spatial sensitivity to directly measure the physical capabilities of each gel without effects introduced from data and model quality. Finally, we include a bottle cap loosening and tightening demonstration as an example where polyurethane gels provide an advantage over their silicone counterparts.
+
+================================================================================
+
+[25] High-Altitude Balloon Station-Keeping with First Order Model Predictive Control
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07761v1
+摘要页面: https://arxiv.org/abs/2511.07761
+
+摘要:
+High-altitude balloons (HABs) are common in scientific research due to their wide range of applications and low cost. Because of their nonlinear, underactuated dynamics and the partial observability of wind fields, prior work has largely relied on model-free reinforcement learning (RL) methods to design near-optimal control schemes for station-keeping. These methods often compare only against hand-crafted heuristics, dismissing model-based approaches as impractical given the system complexity and uncertain wind forecasts. We revisit this assumption about the efficacy of model-based control for station-keeping by developing First-Order Model Predictive Control (FOMPC). By implementing the wind and balloon dynamics as differentiable functions in JAX, we enable gradient-based trajectory optimization for online planning. FOMPC outperforms a state-of-the-art RL policy, achieving a 24% improvement in time-within-radius (TWR) without requiring offline training, though at the cost of greater online computation per control step. Through systematic ablations of modeling assumptions and control factors, we show that online planning is effective across many configurations, including under simplified wind and dynamics models.
+
+================================================================================
+
+[26] Navigating the Wild: Pareto-Optimal Visual Decision-Making in Image Space
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07750v1
+摘要页面: https://arxiv.org/abs/2511.07750
+
+摘要:
+Navigating complex real-world environments requires semantic understanding and adaptive decision-making. Traditional reactive methods without maps often fail in cluttered settings, map-based approaches demand heavy mapping effort, and learning-based solutions rely on large datasets with limited generalization. To address these challenges, we present Pareto-Optimal Visual Navigation, a lightweight image-space framework that combines data-driven semantics, Pareto-optimal decision-making, and visual servoing for real-time navigation.
+
+================================================================================
+
+[27] ViPRA: Video Prediction for Robot Actions
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07732v1
+摘要页面: https://arxiv.org/abs/2511.07732
+
+摘要:
+Can we turn a video prediction model into a robot policy? Videos, including those of humans or teleoperated robots, capture rich physical interactions. However, most of them lack labeled actions, which limits their use in robot learning. We present Video Prediction for Robot Actions (ViPRA), a simple pretraining-finetuning framework that learns continuous robot control from these actionless videos. Instead of directly predicting actions, we train a video-language model to predict both future visual observations and motion-centric latent actions, which serve as intermediate representations of scene dynamics. We train these latent actions using perceptual losses and optical flow consistency to ensure they reflect physically grounded behavior. For downstream control, we introduce a chunked flow matching decoder that maps latent actions to robot-specific continuous action sequences, using only 100 to 200 teleoperated demonstrations. This approach avoids expensive action annotation, supports generalization across embodiments, and enables smooth, high-frequency continuous control upto 22 Hz via chunked action decoding. Unlike prior latent action works that treat pretraining as autoregressive policy learning, explicitly models both what changes and how. Our method outperforms strong baselines, with a 16% gain on the SIMPLER benchmark and a 13% improvement across real world manipulation tasks. We will release models and code at this https URL
+
+================================================================================
+
+[28] LLM-GROP: Visually Grounded Robot Task and Motion Planning with Large Language Models
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07727v1
+摘要页面: https://arxiv.org/abs/2511.07727
+
+摘要:
+Task planning and motion planning are two of the most important problems in robotics, where task planning methods help robots achieve high-level goals and motion planning methods maintain low-level feasibility. Task and motion planning (TAMP) methods interleave the two processes of task planning and motion planning to ensure goal achievement and motion feasibility. Within the TAMP context, we are concerned with the mobile manipulation (MoMa) of multiple objects, where it is necessary to interleave actions for navigation and manipulation.
+In particular, we aim to compute where and how each object should be placed given underspecified goals, such as ``set up dinner table with a fork, knife and plate.'' We leverage the rich common sense knowledge from large language models (LLMs), e.g., about how tableware is organized, to facilitate both task-level and motion-level planning. In addition, we use computer vision methods to learn a strategy for selecting base positions to facilitate MoMa behaviors, where the base position corresponds to the robot's ``footprint'' and orientation in its operating space. Altogether, this article provides a principled TAMP framework for MoMa tasks that accounts for common sense about object rearrangement and is adaptive to novel situations that include many objects that need to be moved. We performed quantitative experiments in both real-world settings and simulated environments. We evaluated the success rate and efficiency in completing long-horizon object rearrangement tasks. While the robot completed 84.4\% real-world object rearrangement trials, subjective human evaluations indicated that the robot's performance is still lower than experienced human waiters.
+
+================================================================================
+
+[29] A QP Framework for Improving Data Collection: Quantifying Device-Controller Performance in Robot Teleoperation
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07720v1
+摘要页面: https://arxiv.org/abs/2511.07720
+
+摘要:
+Robot learning empowers the robot system with human brain-like intelligence to autonomously acquire and adapt skills through experience, enhancing flexibility and adaptability in various environments. Aimed at achieving a similar level of capability in large language models (LLMs) for embodied intelligence, data quality plays a crucial role in training a foundational model with diverse robot skills. In this study, we investigate the collection of data for manipulation tasks using teleoperation devices. Different devices yield varying effects when paired with corresponding controller strategies, including position-based inverse kinematics (IK) control, torque-based inverse dynamics (ID) control, and optimization-based compliance control. In this paper, we develop a teleoperation pipeline that is compatible with different teleoperation devices and manipulator controllers. Within the pipeline, we construct the optimal QP formulation with the dynamic nullspace and the impedance tracking as the novel optimal controller to achieve compliant pose tracking and singularity avoidance. Regarding the optimal controller, it adaptively adjusts the weights assignment depending on the robot joint manipulability that reflects the state of joint configuration for the pose tracking in the form of impedance control and singularity avoidance with nullspace tracking. Analysis of quantitative experimental results suggests the quality of the teleoperated trajectory data, including tracking error, occurrence of singularity, and the smoothness of the joints' trajectory, with different combinations of teleoperation interface and the motion controller.
+
+================================================================================
+
+[30] RoboTAG: End-to-end Robot Configuration Estimation via Topological Alignment Graph
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07717v1
+摘要页面: https://arxiv.org/abs/2511.07717
+
+摘要:
+Estimating robot pose from a monocular RGB image is a challenge in robotics and computer vision. Existing methods typically build networks on top of 2D visual backbones and depend heavily on labeled data for training, which is often scarce in real-world scenarios, causing a sim-to-real gap. Moreover, these approaches reduce the 3D-based problem to 2D domain, neglecting the 3D priors. To address these, we propose Robot Topological Alignment Graph (RoboTAG), which incorporates a 3D branch to inject 3D priors while enabling co-evolution of the 2D and 3D representations, alleviating the reliance on labels. Specifically, the RoboTAG consists of a 3D branch and a 2D branch, where nodes represent the states of the camera and robot system, and edges capture the dependencies between these variables or denote alignments between them. Closed loops are then defined in the graph, on which a consistency supervision across branches can be applied. This design allows us to utilize in-the-wild images as training data without annotations. Experimental results demonstrate that our method is effective across robot types, highlighting its potential to alleviate the data bottleneck in robotics.
+
+================================================================================
+
+[31] Testing and Evaluation of Underwater Vehicle Using Hardware-In-The-Loop Simulation with HoloOcean
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07687v1
+摘要页面: https://arxiv.org/abs/2511.07687
+
+摘要:
+Testing marine robotics systems in controlled environments before field tests is challenging, especially when acoustic-based sensors and control surfaces only function properly underwater. Deploying robots in indoor tanks and pools often faces space constraints that complicate testing of control, navigation, and perception algorithms at scale. Recent developments of high-fidelity underwater simulation tools have the potential to address these problems. We demonstrate the utility of the recently released HoloOcean 2.0 simulator with improved dynamics for torpedo AUV vehicles and a new ROS 2 interface. We have successfully demonstrated a Hardware-in-the-Loop (HIL) and Software-in-the-Loop (SIL) setup for testing and evaluating a CougUV torpedo autonomous underwater vehicle (AUV) that was built and developed in our lab. With this HIL and SIL setup, simulations are run in HoloOcean using a ROS 2 bridge such that simulated sensor data is sent to the CougUV (mimicking sensor drivers) and control surface commands are sent back to the simulation, where vehicle dynamics and sensor data are calculated. We compare our simulated results to real-world field trial results.
+
+================================================================================
+
+[32] Time-Aware Policy Learning for Adaptive and Punctual Robot Control
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07654v1
+摘要页面: https://arxiv.org/abs/2511.07654
+
+摘要:
+Temporal awareness underlies intelligent behavior in both animals and humans, guiding how actions are sequenced, paced, and adapted to changing goals and environments. Yet most robot learning algorithms remain blind to time. We introduce time-aware policy learning, a reinforcement learning framework that enables robots to explicitly perceive and reason with time as a first-class variable. The framework augments conventional reinforcement policies with two complementary temporal signals, the remaining time and a time ratio, which allow a single policy to modulate its behavior continuously from rapid and dynamic to cautious and precise execution. By jointly optimizing punctuality and stability, the robot learns to balance efficiency, robustness, resiliency, and punctuality without re-training or reward adjustment. Across diverse manipulation domains from long-horizon pick and place, to granular-media pouring, articulated-object handling, and multi-agent object delivery, the time-aware policy produces adaptive behaviors that outperform standard reinforcement learning baselines by up to 48% in efficiency, 8 times more robust in sim-to-real transfer, and 90% in acoustic quietness while maintaining near-perfect success rates. Explicit temporal reasoning further enables real-time human-in-the-loop control and multi-agent coordination, allowing robots to recover from disturbances, re-synchronize after delays, and align motion tempo with human intent. By treating time not as a constraint but as a controllable dimension of behavior, time-aware policy learning provides a unified foundation for efficient, robust, resilient, and human-aligned robot autonomy.
+
+================================================================================
+
+[33] CAVER: Curious Audiovisual Exploring Robot
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07619v1
+摘要页面: https://arxiv.org/abs/2511.07619
+
+摘要:
+Multimodal audiovisual perception can enable new avenues for robotic manipulation, from better material classification to the imitation of demonstrations for which only audio signals are available (e.g., playing a tune by ear). However, to unlock such multimodal potential, robots need to learn the correlations between an object's visual appearance and the sound it generates when they interact with it. Such an active sensorimotor experience requires new interaction capabilities, representations, and exploration methods to guide the robot in efficiently building increasingly rich audiovisual knowledge. In this work, we present CAVER, a novel robot that builds and utilizes rich audiovisual representations of objects. CAVER includes three novel contributions: 1) a novel 3D printed end-effector, attachable to parallel grippers, that excites objects' audio responses, 2) an audiovisual representation that combines local and global appearance information with sound features, and 3) an exploration algorithm that uses and builds the audiovisual representation in a curiosity-driven manner that prioritizes interacting with high uncertainty objects to obtain good coverage of surprising audio with fewer interactions. We demonstrate that CAVER builds rich representations in different scenarios more efficiently than several exploration baselines, and that the learned audiovisual representation leads to significant improvements in material classification and the imitation of audio-only human demonstrations. this https URL
+
+================================================================================
+
+[34] Probabilistic Safety Guarantee for Stochastic Control Systems Using Average Reward MDPs
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08419v1
+摘要页面: https://arxiv.org/abs/2511.08419
+
+摘要:
+Safety in stochastic control systems, which are subject to random noise with a known probability distribution, aims to compute policies that satisfy predefined operational constraints with high confidence throughout the uncertain evolution of the state variables. The unpredictable evolution of state variables poses a significant challenge for meeting predefined constraints using various control methods. To address this, we present a new algorithm that computes safe policies to determine the safety level across a finite state set. This algorithm reduces the safety objective to the standard average reward Markov Decision Process (MDP) objective. This reduction enables us to use standard techniques, such as linear programs, to compute and analyze safe policies. We validate the proposed method numerically on the Double Integrator and the Inverted Pendulum systems. Results indicate that the average-reward MDPs solution is more comprehensive, converges faster, and offers higher quality compared to the minimum discounted-reward solution.
+
+================================================================================
+
+[35] Work-in-Progress: Function-as-Subtask API Replacing Publish/Subscribe for OS-Native DAG Scheduling
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08297v1
+摘要页面: https://arxiv.org/abs/2511.08297
+
+摘要:
+The Directed Acyclic Graph (DAG) task model for real-time scheduling finds its primary practical target in Robot Operating System 2 (ROS 2). However, ROS 2's publish/subscribe API leaves DAG precedence constraints unenforced: a callback may publish mid-execution, and multi-input callbacks let developers choose topic-matching policies. Thus preserving DAG semantics relies on conventions; once violated, the model collapses. We propose the Function-as-Subtask (FasS) API, which expresses each subtask as a function whose arguments/return values are the subtask's incoming/outgoing edges. By minimizing description freedom, DAG semantics is guaranteed at the API rather than by programmer discipline. We implement a DAG-native scheduler using FasS on a Rust-based experimental kernel and evaluate its semantic fidelity, and we outline design guidelines for applying FasS to Linux Linux sched_ext.
+
+================================================================================
+
+[36] Dynamic Sparsity: Challenging Common Sparsity Assumptions for Learning World Models in Robotic Reinforcement Learning Benchmarks
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.08086v1
+摘要页面: https://arxiv.org/abs/2511.08086
+
+摘要:
+The use of learned dynamics models, also known as world models, can improve the sample efficiency of reinforcement learning. Recent work suggests that the underlying causal graphs of such dynamics models are sparsely connected, with each of the future state variables depending only on a small subset of the current state variables, and that learning may therefore benefit from sparsity priors. Similarly, temporal sparsity, i.e. sparsely and abruptly changing local dynamics, has also been proposed as a useful inductive bias.
+In this work, we critically examine these assumptions by analyzing ground-truth dynamics from a set of robotic reinforcement learning environments in the MuJoCo Playground benchmark suite, aiming to determine whether the proposed notions of state and temporal sparsity actually tend to hold in typical reinforcement learning tasks.
+We study (i) whether the causal graphs of environment dynamics are sparse, (ii) whether such sparsity is state-dependent, and (iii) whether local system dynamics change sparsely.
+Our results indicate that global sparsity is rare, but instead the tasks show local, state-dependent sparsity in their dynamics and this sparsity exhibits distinct structures, appearing in temporally localized clusters (e.g., during contact events) and affecting specific subsets of state dimensions. These findings challenge common sparsity prior assumptions in dynamics learning, emphasizing the need for grounded inductive biases that reflect the state-dependent sparsity structure of real-world dynamics.
+
+================================================================================
+
+[37] An Image-Based Path Planning Algorithm Using a UAV Equipped with Stereo Vision
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07928v1
+摘要页面: https://arxiv.org/abs/2511.07928
+
+摘要:
+This paper presents a novel image-based path planning algorithm that was developed using computer vision techniques, as well as its comparative analysis with well-known deterministic and probabilistic algorithms, namely A* and Probabilistic Road Map algorithm (PRM). The terrain depth has a significant impact on the calculated path safety. The craters and hills on the surface cannot be distinguished in a two-dimensional image. The proposed method uses a disparity map of the terrain that is generated by using a UAV. Several computer vision techniques, including edge, line and corner detection methods, as well as the stereo depth reconstruction technique, are applied to the captured images and the found disparity map is used to define candidate way-points of the trajectory. The initial and desired points are detected automatically using ArUco marker pose estimation and circle detection techniques. After presenting the mathematical model and vision techniques, the developed algorithm is compared with well-known algorithms on different virtual scenes created in the V-REP simulation program and a physical setup created in a laboratory environment. Results are promising and demonstrate effectiveness of the proposed algorithm.
+
+================================================================================
+
+[38] Statistically Assuring Safety of Control Systems using Ensembles of Safety Filters and Conformal Prediction
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07899v1
+摘要页面: https://arxiv.org/abs/2511.07899
+
+摘要:
+Safety assurance is a fundamental requirement for deploying learning-enabled autonomous systems. Hamilton-Jacobi (HJ) reachability analysis is a fundamental method for formally verifying safety and generating safe controllers. However, computing the HJ value function that characterizes the backward reachable set (BRS) of a set of user-defined failure states is computationally expensive, especially for high-dimensional systems, motivating the use of reinforcement learning approaches to approximate the value function. Unfortunately, a learned value function and its corresponding safe policy are not guaranteed to be correct. The learned value function evaluated at a given state may not be equal to the actual safety return achieved by following the learned safe policy. To address this challenge, we introduce a conformal prediction-based (CP) framework that bounds such uncertainty. We leverage CP to provide probabilistic safety guarantees when using learned HJ value functions and policies to prevent control systems from reaching failure states. Specifically, we use CP to calibrate the switching between the unsafe nominal controller and the learned HJ-based safe policy and to derive safety guarantees under this switched policy. We also investigate using an ensemble of independently trained HJ value functions as a safety filter and compare this ensemble approach to using individual value functions alone.
+
+================================================================================
+
+[39] Multistep Quasimetric Learning for Scalable Goal-conditioned Reinforcement Learning
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07730v1
+摘要页面: https://arxiv.org/abs/2511.07730
+
+摘要:
+Learning how to reach goals in an environment is a longstanding challenge in AI, yet reasoning over long horizons remains a challenge for modern methods. The key question is how to estimate the temporal distance between pairs of observations. While temporal difference methods leverage local updates to provide optimality guarantees, they often perform worse than Monte Carlo methods that perform global updates (e.g., with multi-step returns), which lack such guarantees. We show how these approaches can be integrated into a practical GCRL method that fits a quasimetric distance using a multistep Monte-Carlo return. We show our method outperforms existing GCRL methods on long-horizon simulated tasks with up to 4000 steps, even with visual observations. We also demonstrate that our method can enable stitching in the real-world robotic manipulation domain (Bridge setup). Our approach is the first end-to-end GCRL method that enables multistep stitching in this real-world manipulation domain from an unlabeled offline dataset of visual observations.
+
+================================================================================
+
+[40] ARGUS: A Framework for Risk-Aware Path Planning in Tactical UGV Operations
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07565v1
+摘要页面: https://arxiv.org/abs/2511.07565
+
+摘要:
+This thesis presents the development of ARGUS, a framework for mission planning for Unmanned Ground Vehicles (UGVs) in tactical environments. The system is designed to translate battlefield complexity and the commander's intent into executable action plans. To this end, ARGUS employs a processing pipeline that takes as input geospatial terrain data, military intelligence on existing threats and their probable locations, and mission priorities defined by the commander. Through a set of integrated modules, the framework processes this information to generate optimized trajectories that balance mission objectives against the risks posed by threats and terrain characteristics. A fundamental capability of ARGUS is its dynamic nature, which allows it to adapt plans in real-time in response to unforeseen events, reflecting the fluid nature of the modern battlefield. The system's interoperability were validated in a practical exercise with the Portuguese Army, where it was successfully demonstrated that the routes generated by the model can be integrated and utilized by UGV control systems. The result is a decision support tool that not only produces an optimal trajectory but also provides the necessary insights for its execution, thereby contributing to greater effectiveness and safety in the employment of autonomous ground systems.
+
+================================================================================
+
+[41] Lightning Grasp: High Performance Procedural Grasp Synthesis with Contact Fields
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07418v1
+摘要页面: https://arxiv.org/abs/2511.07418
+
+摘要:
+Despite years of research, real-time diverse grasp synthesis for dexterous hands remains an unsolved core challenge in robotics and computer graphics. We present Lightning Grasp, a novel high-performance procedural grasp synthesis algorithm that achieves orders-of-magnitude speedups over state-of-the-art approaches, while enabling unsupervised grasp generation for irregular, tool-like objects. The method avoids many limitations of prior approaches, such as the need for carefully tuned energy functions and sensitive initialization. This breakthrough is driven by a key insight: decoupling complex geometric computation from the search process via a simple, efficient data structure - the Contact Field. This abstraction collapses the problem complexity, enabling a procedural search at unprecedented speeds. We open-source our system to propel further innovation in robotic manipulation.
+
+================================================================================
+
+[42] Robot Learning from a Physical World Model
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07416v1
+摘要页面: https://arxiv.org/abs/2511.07416
+
+摘要:
+We introduce PhysWorld, a framework that enables robot learning from video generation through physical world modeling. Recent video generation models can synthesize photorealistic visual demonstrations from language commands and images, offering a powerful yet underexplored source of training signals for robotics. However, directly retargeting pixel motions from generated videos to robots neglects physics, often resulting in inaccurate manipulations. PhysWorld addresses this limitation by coupling video generation with physical world reconstruction. Given a single image and a task command, our method generates task-conditioned videos and reconstructs the underlying physical world from the videos, and the generated video motions are grounded into physically accurate actions through object-centric residual reinforcement learning with the physical world model. This synergy transforms implicit visual guidance into physically executable robotic trajectories, eliminating the need for real robot data collection and enabling zero-shot generalizable robotic manipulation. Experiments on diverse real-world tasks demonstrate that PhysWorld substantially improves manipulation accuracy compared to previous approaches. Visit \href{this https URL}{the project webpage} for details.
+
+================================================================================
+
+[43] Using Vision Language Models as Closed-Loop Symbolic Planners for Robotic Applications: A Control-Theoretic Perspective
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07410v1
+摘要页面: https://arxiv.org/abs/2511.07410
+
+摘要:
+Large Language Models (LLMs) and Vision Language Models (VLMs) have been widely used for embodied symbolic planning. Yet, how to effectively use these models for closed-loop symbolic planning remains largely unexplored. Because they operate as black boxes, LLMs and VLMs can produce unpredictable or costly errors, making their use in high-level robotic planning especially challenging. In this work, we investigate how to use VLMs as closed-loop symbolic planners for robotic applications from a control-theoretic perspective. Concretely, we study how the control horizon and warm-starting impact the performance of VLM symbolic planners. We design and conduct controlled experiments to gain insights that are broadly applicable to utilizing VLMs as closed-loop symbolic planners, and we discuss recommendations that can help improve the performance of VLM symbolic planners.
+
+================================================================================
+
+[44] Unified Humanoid Fall-Safety Policy from a Few Demonstrations
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07407v1
+摘要页面: https://arxiv.org/abs/2511.07407
+
+摘要:
+Falling is an inherent risk of humanoid mobility. Maintaining stability is thus a primary safety focus in robot control and learning, yet no existing approach fully averts loss of balance. When instability does occur, prior work addresses only isolated aspects of falling: avoiding falls, choreographing a controlled descent, or standing up afterward. Consequently, humanoid robots lack integrated strategies for impact mitigation and prompt recovery when real falls defy these scripts. We aim to go beyond keeping balance to make the entire fall-and-recovery process safe and autonomous: prevent falls when possible, reduce impact when unavoidable, and stand up when fallen. By fusing sparse human demonstrations with reinforcement learning and an adaptive diffusion-based memory of safe reactions, we learn adaptive whole-body behaviors that unify fall prevention, impact mitigation, and rapid recovery in one policy. Experiments in simulation and on a Unitree G1 demonstrate robust sim-to-real transfer, lower impact forces, and consistently fast recovery across diverse disturbances, pointing towards safer, more resilient humanoids in real environments. Videos are available at this https URL.
+
+================================================================================
+
+[45] Residual Rotation Correction using Tactile Equivariance
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07381v2
+摘要页面: https://arxiv.org/abs/2511.07381
+
+摘要:
+Visuotactile policy learning augments vision-only policies with tactile input, facilitating contact-rich manipulation. However, the high cost of tactile data collection makes sample efficiency the key requirement for developing visuotactile policies. We present EquiTac, a framework that exploits the inherent SO(2) symmetry of in-hand object rotation to improve sample efficiency and generalization for visuotactile policy learning. EquiTac first reconstructs surface normals from raw RGB inputs of vision-based tactile sensors, so rotations of the normal vector field correspond to in-hand object rotations. An SO(2)-equivariant network then predicts a residual rotation action that augments a base visuomotor policy at test time, enabling real-time rotation correction without additional reorientation demonstrations. On a real robot, EquiTac accurately achieves robust zero-shot generalization to unseen in-hand orientations with very few training samples, where baselines fail even with more training data. To our knowledge, this is the first tactile learning method to explicitly encode tactile equivariance for policy learning, yielding a lightweight, symmetry-aware module that improves reliability in contact-rich tasks.
+
+================================================================================
+
+[46] Exact Smooth Reformulations for Trajectory Optimization Under Signal Temporal Logic Specifications
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07375v1
+摘要页面: https://arxiv.org/abs/2511.07375
+
+摘要:
+We study motion planning under Signal Temporal Logic (STL), a useful formalism for specifying spatial-temporal requirements. We pose STL synthesis as a trajectory optimization problem leveraging the STL robustness semantics. To obtain a differentiable problem without approximation error, we introduce an exact reformulation of the max and min operators. The resulting method is exact, smooth, and sound. We validate it in numerical simulations, demonstrating its practical performance.
+
+================================================================================
+
+[47] PlanT 2.0: Exposing Biases and Structural Flaws in Closed-Loop Driving
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07292v1
+摘要页面: https://arxiv.org/abs/2511.07292
+
+摘要:
+Most recent work in autonomous driving has prioritized benchmark performance and methodological innovation over in-depth analysis of model failures, biases, and shortcut learning. This has led to incremental improvements without a deep understanding of the current failures. While it is straightforward to look at situations where the model fails, it is hard to understand the underlying reason. This motivates us to conduct a systematic study, where inputs to the model are perturbed and the predictions observed. We introduce PlanT 2.0, a lightweight, object-centric planning transformer designed for autonomous driving research in CARLA. The object-level representation enables controlled analysis, as the input can be easily perturbed (e.g., by changing the location or adding or removing certain objects), in contrast to sensor-based models. To tackle the scenarios newly introduced by the challenging CARLA Leaderboard 2.0, we introduce multiple upgrades to PlanT, achieving state-of-the-art performance on Longest6 v2, Bench2Drive, and the CARLA validation routes. Our analysis exposes insightful failures, such as a lack of scene understanding caused by low obstacle diversity, rigid expert behaviors leading to exploitable shortcuts, and overfitting to a fixed set of expert trajectories. Based on these findings, we argue for a shift toward data-centric development, with a focus on richer, more robust, and less biased datasets. We open-source our code and model at this https URL.
+
+================================================================================
+
+[48] Robotic versus Human Teleoperation for Remote Ultrasound
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07275v1
+摘要页面: https://arxiv.org/abs/2511.07275
+
+摘要:
+Diagnostic medical ultrasound is widely used, safe, and relatively low cost but requires a high degree of expertise to acquire and interpret the images. Personnel with this expertise are often not available outside of larger cities, leading to difficult, costly travel and long wait times for rural populations. To address this issue, tele-ultrasound techniques are being developed, including robotic teleoperation and recently human teleoperation, in which a novice user is remotely guided in a hand-over-hand manner through mixed reality to perform an ultrasound exam. These methods have not been compared, and their relative strengths are unknown. Human teleoperation may be more practical than robotics for small communities due to its lower cost and complexity, but this is only relevant if the performance is comparable. This paper therefore evaluates the differences between human and robotic teleoperation, examining practical aspects such as setup time and flexibility and experimentally comparing performance metrics such as completion time, position tracking, and force consistency. It is found that human teleoperation does not lead to statistically significant differences in completion time or position accuracy, with mean differences of 1.8% and 0.5%, respectively, and provides more consistent force application despite being substantially more practical and accessible.
+
+================================================================================
+
+[49] Automated Generation of Continuous-Space Roadmaps for Routing Mobile Robot Fleets
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07175v1
+摘要页面: https://arxiv.org/abs/2511.07175
+
+摘要:
+Efficient routing of mobile robot fleets is crucial in intralogistics, where delays and deadlocks can substantially reduce system throughput. Roadmap design, specifying feasible transport routes, directly affects fleet coordination and computational performance. Existing approaches are either grid-based, compromising geometric precision, or continuous-space approaches that disregard practical constraints. This paper presents an automated roadmap generation approach that bridges this gap by operating in continuous-space, integrating station-to-station transport demand and enforcing minimum distance constraints for nodes and edges. By combining free space discretization, transport demand-driven $K$-shortest-path optimization, and path smoothing, the approach produces roadmaps tailored to intralogistics applications. Evaluation across multiple intralogistics use cases demonstrates that the proposed approach consistently outperforms established baselines (4-connected grid, 8-connected grid, and random sampling), achieving lower structural complexity, higher redundancy, and near-optimal path lengths, enabling efficient and robust routing of mobile robot fleets.
+
+================================================================================
+
+[50] Dynamics-Decoupled Trajectory Alignment for Sim-to-Real Transfer in Reinforcement Learning for Autonomous Driving
+--------------------------------------------------------------------------------
+HTML链接: https://arxiv.org/html/2511.07155v1
+摘要页面: https://arxiv.org/abs/2511.07155
+
+摘要:
+Reinforcement learning (RL) has shown promise in robotics, but deploying RL on real vehicles remains challenging due to the complexity of vehicle dynamics and the mismatch between simulation and reality. Factors such as tire characteristics, road surface conditions, aerodynamic disturbances, and vehicle load make it infeasible to model real-world dynamics accurately, which hinders direct transfer of RL agents trained in simulation. In this paper, we present a framework that decouples motion planning from vehicle control through a spatial and temporal alignment strategy between a virtual vehicle and the real system. An RL agent is first trained in simulation using a kinematic bicycle model to output continuous control actions. Its behavior is then distilled into a trajectory-predicting agent that generates finite-horizon ego-vehicle trajectories, enabling synchronization between virtual and real vehicles. At deployment, a Stanley controller governs lateral dynamics, while longitudinal alignment is maintained through adaptive update mechanisms that compensate for deviations between virtual and real trajectories. We validate our approach on a real vehicle and demonstrate that the proposed alignment strategy enables robust zero-shot transfer of RL-based motion planning from simulation to reality, successfully decoupling high-level trajectory generation from low-level vehicle control.
+
+================================================================================
+
