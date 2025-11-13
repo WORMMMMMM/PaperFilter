@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  <title>Robotics  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/browse/0.3.4/images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/browse/0.3.4/images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/browse/0.3.4/images/icons/favicon-16x16.png">
+  <link rel="manifest" href="/static/browse/0.3.4/images/icons/site.webmanifest">
+  <link rel="mask-icon" href="/static/browse/0.3.4/images/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/browse/0.3.4/css/arXiv.css?v=20241206" />
+  <link rel="stylesheet" type="text/css" media="print" href="/static/browse/0.3.4/css/arXiv-print.css?v=20200611" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/browse/0.3.4/css/browse_search.css" />
+  <script language="javascript" src="/static/browse/0.3.4/js/accordion.js" ></script>
+  <script language="javascript" src="/static/browse/0.3.4/js/optin-modal.js?v=20250819"></script>
+  
+  <script src="/static/browse/0.3.4/js/mathjaxToggle.min.js" type="text/javascript"></script>
+  <script type="text/javascript" language="javascript">mathjaxToggle();</script>
+</head>
+
+<body  class="with-cu-identity">
+  
+  
+  <div class="flex-wrap-footer">
+    <header>
+      <a href="#content" class="is-sr-only">Skip to main content</a>
+      <!-- start desktop header -->
+      <div class="columns is-vcentered is-hidden-mobile" id="cu-identity">
+        <div class="column" id="cu-logo">
+          <a href="https://www.cornell.edu/"><img src="/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg" alt="Cornell University" /></a>
+        </div><!-- /from April 7 at 1:00 AM to May 29 at 21:40 --><!-- /from May 2 at 1:00 AM to May 5 at 9:45 AM --><div class="column banner-minimal">
+            <p>In just 5 minutes help us improve arXiv:</p>
+            <a href="https://cornell.ca1.qualtrics.com/jfe/form/SV_6kZEJCkEgp3yGZo" target="_blank">Annual Global Survey</a>
+          </div><div class="column" id="support-ack">
+          <span id="support-ack-url">We gratefully acknowledge support from the Simons Foundation, <a href="https://info.arxiv.org/about/ourmembers.html">member institutions</a>, and all contributors.</span>
+          <a href="https://info.arxiv.org/about/donate.html" class="btn-header-donate">Donate</a>
+        </div>
+      </div>
+
+      <div id="header" class="is-hidden-mobile">
+<a aria-hidden="true" tabindex="-1" href="/IgnoreMe"></a>
+<div class="header-breadcrumbs">
+  <a href="/"><img src="/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg" alt="arxiv logo" style="height:40px;"/></a> <span>&gt;</span>
+  <a href="/list/cs.RO/recent">cs.RO</a>
+  </div>
+
+        <div class="columns is-vcentered is-mobile" style="justify-content: flex-end;">
+        </div>
+
+          <div class="search-block level-right">
+    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+      <div class="field has-addons">
+        <div class="control">
+          <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+          <p class="help"><a href="https://info.arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+        </div>
+        <div class="control">
+          <div class="select is-small">
+            <select name="searchtype" aria-label="Field to search">
+              <option value="all" selected="selected">All fields</option>
+              <option value="title">Title</option>
+              <option value="author">Author</option>
+              <option value="abstract">Abstract</option>
+              <option value="comments">Comments</option>
+              <option value="journal_ref">Journal reference</option>
+              <option value="acm_class">ACM classification</option>
+              <option value="msc_class">MSC classification</option>
+              <option value="report_num">Report number</option>
+              <option value="paper_id">arXiv identifier</option>
+              <option value="doi">DOI</option>
+              <option value="orcid">ORCID</option>
+              <option value="author_id">arXiv author ID</option>
+              <option value="help">Help pages</option>
+              <option value="full_text">Full text</option>
+            </select>
+          </div>
+        </div>
+        <input type="hidden" name="source" value="header">
+        <button class="button is-small is-cul-darker">Search</button>
+      </div>
+    </form>
+  </div>
+     </div><!-- /end desktop header -->
+
+      <div class="mobile-header">
+        <div class="columns is-mobile">
+          <div class="column logo-arxiv"><a href="https://arxiv.org/"><img src="/static/browse/0.3.4/images/arxiv-logomark-small-white.svg" alt="arXiv logo" style="height:60px;" /></a></div>
+          <div class="column logo-cornell"><a href="https://www.cornell.edu/">
+            <picture>
+              <source media="(min-width: 501px)"
+                srcset="/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg  400w"
+                sizes="400w" />
+              <source srcset="/static/browse/0.3.4/images/icons/cu/cornell_seal_simple_black.svg 2x" />
+              <img src="/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg" alt="Cornell University Logo" />
+            </picture>
+          </a></div>
+          <div class="column nav" id="toggle-container" role="menubar">
+            <button class="toggle-control"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-white"><title>open search</title><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg></button>
+            <div class="mobile-toggle-block toggle-target">
+              <form class="mobile-search-form" method="GET" action="https://arxiv.org/search">
+                <div class="field has-addons">
+                  <input class="input" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                  <input type="hidden" name="source" value="header">
+                  <input type="hidden" name="searchtype" value="all">
+                  <button class="button">GO</button>
+                </div>
+              </form>
+            </div>
+
+            <button class="toggle-control"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-white" role="menu"><title>open navigation menu</title><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/ ></svg></button>
+            <div class="mobile-toggle-block toggle-target">
+              <nav class="mobile-menu" aria-labelledby="mobilemenulabel">
+                <h2 id="mobilemenulabel">quick links</h2>
+                <ul>
+                    <li><a href="https://arxiv.org/login">Login</a></li>
+                    <li><a href="https://info.arxiv.org/help">Help Pages</a></li>
+                    <li><a href="https://info.arxiv.org/about">About</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div><!-- /end mobile-header -->
+    </header>
+
+    <main>
+      <div id="content">
+<div id='content-inner'>
+<div id='dlpage'>
+  <h1>Robotics</h1>
+
+<h2>Authors and titles for recent submissions</h2>
+  <ul>
+<li>
+        <a href="/list/cs.RO/recent?skip=0&amp;show=50">
+          Wed, 12 Nov 2025
+        </a>
+      </li><li>
+        <a href="/list/cs.RO/recent?skip=40&amp;show=50">
+          Tue, 11 Nov 2025
+        </a>
+      </li><li>
+        <a href="/list/cs.RO/recent?skip=112&amp;show=50">
+          Mon, 10 Nov 2025
+        </a>
+      </li><li>
+        <a href="/list/cs.RO/recent?skip=142&amp;show=50">
+          Fri, 7 Nov 2025
+        </a>
+      </li><li>
+        <a href="/list/cs.RO/recent?skip=166&amp;show=50">
+          Thu, 6 Nov 2025
+        </a>
+      </li></ul>
+  <p>See today's <a id="new-cs.RO" aria-labelledby="new-cs.RO" href="/list/cs.RO/new">new</a> changes</p>
+      <div class='paging'>Total of 192 entries :      <span>1-50</span>
+      <a href=/list/cs.RO/recent?skip=50&amp;show=50>51-100</a>
+      <a href=/list/cs.RO/recent?skip=100&amp;show=50>101-150</a>
+      <a href=/list/cs.RO/recent?skip=150&amp;show=50>151-192</a>
+
+    </div>
+    <div class='morefewer'>Showing up to 50 entries per page:
+          <a href=/list/cs.RO/recent?skip=0&amp;show=25 rel="nofollow">
+      fewer</a>
+ |
+          <a href=/list/cs.RO/recent?skip=0&amp;show=100 rel="nofollow">
+      more</a>
+ |
+          <a href=/list/cs.RO/recent?skip=0&amp;show=2000 rel="nofollow">
+      all</a>
+
+    </div>
+
+
+
+      <dl id='articles'>
+    <h3>Wed, 12 Nov 2025 (showing 40 of 40 entries )</h3>
+
+
+    <dt>
+      <a name='item1'>[1]</a>
+      <a href ="/abs/2511.08583" title="Abstract" id="2511.08583">
+        arXiv:2511.08583
+      </a>
+      
+        [<a href="/pdf/2511.08583" title="Download PDF" id="pdf-2511.08583" aria-labelledby="pdf-2511.08583">pdf</a>, <a href="https://arxiv.org/html/2511.08583v1" title="View HTML" id="html-2511.08583" aria-labelledby="html-2511.08583" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08583" title="Other formats" id="oth-2511.08583" aria-labelledby="oth-2511.08583">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          SeFA-Policy: Fast and Accurate Visuomotor Policy Learning with Selective Flow Alignment
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Xue,+R">Rong Xue</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mao,+J">Jiageng Mao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+M">Mingtong Zhang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+Y">Yue Wang</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Machine Learning (cs.LG)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item2'>[2]</a>
+      <a href ="/abs/2511.08502" title="Abstract" id="2511.08502">
+        arXiv:2511.08502
+      </a>
+      
+        [<a href="/pdf/2511.08502" title="Download PDF" id="pdf-2511.08502" aria-labelledby="pdf-2511.08502">pdf</a>, <a href="https://arxiv.org/html/2511.08502v1" title="View HTML" id="html-2511.08502" aria-labelledby="html-2511.08502" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08502" title="Other formats" id="oth-2511.08502" aria-labelledby="oth-2511.08502">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Safe and Optimal Learning from Preferences via Weighted Temporal Logic with Applications in Robotics and Formula 1
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Karagulle,+R">Ruya Karagulle</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Vasile,+C">Cristian-Ioan Vasile</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ozay,+N">Necmiye Ozay</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          8 pages, 2 figures
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Systems and Control (eess.SY)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item3'>[3]</a>
+      <a href ="/abs/2511.08490" title="Abstract" id="2511.08490">
+        arXiv:2511.08490
+      </a>
+      
+        [<a href="/pdf/2511.08490" title="Download PDF" id="pdf-2511.08490" aria-labelledby="pdf-2511.08490">pdf</a>, <a href="https://arxiv.org/html/2511.08490v1" title="View HTML" id="html-2511.08490" aria-labelledby="html-2511.08490" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08490" title="Other formats" id="oth-2511.08490" aria-labelledby="oth-2511.08490">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          A Supervised Autonomous Resection and Retraction Framework for Transurethral Enucleation of the Prostatic Median Lobe
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Smith,+M">Mariana Smith</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Watts,+T">Tanner Watts</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Stern,+S+S">Susheela Sharma Stern</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Burkhart,+B">Brendan Burkhart</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+H">Hao Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chara,+A+O">Alejandro O. Chara</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kumar,+N">Nithesh Kumar</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ferguson,+J">James Ferguson</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Acar,+A">Ayberk Acar</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=d&#39;Almeida,+J+F">Jesse F. d&#39;Almeida</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Branscombe,+L">Lauren Branscombe</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shepard,+L">Lauren Shepard</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ghazi,+A">Ahmed Ghazi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Oguz,+I">Ipek Oguz</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wu,+J+Y">Jie Ying Wu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Webster,+R+J">Robert J. Webster III</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Krieger,+A">Axel Krieger</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kuntz,+A">Alan Kuntz</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          Submitted to International Symposium on Medial Robotics (ISMR) 2026. 7 pages, 8 figures
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item4'>[4]</a>
+      <a href ="/abs/2511.08454" title="Abstract" id="2511.08454">
+        arXiv:2511.08454
+      </a>
+      
+        [<a href="/pdf/2511.08454" title="Download PDF" id="pdf-2511.08454" aria-labelledby="pdf-2511.08454">pdf</a>, <a href="/format/2511.08454" title="Other formats" id="oth-2511.08454" aria-labelledby="oth-2511.08454">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Intuitive control of supernumerary robotic limbs through a tactile-encoded neural interface
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jia,+T">Tianyu Jia</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yang,+X">Xingchen Yang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=McGeady,+C">Ciaran McGeady</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+Y">Yifeng Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lin,+J">Jinzhi Lin</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ho,+K+S">Kit San Ho</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pan,+F">Feiyu Pan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ji,+L">Linhong Ji</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+C">Chong Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Farina,+D">Dario Farina</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item5'>[5]</a>
+      <a href ="/abs/2511.08377" title="Abstract" id="2511.08377">
+        arXiv:2511.08377
+      </a>
+      
+        [<a href="/pdf/2511.08377" title="Download PDF" id="pdf-2511.08377" aria-labelledby="pdf-2511.08377">pdf</a>, <a href="/format/2511.08377" title="Other formats" id="oth-2511.08377" aria-labelledby="oth-2511.08377">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Human Motion Intent Inferencing in Teleoperation Through a SINDy Paradigm
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bowman,+M">Michael Bowman</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+X">Xiaoli Zhang</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          Open source software and video examples here: <a href="https://github.com/namwob44/Psychic" rel="external noopener nofollow" class="link-external link-https">this https URL</a>
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Human-Computer Interaction (cs.HC)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item6'>[6]</a>
+      <a href ="/abs/2511.08354" title="Abstract" id="2511.08354">
+        arXiv:2511.08354
+      </a>
+      
+        [<a href="/pdf/2511.08354" title="Download PDF" id="pdf-2511.08354" aria-labelledby="pdf-2511.08354">pdf</a>, <a href="https://arxiv.org/html/2511.08354v1" title="View HTML" id="html-2511.08354" aria-labelledby="html-2511.08354" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08354" title="Other formats" id="oth-2511.08354" aria-labelledby="oth-2511.08354">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          A CODECO Case Study and Initial Validation for Edge Orchestration of Autonomous Mobile Robots
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhu,+H">H. Zhu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Samizadeh,+T">T. Samizadeh</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Sofia,+R+C">R. C. Sofia</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Emerging Technologies (cs.ET); Networking and Internet Architecture (cs.NI)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item7'>[7]</a>
+      <a href ="/abs/2511.08299" title="Abstract" id="2511.08299">
+        arXiv:2511.08299
+      </a>
+      
+        [<a href="/pdf/2511.08299" title="Download PDF" id="pdf-2511.08299" aria-labelledby="pdf-2511.08299">pdf</a>, <a href="https://arxiv.org/html/2511.08299v1" title="View HTML" id="html-2511.08299" aria-labelledby="html-2511.08299" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08299" title="Other formats" id="oth-2511.08299" aria-labelledby="oth-2511.08299">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Learning Omnidirectional Locomotion for a Salamander-Like Quadruped Robot
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Liu,+Z">Zhiang Liu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Liu,+Y">Yang Liu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Fang,+Y">Yongchun Fang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Guo,+X">Xian Guo</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item8'>[8]</a>
+      <a href ="/abs/2511.08277" title="Abstract" id="2511.08277">
+        arXiv:2511.08277
+      </a>
+      
+        [<a href="/pdf/2511.08277" title="Download PDF" id="pdf-2511.08277" aria-labelledby="pdf-2511.08277">pdf</a>, <a href="https://arxiv.org/html/2511.08277v1" title="View HTML" id="html-2511.08277" aria-labelledby="html-2511.08277" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08277" title="Other formats" id="oth-2511.08277" aria-labelledby="oth-2511.08277">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          X-IONet: Cross-Platform Inertial Odometry Network with Dual-Stage Attention
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shen,+D">Dehan Shen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chen,+C">Changhao Chen</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Machine Learning (cs.LG)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item9'>[9]</a>
+      <a href ="/abs/2511.08231" title="Abstract" id="2511.08231">
+        arXiv:2511.08231
+      </a>
+      
+        [<a href="/pdf/2511.08231" title="Download PDF" id="pdf-2511.08231" aria-labelledby="pdf-2511.08231">pdf</a>, <a href="https://arxiv.org/html/2511.08231v1" title="View HTML" id="html-2511.08231" aria-labelledby="html-2511.08231" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08231" title="Other formats" id="oth-2511.08231" aria-labelledby="oth-2511.08231">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Real-Time Performance Analysis of Multi-Fidelity Residual Physics-Informed Neural Process-Based State Estimation for Robotic Systems
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hunter,+D">Devin Hunter</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Enyioha,+C">Chinwendu Enyioha</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          8 pages, 5 figures
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Artificial Intelligence (cs.AI); Machine Learning (cs.LG)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item10'>[10]</a>
+      <a href ="/abs/2511.08214" title="Abstract" id="2511.08214">
+        arXiv:2511.08214
+      </a>
+      
+        [<a href="/pdf/2511.08214" title="Download PDF" id="pdf-2511.08214" aria-labelledby="pdf-2511.08214">pdf</a>, <a href="https://arxiv.org/html/2511.08214v1" title="View HTML" id="html-2511.08214" aria-labelledby="html-2511.08214" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08214" title="Other formats" id="oth-2511.08214" aria-labelledby="oth-2511.08214">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Prioritizing Perception-Guided Self-Supervision: A New Paradigm for Causal Modeling in End-to-End Autonomous Driving
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Huang,+Y">Yi Huang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Qu,+Z">Zhan Qu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jiang,+L">Lihui Jiang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Liu,+B">Bingbing Liu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+H">Hongbo Zhang</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          Accepted at NeurIPS 2025
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item11'>[11]</a>
+      <a href ="/abs/2511.08098" title="Abstract" id="2511.08098">
+        arXiv:2511.08098
+      </a>
+      
+        [<a href="/pdf/2511.08098" title="Download PDF" id="pdf-2511.08098" aria-labelledby="pdf-2511.08098">pdf</a>, <a href="https://arxiv.org/html/2511.08098v1" title="View HTML" id="html-2511.08098" aria-labelledby="html-2511.08098" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08098" title="Other formats" id="oth-2511.08098" aria-labelledby="oth-2511.08098">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          PerspAct: Enhancing LLM Situated Collaboration Skills through Perspective Taking and Active Vision
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Patania,+S">Sabrina Patania</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Annese,+L">Luca Annese</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pellegrini,+A">Anita Pellegrini</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Serino,+S">Silvia Serino</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lambiase,+A">Anna Lambiase</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pallonetto,+L">Luca Pallonetto</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rossi,+S">Silvia Rossi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Colombani,+S">Simone Colombani</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Foulsham,+T">Tom Foulsham</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ruggeri,+A">Azzurra Ruggeri</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ognibene,+D">Dimitri Ognibene</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          Accepted at IAS19
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Human-Computer Interaction (cs.HC)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item12'>[12]</a>
+      <a href ="/abs/2511.08019" title="Abstract" id="2511.08019">
+        arXiv:2511.08019
+      </a>
+      
+        [<a href="/pdf/2511.08019" title="Download PDF" id="pdf-2511.08019" aria-labelledby="pdf-2511.08019">pdf</a>, <a href="https://arxiv.org/html/2511.08019v1" title="View HTML" id="html-2511.08019" aria-labelledby="html-2511.08019" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08019" title="Other formats" id="oth-2511.08019" aria-labelledby="oth-2511.08019">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Model Predictive Control via Probabilistic Inference: A Tutorial
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Honda,+K">Kohei Honda</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          15 pages, 7 figures
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Systems and Control (eess.SY)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item13'>[13]</a>
+      <a href ="/abs/2511.08016" title="Abstract" id="2511.08016">
+        arXiv:2511.08016
+      </a>
+      
+        [<a href="/pdf/2511.08016" title="Download PDF" id="pdf-2511.08016" aria-labelledby="pdf-2511.08016">pdf</a>, <a href="https://arxiv.org/html/2511.08016v1" title="View HTML" id="html-2511.08016" aria-labelledby="html-2511.08016" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08016" title="Other formats" id="oth-2511.08016" aria-labelledby="oth-2511.08016">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          AVOID-JACK: Avoidance of Jackknifing for Swarms of Long Heavy Articulated Vehicles
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Sch%C3%B6nnagel,+A">Adrian Schönnagel</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Dub%C3%A9,+M">Michael Dubé</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Steup,+C">Christoph Steup</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Keppler,+F">Felix Keppler</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mostaghim,+S">Sanaz Mostaghim</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          6+1 pages, 9 figures, accepted for publication in IEEE MRS 2025
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Artificial Intelligence (cs.AI); Multiagent Systems (cs.MA)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item14'>[14]</a>
+      <a href ="/abs/2511.08005" title="Abstract" id="2511.08005">
+        arXiv:2511.08005
+      </a>
+      
+        [<a href="/pdf/2511.08005" title="Download PDF" id="pdf-2511.08005" aria-labelledby="pdf-2511.08005">pdf</a>, <a href="https://arxiv.org/html/2511.08005v1" title="View HTML" id="html-2511.08005" aria-labelledby="html-2511.08005" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08005" title="Other formats" id="oth-2511.08005" aria-labelledby="oth-2511.08005">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          A Two-Layer Electrostatic Film Actuator with High Actuation Stress and Integrated Brake
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+H">Huacen Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+H">Hongqiang Wang</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Systems and Control (eess.SY)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item15'>[15]</a>
+      <a href ="/abs/2511.08001" title="Abstract" id="2511.08001">
+        arXiv:2511.08001
+      </a>
+      
+        [<a href="/pdf/2511.08001" title="Download PDF" id="pdf-2511.08001" aria-labelledby="pdf-2511.08001">pdf</a>, <a href="https://arxiv.org/html/2511.08001v1" title="View HTML" id="html-2511.08001" aria-labelledby="html-2511.08001" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08001" title="Other formats" id="oth-2511.08001" aria-labelledby="oth-2511.08001">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Effective Game-Theoretic Motion Planning via Nested Search
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Engle,+A">Avishav Engle</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhitnikov,+A">Andrey Zhitnikov</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Salzman,+O">Oren Salzman</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ben-Porat,+O">Omer Ben-Porat</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Solovey,+K">Kiril Solovey</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Multiagent Systems (cs.MA)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item16'>[16]</a>
+      <a href ="/abs/2511.07950" title="Abstract" id="2511.07950">
+        arXiv:2511.07950
+      </a>
+      
+        [<a href="/pdf/2511.07950" title="Download PDF" id="pdf-2511.07950" aria-labelledby="pdf-2511.07950">pdf</a>, <a href="https://arxiv.org/html/2511.07950v1" title="View HTML" id="html-2511.07950" aria-labelledby="html-2511.07950" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07950" title="Other formats" id="oth-2511.07950" aria-labelledby="oth-2511.07950">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          USV Obstacles Detection and Tracking in Marine Environments
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=AlaaEldin,+Y">Yara AlaaEldin</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Simetti,+E">Enrico Simetti</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Odone,+F">Francesca Odone</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Artificial Intelligence (cs.AI)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item17'>[17]</a>
+      <a href ="/abs/2511.07927" title="Abstract" id="2511.07927">
+        arXiv:2511.07927
+      </a>
+      
+        [<a href="/pdf/2511.07927" title="Download PDF" id="pdf-2511.07927" aria-labelledby="pdf-2511.07927">pdf</a>, <a href="/format/2511.07927" title="Other formats" id="oth-2511.07927" aria-labelledby="oth-2511.07927">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Local Path Planning with Dynamic Obstacle Avoidance in Unstructured Environments
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Guvenkaya,+O+A">Okan Arif Guvenkaya</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Iz,+S+A">Selim Ahmet Iz</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Unel,+M">Mustafa Unel</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Dynamical Systems (math.DS); Optimization and Control (math.OC)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item18'>[18]</a>
+      <a href ="/abs/2511.07921" title="Abstract" id="2511.07921">
+        arXiv:2511.07921
+      </a>
+      
+        [<a href="/pdf/2511.07921" title="Download PDF" id="pdf-2511.07921" aria-labelledby="pdf-2511.07921">pdf</a>, <a href="https://arxiv.org/html/2511.07921v1" title="View HTML" id="html-2511.07921" aria-labelledby="html-2511.07921" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07921" title="Other formats" id="oth-2511.07921" aria-labelledby="oth-2511.07921">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Dual-MPC Footstep Planning for Robust Quadruped Locomotion
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ham,+B">Byeong-Il Ham</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kim,+H">Hyun-Bin Kim</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kang,+J">Jeonguk Kang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Choi,+K+H">Keun Ha Choi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kim,+K">Kyung-Soo Kim</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          9 pages, 9 figures
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item19'>[19]</a>
+      <a href ="/abs/2511.07887" title="Abstract" id="2511.07887">
+        arXiv:2511.07887
+      </a>
+      
+        [<a href="/pdf/2511.07887" title="Download PDF" id="pdf-2511.07887" aria-labelledby="pdf-2511.07887">pdf</a>, <a href="https://arxiv.org/html/2511.07887v1" title="View HTML" id="html-2511.07887" aria-labelledby="html-2511.07887" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07887" title="Other formats" id="oth-2511.07887" aria-labelledby="oth-2511.07887">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          EquiMus: Energy-Equivalent Dynamic Modeling and Simulation of Musculoskeletal Robots Driven by Linear Elastic Actuators
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhu,+Y">Yinglei Zhu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Dong,+X">Xuguang Dong</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+Q">Qiyao Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shao,+Q">Qi Shao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Xie,+F">Fugui Xie</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Liu,+X">Xinjun Liu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhao,+H">Huichan Zhao</a></div>
+
+
+        <div class='list-journal-ref'><span class='descriptor'>Journal-ref:</span>
+          IEEE Robotics and Automation Letters, vol. 10, no. 12, pp. 12668-12675, Dec. 2025
+        </div>
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item20'>[20]</a>
+      <a href ="/abs/2511.07882" title="Abstract" id="2511.07882">
+        arXiv:2511.07882
+      </a>
+      
+        [<a href="/pdf/2511.07882" title="Download PDF" id="pdf-2511.07882" aria-labelledby="pdf-2511.07882">pdf</a>, <a href="https://arxiv.org/html/2511.07882v1" title="View HTML" id="html-2511.07882" aria-labelledby="html-2511.07882" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07882" title="Other formats" id="oth-2511.07882" aria-labelledby="oth-2511.07882">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          A Comprehensive Experimental Characterization of Mechanical Layer Jamming Systems
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gumowski,+J">Jessica Gumowski</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Digumarti,+K+M">Krishna Manaswi Digumarti</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Howard,+D">David Howard</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          6 pages, 9 figures, RoboSoft 2026
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item21'>[21]</a>
+      <a href ="/abs/2511.07822" title="Abstract" id="2511.07822">
+        arXiv:2511.07822
+      </a>
+      
+        [<a href="/pdf/2511.07822" title="Download PDF" id="pdf-2511.07822" aria-labelledby="pdf-2511.07822">pdf</a>, <a href="https://arxiv.org/html/2511.07822v1" title="View HTML" id="html-2511.07822" aria-labelledby="html-2511.07822" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07822" title="Other formats" id="oth-2511.07822" aria-labelledby="oth-2511.07822">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Occlusion-Aware Ground Target Search by a UAV in an Urban Environment
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hague,+C">Collin Hague</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wolek,+A">Artur Wolek</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          18 pages, 18 figures, 5 tables
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Systems and Control (eess.SY)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item22'>[22]</a>
+      <a href ="/abs/2511.07820" title="Abstract" id="2511.07820">
+        arXiv:2511.07820
+      </a>
+      
+        [<a href="/pdf/2511.07820" title="Download PDF" id="pdf-2511.07820" aria-labelledby="pdf-2511.07820">pdf</a>, <a href="https://arxiv.org/html/2511.07820v1" title="View HTML" id="html-2511.07820" aria-labelledby="html-2511.07820" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07820" title="Other formats" id="oth-2511.07820" aria-labelledby="oth-2511.07820">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Luo,+Z">Zhengyi Luo</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yuan,+Y">Ye Yuan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+T">Tingwu Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+C">Chenran Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chen,+S">Sirui Chen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Casta%C3%B1eda,+F">Fernando Castañeda</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Cao,+Z">Zi-Ang Cao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+J">Jiefeng Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Minor,+D">David Minor</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ben,+Q">Qingwei Ben</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Da,+X">Xingye Da</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ding,+R">Runyu Ding</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hogg,+C">Cyrus Hogg</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Song,+L">Lina Song</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lim,+E">Edy Lim</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jeong,+E">Eugene Jeong</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=He,+T">Tairan He</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Xue,+H">Haoru Xue</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Xiao,+W">Wenli Xiao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+Z">Zi Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yuen,+S">Simon Yuen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kautz,+J">Jan Kautz</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chang,+Y">Yan Chang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Iqbal,+U">Umar Iqbal</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Fan,+L+%22">Linxi &#34;Jim&#34; Fan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhu,+Y">Yuke Zhu</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          Project page: <a href="https://nvlabs.github.io/SONIC/" rel="external noopener nofollow" class="link-external link-https">this https URL</a>
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Artificial Intelligence (cs.AI); Computer Vision and Pattern Recognition (cs.CV); Graphics (cs.GR); Systems and Control (eess.SY)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item23'>[23]</a>
+      <a href ="/abs/2511.07811" title="Abstract" id="2511.07811">
+        arXiv:2511.07811
+      </a>
+      
+        [<a href="/pdf/2511.07811" title="Download PDF" id="pdf-2511.07811" aria-labelledby="pdf-2511.07811">pdf</a>, <a href="https://arxiv.org/html/2511.07811v1" title="View HTML" id="html-2511.07811" aria-labelledby="html-2511.07811" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07811" title="Other formats" id="oth-2511.07811" aria-labelledby="oth-2511.07811">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Virtual Traffic Lights for Multi-Robot Navigation: Decentralized Planning with Centralized Conflict Resolution
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gupta,+S">Sagar Gupta</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Nguyen,+T+V">Thanh Vinh Nguyen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Phan,+T+L">Thieu Long Phan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Attri,+V">Vidul Attri</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gupta,+A">Archit Gupta</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Fernando,+N">Niroshinie Fernando</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lee,+K">Kevin Lee</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Loke,+S+W">Seng W. Loke</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kutadinata,+R">Ronny Kutadinata</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Champion,+B">Benjamin Champion</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Cosgun,+A">Akansel Cosgun</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item24'>[24]</a>
+      <a href ="/abs/2511.07797" title="Abstract" id="2511.07797">
+        arXiv:2511.07797
+      </a>
+      
+        [<a href="/pdf/2511.07797" title="Download PDF" id="pdf-2511.07797" aria-labelledby="pdf-2511.07797">pdf</a>, <a href="https://arxiv.org/html/2511.07797v1" title="View HTML" id="html-2511.07797" aria-labelledby="html-2511.07797" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07797" title="Other formats" id="oth-2511.07797" aria-labelledby="oth-2511.07797">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Benchmarking Resilience and Sensitivity of Polyurethane-Based Vision-Based Tactile Sensors
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Davis,+B">Benjamin Davis</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Stuart,+H">Hannah Stuart</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item25'>[25]</a>
+      <a href ="/abs/2511.07761" title="Abstract" id="2511.07761">
+        arXiv:2511.07761
+      </a>
+      
+        [<a href="/pdf/2511.07761" title="Download PDF" id="pdf-2511.07761" aria-labelledby="pdf-2511.07761">pdf</a>, <a href="https://arxiv.org/html/2511.07761v1" title="View HTML" id="html-2511.07761" aria-labelledby="html-2511.07761" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07761" title="Other formats" id="oth-2511.07761" aria-labelledby="oth-2511.07761">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          High-Altitude Balloon Station-Keeping with First Order Model Predictive Control
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pasetsky,+M">Myles Pasetsky</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lin,+J">Jiawei Lin</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Guo,+B">Bradley Guo</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Dean,+S">Sarah Dean</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item26'>[26]</a>
+      <a href ="/abs/2511.07750" title="Abstract" id="2511.07750">
+        arXiv:2511.07750
+      </a>
+      
+        [<a href="/pdf/2511.07750" title="Download PDF" id="pdf-2511.07750" aria-labelledby="pdf-2511.07750">pdf</a>, <a href="https://arxiv.org/html/2511.07750v1" title="View HTML" id="html-2511.07750" aria-labelledby="html-2511.07750" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07750" title="Other formats" id="oth-2511.07750" aria-labelledby="oth-2511.07750">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Navigating the Wild: Pareto-Optimal Visual Decision-Making in Image Space
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pushp,+D">Durgakant Pushp</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chen,+W">Weizhe Chen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chen,+Z">Zheng Chen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Luo,+C">Chaomin Luo</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gregory,+J+M">Jason M. Gregory</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Liu,+L">Lantao Liu</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item27'>[27]</a>
+      <a href ="/abs/2511.07732" title="Abstract" id="2511.07732">
+        arXiv:2511.07732
+      </a>
+      
+        [<a href="/pdf/2511.07732" title="Download PDF" id="pdf-2511.07732" aria-labelledby="pdf-2511.07732">pdf</a>, <a href="https://arxiv.org/html/2511.07732v1" title="View HTML" id="html-2511.07732" aria-labelledby="html-2511.07732" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07732" title="Other formats" id="oth-2511.07732" aria-labelledby="oth-2511.07732">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          ViPRA: Video Prediction for Robot Actions
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Routray,+S">Sandeep Routray</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pan,+H">Hengkai Pan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jain,+U">Unnat Jain</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bahl,+S">Shikhar Bahl</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pathak,+D">Deepak Pathak</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          Website: <a href="https://vipra-project.github.io" rel="external noopener nofollow" class="link-external link-https">this https URL</a>
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item28'>[28]</a>
+      <a href ="/abs/2511.07727" title="Abstract" id="2511.07727">
+        arXiv:2511.07727
+      </a>
+      
+        [<a href="/pdf/2511.07727" title="Download PDF" id="pdf-2511.07727" aria-labelledby="pdf-2511.07727">pdf</a>, <a href="https://arxiv.org/html/2511.07727v1" title="View HTML" id="html-2511.07727" aria-labelledby="html-2511.07727" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07727" title="Other formats" id="oth-2511.07727" aria-labelledby="oth-2511.07727">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          LLM-GROP: Visually Grounded Robot Task and Motion Planning with Large Language Models
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+X">Xiaohan Zhang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ding,+Y">Yan Ding</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hayamizu,+Y">Yohei Hayamizu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Altaweel,+Z">Zainab Altaweel</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhu,+Y">Yifeng Zhu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhu,+Y">Yuke Zhu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Stone,+P">Peter Stone</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Paxton,+C">Chris Paxton</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+S">Shiqi Zhang</a></div>
+
+
+        <div class='list-journal-ref'><span class='descriptor'>Journal-ref:</span>
+          The International Journal of Robotics Research, 2025, Vol. 0(0), pp. 1-19
+        </div>
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item29'>[29]</a>
+      <a href ="/abs/2511.07720" title="Abstract" id="2511.07720">
+        arXiv:2511.07720
+      </a>
+      
+        [<a href="/pdf/2511.07720" title="Download PDF" id="pdf-2511.07720" aria-labelledby="pdf-2511.07720">pdf</a>, <a href="https://arxiv.org/html/2511.07720v1" title="View HTML" id="html-2511.07720" aria-labelledby="html-2511.07720" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07720" title="Other formats" id="oth-2511.07720" aria-labelledby="oth-2511.07720">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          A QP Framework for Improving Data Collection: Quantifying Device-Controller Performance in Robot Teleoperation
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhao,+Y">Yuxuan Zhao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Tang,+Y">Yuanchen Tang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+J">Jindi Zhang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yu,+H">Hongyu Yu</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item30'>[30]</a>
+      <a href ="/abs/2511.07717" title="Abstract" id="2511.07717">
+        arXiv:2511.07717
+      </a>
+      
+        [<a href="/pdf/2511.07717" title="Download PDF" id="pdf-2511.07717" aria-labelledby="pdf-2511.07717">pdf</a>, <a href="https://arxiv.org/html/2511.07717v1" title="View HTML" id="html-2511.07717" aria-labelledby="html-2511.07717" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07717" title="Other formats" id="oth-2511.07717" aria-labelledby="oth-2511.07717">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          RoboTAG: End-to-end Robot Configuration Estimation via Topological Alignment Graph
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Liu,+Y">Yifan Liu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhan,+F">Fangneng Zhan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+W">Wanhua Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Sun,+H">Haowen Sun</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Fragkiadaki,+K">Katerina Fragkiadaki</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pfister,+H">Hanspeter Pfister</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Computer Vision and Pattern Recognition (cs.CV)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item31'>[31]</a>
+      <a href ="/abs/2511.07687" title="Abstract" id="2511.07687">
+        arXiv:2511.07687
+      </a>
+      
+        [<a href="/pdf/2511.07687" title="Download PDF" id="pdf-2511.07687" aria-labelledby="pdf-2511.07687">pdf</a>, <a href="https://arxiv.org/html/2511.07687v1" title="View HTML" id="html-2511.07687" aria-labelledby="html-2511.07687" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07687" title="Other formats" id="oth-2511.07687" aria-labelledby="oth-2511.07687">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Testing and Evaluation of Underwater Vehicle Using Hardware-In-The-Loop Simulation with HoloOcean
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Meyers,+B">Braden Meyers</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mangelson,+J+G">Joshua G. Mangelson</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          Published in IEEE/MTS OCEANS Conference proceedings 2025 Great Lakes
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item32'>[32]</a>
+      <a href ="/abs/2511.07654" title="Abstract" id="2511.07654">
+        arXiv:2511.07654
+      </a>
+      
+        [<a href="/pdf/2511.07654" title="Download PDF" id="pdf-2511.07654" aria-labelledby="pdf-2511.07654">pdf</a>, <a href="https://arxiv.org/html/2511.07654v1" title="View HTML" id="html-2511.07654" aria-labelledby="html-2511.07654" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07654" title="Other formats" id="oth-2511.07654" aria-labelledby="oth-2511.07654">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Time-Aware Policy Learning for Adaptive and Punctual Robot Control
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jia,+Y">Yinsen Jia</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chen,+B">Boyuan Chen</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item33'>[33]</a>
+      <a href ="/abs/2511.07619" title="Abstract" id="2511.07619">
+        arXiv:2511.07619
+      </a>
+      
+        [<a href="/pdf/2511.07619" title="Download PDF" id="pdf-2511.07619" aria-labelledby="pdf-2511.07619">pdf</a>, <a href="https://arxiv.org/html/2511.07619v1" title="View HTML" id="html-2511.07619" aria-labelledby="html-2511.07619" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07619" title="Other formats" id="oth-2511.07619" aria-labelledby="oth-2511.07619">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          CAVER: Curious Audiovisual Exploring Robot
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Macesanu,+L">Luca Macesanu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Folefack,+B">Boueny Folefack</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Singh,+S">Samik Singh</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ray,+R">Ruchira Ray</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Abbatematteo,+B">Ben Abbatematteo</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mart%C3%ADn-Mart%C3%ADn,+R">Roberto Martín-Martín</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          9 pages, 6 figures
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item34'>[34]</a>
+      <a href ="/abs/2511.08419" title="Abstract" id="2511.08419">
+        arXiv:2511.08419
+      </a>
+          (cross-list from eess.SY)
+
+        [<a href="/pdf/2511.08419" title="Download PDF" id="pdf-2511.08419" aria-labelledby="pdf-2511.08419">pdf</a>, <a href="https://arxiv.org/html/2511.08419v1" title="View HTML" id="html-2511.08419" aria-labelledby="html-2511.08419" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08419" title="Other formats" id="oth-2511.08419" aria-labelledby="oth-2511.08419">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Probabilistic Safety Guarantee for Stochastic Control Systems Using Average Reward MDPs
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/eess?searchtype=author&amp;query=Omidi,+S">Saber Omidi</a>, <a href="https://arxiv.org/search/eess?searchtype=author&amp;query=Petrik,+M">Marek Petrik</a>, <a href="https://arxiv.org/search/eess?searchtype=author&amp;query=Yoon,+S+Y">Se Young Yoon</a>, <a href="https://arxiv.org/search/eess?searchtype=author&amp;query=Begum,+M">Momotaz Begum</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          Submitted to the Learning for Dynamics &amp; Control (L4DC) 2026 conference
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Systems and Control (eess.SY)</span>; Machine Learning (cs.LG); Robotics (cs.RO); Optimization and Control (math.OC)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item35'>[35]</a>
+      <a href ="/abs/2511.08297" title="Abstract" id="2511.08297">
+        arXiv:2511.08297
+      </a>
+          (cross-list from cs.OS)
+
+        [<a href="/pdf/2511.08297" title="Download PDF" id="pdf-2511.08297" aria-labelledby="pdf-2511.08297">pdf</a>, <a href="https://arxiv.org/html/2511.08297v1" title="View HTML" id="html-2511.08297" aria-labelledby="html-2511.08297" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08297" title="Other formats" id="oth-2511.08297" aria-labelledby="oth-2511.08297">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Work-in-Progress: Function-as-Subtask API Replacing Publish/Subscribe for OS-Native DAG Scheduling
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ishikawa-Aso,+T">Takahiro Ishikawa-Aso</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yano,+A">Atsushi Yano</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kobayashi,+Y">Yutaro Kobayashi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jin,+T">Takumi Jin</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Takano,+Y">Yuuki Takano</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kato,+S">Shinpei Kato</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          4 pages, 6 figures. Accepted for IEEE RTSS 2025; this is the author-accepted manuscript
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Operating Systems (cs.OS)</span>; Robotics (cs.RO)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item36'>[36]</a>
+      <a href ="/abs/2511.08086" title="Abstract" id="2511.08086">
+        arXiv:2511.08086
+      </a>
+          (cross-list from cs.LG)
+
+        [<a href="/pdf/2511.08086" title="Download PDF" id="pdf-2511.08086" aria-labelledby="pdf-2511.08086">pdf</a>, <a href="https://arxiv.org/html/2511.08086v1" title="View HTML" id="html-2511.08086" aria-labelledby="html-2511.08086" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.08086" title="Other formats" id="oth-2511.08086" aria-labelledby="oth-2511.08086">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Dynamic Sparsity: Challenging Common Sparsity Assumptions for Learning World Models in Robotic Reinforcement Learning Benchmarks
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pandaram,+M">Muthukumar Pandaram</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hollenstein,+J">Jakob Hollenstein</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Drexel,+D">David Drexel</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Tosatto,+S">Samuele Tosatto</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rodr%C3%ADguez-S%C3%A1nchez,+A">Antonio Rodríguez-Sánchez</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Piater,+J">Justus Piater</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Machine Learning (cs.LG)</span>; Artificial Intelligence (cs.AI); Robotics (cs.RO)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item37'>[37]</a>
+      <a href ="/abs/2511.07928" title="Abstract" id="2511.07928">
+        arXiv:2511.07928
+      </a>
+          (cross-list from cs.CV)
+
+        [<a href="/pdf/2511.07928" title="Download PDF" id="pdf-2511.07928" aria-labelledby="pdf-2511.07928">pdf</a>, <a href="/format/2511.07928" title="Other formats" id="oth-2511.07928" aria-labelledby="oth-2511.07928">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          An Image-Based Path Planning Algorithm Using a UAV Equipped with Stereo Vision
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Iz,+S+A">Selim Ahmet Iz</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Unel,+M">Mustafa Unel</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Computer Vision and Pattern Recognition (cs.CV)</span>; Robotics (cs.RO)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item38'>[38]</a>
+      <a href ="/abs/2511.07899" title="Abstract" id="2511.07899">
+        arXiv:2511.07899
+      </a>
+          (cross-list from cs.LG)
+
+        [<a href="/pdf/2511.07899" title="Download PDF" id="pdf-2511.07899" aria-labelledby="pdf-2511.07899">pdf</a>, <a href="https://arxiv.org/html/2511.07899v1" title="View HTML" id="html-2511.07899" aria-labelledby="html-2511.07899" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07899" title="Other formats" id="oth-2511.07899" aria-labelledby="oth-2511.07899">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Statistically Assuring Safety of Control Systems using Ensembles of Safety Filters and Conformal Prediction
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Tabbara,+I">Ihab Tabbara</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yang,+Y">Yuxuan Yang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Sibai,+H">Hussein Sibai</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Machine Learning (cs.LG)</span>; Artificial Intelligence (cs.AI); Robotics (cs.RO); Systems and Control (eess.SY)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item39'>[39]</a>
+      <a href ="/abs/2511.07730" title="Abstract" id="2511.07730">
+        arXiv:2511.07730
+      </a>
+          (cross-list from cs.LG)
+
+        [<a href="/pdf/2511.07730" title="Download PDF" id="pdf-2511.07730" aria-labelledby="pdf-2511.07730">pdf</a>, <a href="https://arxiv.org/html/2511.07730v1" title="View HTML" id="html-2511.07730" aria-labelledby="html-2511.07730" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07730" title="Other formats" id="oth-2511.07730" aria-labelledby="oth-2511.07730">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Multistep Quasimetric Learning for Scalable Goal-conditioned Reinforcement Learning
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zheng,+B+C">Bill Chunyuan Zheng</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Myers,+V">Vivek Myers</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Eysenbach,+B">Benjamin Eysenbach</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Levine,+S">Sergey Levine</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Machine Learning (cs.LG)</span>; Robotics (cs.RO)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item40'>[40]</a>
+      <a href ="/abs/2511.07565" title="Abstract" id="2511.07565">
+        arXiv:2511.07565
+      </a>
+          (cross-list from eess.SY)
+
+        [<a href="/pdf/2511.07565" title="Download PDF" id="pdf-2511.07565" aria-labelledby="pdf-2511.07565">pdf</a>, <a href="https://arxiv.org/html/2511.07565v1" title="View HTML" id="html-2511.07565" aria-labelledby="html-2511.07565" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07565" title="Other formats" id="oth-2511.07565" aria-labelledby="oth-2511.07565">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          ARGUS: A Framework for Risk-Aware Path Planning in Tactical UGV Operations
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/eess?searchtype=author&amp;query=Soares,+N">Nuno Soares</a>, <a href="https://arxiv.org/search/eess?searchtype=author&amp;query=Grilo,+A">António Grilo</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Systems and Control (eess.SY)</span>; Robotics (cs.RO)
+        </div>
+
+      </div>
+    </dd>
+</dl>
+
+      <dl id='articles'>
+    <h3>Tue, 11 Nov 2025 (showing first 10 of 72 entries )</h3>
+
+
+    <dt>
+      <a name='item41'>[41]</a>
+      <a href ="/abs/2511.07418" title="Abstract" id="2511.07418">
+        arXiv:2511.07418
+      </a>
+      
+        [<a href="/pdf/2511.07418" title="Download PDF" id="pdf-2511.07418" aria-labelledby="pdf-2511.07418">pdf</a>, <a href="https://arxiv.org/html/2511.07418v1" title="View HTML" id="html-2511.07418" aria-labelledby="html-2511.07418" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07418" title="Other formats" id="oth-2511.07418" aria-labelledby="oth-2511.07418">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Lightning Grasp: High Performance Procedural Grasp Synthesis with Contact Fields
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yin,+Z">Zhao-Heng Yin</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Abbeel,+P">Pieter Abbeel</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          Code: <a href="https://github.com/zhaohengyin/lightning-grasp" rel="external noopener nofollow" class="link-external link-https">this https URL</a>
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Artificial Intelligence (cs.AI); Computer Vision and Pattern Recognition (cs.CV); Distributed, Parallel, and Cluster Computing (cs.DC); Graphics (cs.GR)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item42'>[42]</a>
+      <a href ="/abs/2511.07416" title="Abstract" id="2511.07416">
+        arXiv:2511.07416
+      </a>
+      
+        [<a href="/pdf/2511.07416" title="Download PDF" id="pdf-2511.07416" aria-labelledby="pdf-2511.07416">pdf</a>, <a href="https://arxiv.org/html/2511.07416v1" title="View HTML" id="html-2511.07416" aria-labelledby="html-2511.07416" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07416" title="Other formats" id="oth-2511.07416" aria-labelledby="oth-2511.07416">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Robot Learning from a Physical World Model
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mao,+J">Jiageng Mao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=He,+S">Sicheng He</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wu,+H">Hao-Ning Wu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=You,+Y">Yang You</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Sun,+S">Shuyang Sun</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+Z">Zhicheng Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bao,+Y">Yanan Bao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chen,+H">Huizhong Chen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Guibas,+L">Leonidas Guibas</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Guizilini,+V">Vitor Guizilini</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhou,+H">Howard Zhou</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+Y">Yue Wang</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          Project page: <a href="https://pointscoder.github.io/PhysWorld_Web/" rel="external noopener nofollow" class="link-external link-https">this https URL</a>
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Artificial Intelligence (cs.AI); Computer Vision and Pattern Recognition (cs.CV)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item43'>[43]</a>
+      <a href ="/abs/2511.07410" title="Abstract" id="2511.07410">
+        arXiv:2511.07410
+      </a>
+      
+        [<a href="/pdf/2511.07410" title="Download PDF" id="pdf-2511.07410" aria-labelledby="pdf-2511.07410">pdf</a>, <a href="https://arxiv.org/html/2511.07410v1" title="View HTML" id="html-2511.07410" aria-labelledby="html-2511.07410" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07410" title="Other formats" id="oth-2511.07410" aria-labelledby="oth-2511.07410">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Using Vision Language Models as Closed-Loop Symbolic Planners for Robotic Applications: A Control-Theoretic Perspective
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+H">Hao Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Karnik,+S">Sathwik Karnik</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lim,+B">Bea Lim</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bansal,+S">Somil Bansal</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Artificial Intelligence (cs.AI)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item44'>[44]</a>
+      <a href ="/abs/2511.07407" title="Abstract" id="2511.07407">
+        arXiv:2511.07407
+      </a>
+      
+        [<a href="/pdf/2511.07407" title="Download PDF" id="pdf-2511.07407" aria-labelledby="pdf-2511.07407">pdf</a>, <a href="https://arxiv.org/html/2511.07407v1" title="View HTML" id="html-2511.07407" aria-labelledby="html-2511.07407" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07407" title="Other formats" id="oth-2511.07407" aria-labelledby="oth-2511.07407">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Unified Humanoid Fall-Safety Policy from a Few Demonstrations
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Xu,+Z">Zhengjie Xu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+Y">Ye Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lin,+K">Kwan-yee Lin</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yu,+S+X">Stella X. Yu</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item45'>[45]</a>
+      <a href ="/abs/2511.07381" title="Abstract" id="2511.07381">
+        arXiv:2511.07381
+      </a>
+      
+        [<a href="/pdf/2511.07381" title="Download PDF" id="pdf-2511.07381" aria-labelledby="pdf-2511.07381">pdf</a>, <a href="https://arxiv.org/html/2511.07381v2" title="View HTML" id="html-2511.07381" aria-labelledby="html-2511.07381" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07381" title="Other formats" id="oth-2511.07381" aria-labelledby="oth-2511.07381">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Residual Rotation Correction using Tactile Equivariance
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhu,+Y">Yizhe Zhu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ye,+Z">Zhang Ye</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hu,+B">Boce Hu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhao,+H">Haibo Zhao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Qi,+Y">Yu Qi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+D">Dian Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Platt,+R">Robert Platt</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          8 pages
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item46'>[46]</a>
+      <a href ="/abs/2511.07375" title="Abstract" id="2511.07375">
+        arXiv:2511.07375
+      </a>
+      
+        [<a href="/pdf/2511.07375" title="Download PDF" id="pdf-2511.07375" aria-labelledby="pdf-2511.07375">pdf</a>, <a href="https://arxiv.org/html/2511.07375v1" title="View HTML" id="html-2511.07375" aria-labelledby="html-2511.07375" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07375" title="Other formats" id="oth-2511.07375" aria-labelledby="oth-2511.07375">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Exact Smooth Reformulations for Trajectory Optimization Under Signal Temporal Logic Specifications
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Han,+S">Shaohang Han</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Verhagen,+J">Joris Verhagen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Tumova,+J">Jana Tumova</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item47'>[47]</a>
+      <a href ="/abs/2511.07292" title="Abstract" id="2511.07292">
+        arXiv:2511.07292
+      </a>
+      
+        [<a href="/pdf/2511.07292" title="Download PDF" id="pdf-2511.07292" aria-labelledby="pdf-2511.07292">pdf</a>, <a href="https://arxiv.org/html/2511.07292v1" title="View HTML" id="html-2511.07292" aria-labelledby="html-2511.07292" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07292" title="Other formats" id="oth-2511.07292" aria-labelledby="oth-2511.07292">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          PlanT 2.0: Exposing Biases and Structural Flaws in Closed-Loop Driving
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gerstenecker,+S">Simon Gerstenecker</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Geiger,+A">Andreas Geiger</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Renz,+K">Katrin Renz</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Computer Vision and Pattern Recognition (cs.CV)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item48'>[48]</a>
+      <a href ="/abs/2511.07275" title="Abstract" id="2511.07275">
+        arXiv:2511.07275
+      </a>
+      
+        [<a href="/pdf/2511.07275" title="Download PDF" id="pdf-2511.07275" aria-labelledby="pdf-2511.07275">pdf</a>, <a href="https://arxiv.org/html/2511.07275v1" title="View HTML" id="html-2511.07275" aria-labelledby="html-2511.07275" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07275" title="Other formats" id="oth-2511.07275" aria-labelledby="oth-2511.07275">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Robotic versus Human Teleoperation for Remote Ultrasound
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Black,+D">David Black</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Salcudean,+S">Septimiu Salcudean</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          Under review at IEEE TMRB. Extended version of a paper presented at the Hamlyn Symposium for Medical Robotics, 2025
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Human-Computer Interaction (cs.HC)
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item49'>[49]</a>
+      <a href ="/abs/2511.07175" title="Abstract" id="2511.07175">
+        arXiv:2511.07175
+      </a>
+      
+        [<a href="/pdf/2511.07175" title="Download PDF" id="pdf-2511.07175" aria-labelledby="pdf-2511.07175">pdf</a>, <a href="https://arxiv.org/html/2511.07175v1" title="View HTML" id="html-2511.07175" aria-labelledby="html-2511.07175" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07175" title="Other formats" id="oth-2511.07175" aria-labelledby="oth-2511.07175">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Automated Generation of Continuous-Space Roadmaps for Routing Mobile Robot Fleets
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=R%C3%BCdt,+M">Marvin Rüdt</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Enke,+C">Constantin Enke</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Furmans,+K">Kai Furmans</a></div>
+
+        <div class='list-comments mathjax'><span class='descriptor'>Comments:</span>
+          submitted to the IEEE for possible publication; 8 pages, 6 figures, 2 tables
+        </div>
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>
+        </div>
+
+      </div>
+    </dd>
+    <dt>
+      <a name='item50'>[50]</a>
+      <a href ="/abs/2511.07155" title="Abstract" id="2511.07155">
+        arXiv:2511.07155
+      </a>
+      
+        [<a href="/pdf/2511.07155" title="Download PDF" id="pdf-2511.07155" aria-labelledby="pdf-2511.07155">pdf</a>, <a href="https://arxiv.org/html/2511.07155v1" title="View HTML" id="html-2511.07155" aria-labelledby="html-2511.07155" rel="noopener noreferrer" target="_blank">html</a>, <a href="/format/2511.07155" title="Other formats" id="oth-2511.07155" aria-labelledby="oth-2511.07155">other</a>]
+    </dt>
+    <dd>
+      <div class='meta'>
+        <div class='list-title mathjax'><span class='descriptor'>Title:</span>
+          Dynamics-Decoupled Trajectory Alignment for Sim-to-Real Transfer in Reinforcement Learning for Autonomous Driving
+        </div>
+        <div class='list-authors'><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Steinecker,+T">Thomas Steinecker</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bienemann,+A">Alexander Bienemann</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Trescher,+D">Denis Trescher</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Luettel,+T">Thorsten Luettel</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Maehlisch,+M">Mirko Maehlisch</a></div>
+
+
+
+        <div class='list-subjects'><span class='descriptor'>Subjects:</span>
+          <span class="primary-subject">Robotics (cs.RO)</span>; Machine Learning (cs.LG)
+        </div>
+
+      </div>
+    </dd>
+</dl>
+
+
+      <div class='paging'>Total of 192 entries :      <span>1-50</span>
+      <a href=/list/cs.RO/recent?skip=50&amp;show=50>51-100</a>
+      <a href=/list/cs.RO/recent?skip=100&amp;show=50>101-150</a>
+      <a href=/list/cs.RO/recent?skip=150&amp;show=50>151-192</a>
+
+    </div>
+    <div class='morefewer'>Showing up to 50 entries per page:
+          <a href=/list/cs.RO/recent?skip=0&amp;show=25 rel="nofollow">
+      fewer</a>
+ |
+          <a href=/list/cs.RO/recent?skip=0&amp;show=100 rel="nofollow">
+      more</a>
+ |
+          <a href=/list/cs.RO/recent?skip=0&amp;show=2000 rel="nofollow">
+      all</a>
+
+    </div>
+
+</div>
+</div>      </div>
+    </main>
+
+    <footer style="clear: both;">
+      <div class="columns is-desktop" role="navigation" aria-label="Secondary" style="margin: -0.75em -0.75em 0.75em -0.75em">
+        <!-- Macro-Column 1 -->
+        <div class="column" style="padding: 0;">
+          <div class="columns">
+            <div class="column">
+              <ul style="list-style: none; line-height: 2;">
+                <li><a href="https://info.arxiv.org/about">About</a></li>
+                <li><a href="https://info.arxiv.org/help">Help</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul style="list-style: none; line-height: 2;">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                  <a href="https://info.arxiv.org/help/contact.html"> Contact</a>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                  <a href="https://info.arxiv.org/help/subscribe"> Subscribe</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End Macro-Column 1 -->
+        <!-- Macro-Column 2 -->
+        <div class="column" style="padding: 0;">
+          <div class="columns">
+            <div class="column">
+              <ul style="list-style: none; line-height: 2;">
+                <li><a href="https://info.arxiv.org/help/license/index.html">Copyright</a></li>
+                <li><a href="https://info.arxiv.org/help/policies/privacy_policy.html">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="column sorry-app-links">
+              <ul style="list-style: none; line-height: 2;">
+                <li><a href="https://info.arxiv.org/help/web_accessibility.html">Web Accessibility Assistance</a></li>
+                <li>
+                  <p class="help">
+                    <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> <!-- end MetaColumn 2 -->
+        <!-- End Macro-Column 2 -->
+      </div>
+    </footer>
+  </div>
+
+  <script src="/static/base/1.0.1/js/member_acknowledgement.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,2347 @@
+[
+  {
+    "arxiv_id": "2511.09558",
+    "title": "IFG: Internet-Scale Guidance for Functional Grasping Generation",
+    "authors": [
+      "Ray Muxin Liu",
+      "Mingxuan Li",
+      "Kenneth Shaw",
+      "Deepak Pathak"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09555",
+    "title": "SpatialActor: Exploring Disentangled Spatial Representations for Robust Robotic Manipulation",
+    "authors": [
+      "Hao Shi",
+      "Bin Xie",
+      "Yingfei Liu",
+      "Yang Yue",
+      "Tiancai Wang",
+      "Haoqiang Fan",
+      "Xiangyu Zhang",
+      "Gao Huang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09516",
+    "title": "MAP-VLA: Memory-Augmented Prompting for Vision-Language-Action Model in Robotic Manipulation",
+    "authors": [
+      "Runhao Li",
+      "Wenkai Guo",
+      "Zhenyu Wu",
+      "Changyuan Wang",
+      "Haoyuan Deng",
+      "Zhenyu Weng",
+      "Yap-Peng Tan",
+      "Ziwei Wang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09515",
+    "title": "WMPO: World Model-based Policy Optimization for Vision-Language-Action Models",
+    "authors": [
+      "Fangqi Zhu",
+      "Zhengyang Yan",
+      "Zicong Hong",
+      "Quanxin Shou",
+      "Xiao Ma",
+      "Song Guo"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09484",
+    "title": "SPIDER: Scalable Physics-Informed Dexterous Retargeting",
+    "authors": [
+      "Chaoyi Pan",
+      "Changhao Wang",
+      "Haozhi Qi",
+      "Zixi Liu",
+      "Homanga Bharadhwaj",
+      "Akash Sharma",
+      "Tingfan Wu",
+      "Guanya Shi",
+      "Jitendra Malik",
+      "Francois Hogan"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09331",
+    "title": "CoRL-MPPI: Enhancing MPPI With Learnable Behaviours For Efficient And Provably-Safe Multi-Robot Collision Avoidance",
+    "authors": [
+      "Stepan Dergachev",
+      "Artem Pshenitsyn",
+      "Aleksandr Panov",
+      "Alexey Skrynnik",
+      "Konstantin Yakovlev"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09302",
+    "title": "UMIGen: A Unified Framework for Egocentric Point Cloud Generation and Cross-Embodiment Robotic Imitation Learning",
+    "authors": [
+      "Yan Huang",
+      "Shoujie Li",
+      "Xingting Li",
+      "Wenbo Ding"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09241",
+    "title": "Unveiling the Impact of Data and Model Scaling on High-Level Control for Humanoid Robots",
+    "authors": [
+      "Yuxi Wei",
+      "Zirui Wang",
+      "Kangning Yin",
+      "Yue Hu",
+      "Jingbo Wang",
+      "Siheng Chen"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09142",
+    "title": "LODESTAR: Degeneracy-Aware LiDAR-Inertial Odometry with Adaptive Schmidt-Kalman Filter and Data Exploitation",
+    "authors": [
+      "Eungchang Mason Lee",
+      "Kevin Christiansen Marsim",
+      "Hyun Myung"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09141",
+    "title": "RGMP: Recurrent Geometric-prior Multimodal Policy for Generalizable Humanoid Robot Manipulation",
+    "authors": [
+      "Xuetao Li",
+      "Wenke Huang",
+      "Nengyuan Pan",
+      "Kaiyan Zhao",
+      "Songhua Yang",
+      "Yiming Wang",
+      "Mengde Li",
+      "Mang Ye",
+      "Jifeng Xuan",
+      "Miao Li"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09119",
+    "title": "Data Assessment for Embodied Intelligence",
+    "authors": [
+      "Jiahao Xiao",
+      "Bowen Yan",
+      "Jianbo Zhang",
+      "Jia Wang",
+      "Chunyi Li",
+      "Zhengxue Cheng",
+      "Guangtao Zhai"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09104",
+    "title": "Decoupling Torque and Stiffness: A Unified Modeling and Control Framework for Antagonistic Artificial Muscles",
+    "authors": [
+      "Amirhossein Kazemipour",
+      "Robert K. Katzschmann"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09091",
+    "title": "APEX: Action Priors Enable Efficient Exploration for Robust Motion Tracking on Legged Robots",
+    "authors": [
+      "Shivam Sood",
+      "Laukik Nakhwa",
+      "Sun Ge",
+      "Yuhong Cao",
+      "Jin Cheng",
+      "Fatemah Zargarbashi",
+      "Taerim Yoon",
+      "Sungjoon Choi",
+      "Stelian Coros",
+      "Guillaume Sartoretti"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09080",
+    "title": "D-AWSIM: Distributed Autonomous Driving Simulator for Dynamic Map Generation Framework",
+    "authors": [
+      "Shunsuke Ito",
+      "Chaoran Zhao",
+      "Ryo Okamura",
+      "Takuya Azumi"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09072",
+    "title": "SMF-VO: Direct Ego-Motion Estimation via Sparse Motion Fields",
+    "authors": [
+      "Sangheon Yang",
+      "Yeongin Yoon",
+      "Hong Mo Jung",
+      "Jongwoo Lim"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09020",
+    "title": "A Quantum Tunneling and Bio-Phototactic Driven Enhanced Dwarf Mongoose Optimizer for UAV Trajectory Planning and Engineering Problem",
+    "authors": [
+      "Mingyang Yu",
+      "Haorui Yang",
+      "Kangning An",
+      "Xinjian Wei",
+      "Xiaoxuan Xu",
+      "Jing Xu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09013",
+    "title": "UniMM-V2X: MoE-Enhanced Multi-Level Fusion for End-to-End Cooperative Autonomous Driving",
+    "authors": [
+      "Ziyi Song",
+      "Chen Xia",
+      "Chenbing Wang",
+      "Haibao Yu",
+      "Sheng Zhou",
+      "Zhisheng Niu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08942",
+    "title": "Think, Remember, Navigate: Zero-Shot Object-Goal Navigation with VLM-Powered Reasoning",
+    "authors": [
+      "Mobin Habibpour",
+      "Fatemeh Afghah"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08935",
+    "title": "Expand Your SCOPE: Semantic Cognition over Potential-Based Exploration for Embodied Visual Navigation",
+    "authors": [
+      "Ningnan Wang",
+      "Weihuang Chen",
+      "Liming Chen",
+      "Haoxuan Ji",
+      "Zhongyu Guo",
+      "Xuchong Zhang",
+      "Hongbin Sun"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08912",
+    "title": "A Shared Control Framework for Mobile Robots with Planning-Level Intention Prediction",
+    "authors": [
+      "Jinyu Zhang",
+      "Lijun Han",
+      "Feng Jian",
+      "Lingxi Zhang",
+      "Hesheng Wang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08865",
+    "title": "MirrorLimb: Implementing hand pose acquisition and robot teleoperation based on RealMirror",
+    "authors": [
+      "Cong Tai",
+      "Hansheng Wu",
+      "Haixu Long",
+      "Zhengbin Long",
+      "Zhaoyu Zheng",
+      "Haodong Xiang",
+      "Tao Shen"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08863",
+    "title": "XPRESS: X-Band Radar Place Recognition via Elliptical Scan Shaping",
+    "authors": [
+      "Hyesu Jang",
+      "Wooseong Yang",
+      "Ayoung Kim",
+      "Dongje Lee",
+      "Hanguen Kim"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08822",
+    "title": "Low-cost Multi-agent Fleet for Acoustic Cooperative Localization Research",
+    "authors": [
+      "Nelson Durrant",
+      "Braden Meyers",
+      "Matthew McMurray",
+      "Clayton Smith",
+      "Brighton Anderson",
+      "Tristan Hodgins",
+      "Kalliyan Velasco",
+      "Joshua G. Mangelson"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08778",
+    "title": "Dual-Arm Whole-Body Motion Planning: Leveraging Overlapping Kinematic Chains",
+    "authors": [
+      "Richard Cheng",
+      "Peter Werner",
+      "Carolyn Matl"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08771",
+    "title": "CENIC: Convex Error-controlled Numerical Integration for Contact",
+    "authors": [
+      "Vince Kurtz",
+      "Alejandro Castro"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08741",
+    "title": "ATOM-CBF: Adaptive Safe Perception-Based Control under Out-of-Distribution Measurements",
+    "authors": [
+      "Kai S. Yun",
+      "Navid Azizan"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08732",
+    "title": "Intuitive Programming, Adaptive Task Planning, and Dynamic Role Allocation in Human-Robot Collaboration",
+    "authors": [
+      "Marta Lagomarsino",
+      "Elena Merlo",
+      "Andrea Pupa",
+      "Timo Birr",
+      "Franziska Krebs",
+      "Cristian Secchi",
+      "Tamim Asfour",
+      "Arash Ajoudani"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08694",
+    "title": "Practical and Performant Enhancements for Maximization of Algebraic Connectivity",
+    "authors": [
+      "Leonard Jung",
+      "Alan Papalia",
+      "Kevin Doherty",
+      "Michael Everett"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09170",
+    "title": "HOTFLoc++: End-to-End Hierarchical LiDAR Place Recognition, Re-Ranking, and 6-DoF Metric Localisation in Forests",
+    "authors": [
+      "Ethan Griffiths",
+      "Maryam Haghighat",
+      "Simon Denman",
+      "Clinton Fookes",
+      "Milad Ramezani"
+    ]
+  },
+  {
+    "arxiv_id": "2511.09032",
+    "title": "Argus: Resilience-Oriented Safety Assurance Framework for End-to-End ADSs",
+    "authors": [
+      "Dingji Wang",
+      "You Lu",
+      "Bihuan Chen",
+      "Shuo Hao",
+      "Haowen Jiang",
+      "Yifan Tian",
+      "Xin Peng"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08922",
+    "title": "Diffusion Policies with Value-Conditional Optimization for Offline Reinforcement Learning",
+    "authors": [
+      "Yunchang Ma",
+      "Tenglong Liu",
+      "Yixing Lan",
+      "Xin Yin",
+      "Changxin Zhang",
+      "Xinglong Zhang",
+      "Xin Xu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08752",
+    "title": "Information-Driven Fault Detection and Identification for Multi-Agent Spacecraft Systems: Collaborative On-Orbit Inspection Mission",
+    "authors": [
+      "Akshita Gupta",
+      "Arna Bhardwaj",
+      "Yashwanth Kumar Nakka",
+      "Changrak Choi",
+      "Amir Rahmani"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08615",
+    "title": "A Multi-Drone Multi-View Dataset and Deep Learning Framework for Pedestrian Detection and Tracking",
+    "authors": [
+      "Kosta Dakic",
+      "Kanchana Thilakarathna",
+      "Rodrigo N. Calheiros",
+      "Teng Joon Lim"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05812",
+    "title": "Evader-Agnostic Team-Based Pursuit Strategies in Partially-Observable Environments",
+    "authors": [
+      "Addison Kalanther",
+      "Daniel Bostwick",
+      "Chinmay Maheshwari",
+      "Shankar Sastry"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08583",
+    "title": "SeFA-Policy: Fast and Accurate Visuomotor Policy Learning with Selective Flow Alignment",
+    "authors": [
+      "Rong Xue",
+      "Jiageng Mao",
+      "Mingtong Zhang",
+      "Yue Wang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08502",
+    "title": "Safe and Optimal Learning from Preferences via Weighted Temporal Logic with Applications in Robotics and Formula 1",
+    "authors": [
+      "Ruya Karagulle",
+      "Cristian-Ioan Vasile",
+      "Necmiye Ozay"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08490",
+    "title": "A Supervised Autonomous Resection and Retraction Framework for Transurethral Enucleation of the Prostatic Median Lobe",
+    "authors": [
+      "Mariana Smith",
+      "Tanner Watts",
+      "Susheela Sharma Stern",
+      "Brendan Burkhart",
+      "Hao Li",
+      "Alejandro O. Chara",
+      "Nithesh Kumar",
+      "James Ferguson",
+      "Ayberk Acar",
+      "Jesse F. d'Almeida",
+      "Lauren Branscombe",
+      "Lauren Shepard",
+      "Ahmed Ghazi",
+      "Ipek Oguz",
+      "Jie Ying Wu",
+      "Robert J. Webster III",
+      "Axel Krieger",
+      "Alan Kuntz"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08454",
+    "title": "Intuitive control of supernumerary robotic limbs through a tactile-encoded neural interface",
+    "authors": [
+      "Tianyu Jia",
+      "Xingchen Yang",
+      "Ciaran McGeady",
+      "Yifeng Li",
+      "Jinzhi Lin",
+      "Kit San Ho",
+      "Feiyu Pan",
+      "Linhong Ji",
+      "Chong Li",
+      "Dario Farina"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08377",
+    "title": "Human Motion Intent Inferencing in Teleoperation Through a SINDy Paradigm",
+    "authors": [
+      "Michael Bowman",
+      "Xiaoli Zhang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08354",
+    "title": "A CODECO Case Study and Initial Validation for Edge Orchestration of Autonomous Mobile Robots",
+    "authors": [
+      "H. Zhu",
+      "T. Samizadeh",
+      "R. C. Sofia"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08299",
+    "title": "Learning Omnidirectional Locomotion for a Salamander-Like Quadruped Robot",
+    "authors": [
+      "Zhiang Liu",
+      "Yang Liu",
+      "Yongchun Fang",
+      "Xian Guo"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08277",
+    "title": "X-IONet: Cross-Platform Inertial Odometry Network with Dual-Stage Attention",
+    "authors": [
+      "Dehan Shen",
+      "Changhao Chen"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08231",
+    "title": "Real-Time Performance Analysis of Multi-Fidelity Residual Physics-Informed Neural Process-Based State Estimation for Robotic Systems",
+    "authors": [
+      "Devin Hunter",
+      "Chinwendu Enyioha"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08214",
+    "title": "Prioritizing Perception-Guided Self-Supervision: A New Paradigm for Causal Modeling in End-to-End Autonomous Driving",
+    "authors": [
+      "Yi Huang",
+      "Zhan Qu",
+      "Lihui Jiang",
+      "Bingbing Liu",
+      "Hongbo Zhang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08098",
+    "title": "PerspAct: Enhancing LLM Situated Collaboration Skills through Perspective Taking and Active Vision",
+    "authors": [
+      "Sabrina Patania",
+      "Luca Annese",
+      "Anita Pellegrini",
+      "Silvia Serino",
+      "Anna Lambiase",
+      "Luca Pallonetto",
+      "Silvia Rossi",
+      "Simone Colombani",
+      "Tom Foulsham",
+      "Azzurra Ruggeri",
+      "Dimitri Ognibene"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08019",
+    "title": "Model Predictive Control via Probabilistic Inference: A Tutorial",
+    "authors": [
+      "Kohei Honda"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08016",
+    "title": "AVOID-JACK: Avoidance of Jackknifing for Swarms of Long Heavy Articulated Vehicles",
+    "authors": [
+      "Adrian Schönnagel",
+      "Michael Dubé",
+      "Christoph Steup",
+      "Felix Keppler",
+      "Sanaz Mostaghim"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08005",
+    "title": "A Two-Layer Electrostatic Film Actuator with High Actuation Stress and Integrated Brake",
+    "authors": [
+      "Huacen Wang",
+      "Hongqiang Wang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08001",
+    "title": "Effective Game-Theoretic Motion Planning via Nested Search",
+    "authors": [
+      "Avishav Engle",
+      "Andrey Zhitnikov",
+      "Oren Salzman",
+      "Omer Ben-Porat",
+      "Kiril Solovey"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07950",
+    "title": "USV Obstacles Detection and Tracking in Marine Environments",
+    "authors": [
+      "Yara AlaaEldin",
+      "Enrico Simetti",
+      "Francesca Odone"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07927",
+    "title": "Local Path Planning with Dynamic Obstacle Avoidance in Unstructured Environments",
+    "authors": [
+      "Okan Arif Guvenkaya",
+      "Selim Ahmet Iz",
+      "Mustafa Unel"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07921",
+    "title": "Dual-MPC Footstep Planning for Robust Quadruped Locomotion",
+    "authors": [
+      "Byeong-Il Ham",
+      "Hyun-Bin Kim",
+      "Jeonguk Kang",
+      "Keun Ha Choi",
+      "Kyung-Soo Kim"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07887",
+    "title": "EquiMus: Energy-Equivalent Dynamic Modeling and Simulation of Musculoskeletal Robots Driven by Linear Elastic Actuators",
+    "authors": [
+      "Yinglei Zhu",
+      "Xuguang Dong",
+      "Qiyao Wang",
+      "Qi Shao",
+      "Fugui Xie",
+      "Xinjun Liu",
+      "Huichan Zhao"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07882",
+    "title": "A Comprehensive Experimental Characterization of Mechanical Layer Jamming Systems",
+    "authors": [
+      "Jessica Gumowski",
+      "Krishna Manaswi Digumarti",
+      "David Howard"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07822",
+    "title": "Occlusion-Aware Ground Target Search by a UAV in an Urban Environment",
+    "authors": [
+      "Collin Hague",
+      "Artur Wolek"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07820",
+    "title": "SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control",
+    "authors": [
+      "Zhengyi Luo",
+      "Ye Yuan",
+      "Tingwu Wang",
+      "Chenran Li",
+      "Sirui Chen",
+      "Fernando Castañeda",
+      "Zi-Ang Cao",
+      "Jiefeng Li",
+      "David Minor",
+      "Qingwei Ben",
+      "Xingye Da",
+      "Runyu Ding",
+      "Cyrus Hogg",
+      "Lina Song",
+      "Edy Lim",
+      "Eugene Jeong",
+      "Tairan He",
+      "Haoru Xue",
+      "Wenli Xiao",
+      "Zi Wang",
+      "Simon Yuen",
+      "Jan Kautz",
+      "Yan Chang",
+      "Umar Iqbal",
+      "Linxi \"Jim\" Fan",
+      "Yuke Zhu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07811",
+    "title": "Virtual Traffic Lights for Multi-Robot Navigation: Decentralized Planning with Centralized Conflict Resolution",
+    "authors": [
+      "Sagar Gupta",
+      "Thanh Vinh Nguyen",
+      "Thieu Long Phan",
+      "Vidul Attri",
+      "Archit Gupta",
+      "Niroshinie Fernando",
+      "Kevin Lee",
+      "Seng W. Loke",
+      "Ronny Kutadinata",
+      "Benjamin Champion",
+      "Akansel Cosgun"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07797",
+    "title": "Benchmarking Resilience and Sensitivity of Polyurethane-Based Vision-Based Tactile Sensors",
+    "authors": [
+      "Benjamin Davis",
+      "Hannah Stuart"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07761",
+    "title": "High-Altitude Balloon Station-Keeping with First Order Model Predictive Control",
+    "authors": [
+      "Myles Pasetsky",
+      "Jiawei Lin",
+      "Bradley Guo",
+      "Sarah Dean"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07750",
+    "title": "Navigating the Wild: Pareto-Optimal Visual Decision-Making in Image Space",
+    "authors": [
+      "Durgakant Pushp",
+      "Weizhe Chen",
+      "Zheng Chen",
+      "Chaomin Luo",
+      "Jason M. Gregory",
+      "Lantao Liu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07732",
+    "title": "ViPRA: Video Prediction for Robot Actions",
+    "authors": [
+      "Sandeep Routray",
+      "Hengkai Pan",
+      "Unnat Jain",
+      "Shikhar Bahl",
+      "Deepak Pathak"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07727",
+    "title": "LLM-GROP: Visually Grounded Robot Task and Motion Planning with Large Language Models",
+    "authors": [
+      "Xiaohan Zhang",
+      "Yan Ding",
+      "Yohei Hayamizu",
+      "Zainab Altaweel",
+      "Yifeng Zhu",
+      "Yuke Zhu",
+      "Peter Stone",
+      "Chris Paxton",
+      "Shiqi Zhang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07720",
+    "title": "A QP Framework for Improving Data Collection: Quantifying Device-Controller Performance in Robot Teleoperation",
+    "authors": [
+      "Yuxuan Zhao",
+      "Yuanchen Tang",
+      "Jindi Zhang",
+      "Hongyu Yu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07717",
+    "title": "RoboTAG: End-to-end Robot Configuration Estimation via Topological Alignment Graph",
+    "authors": [
+      "Yifan Liu",
+      "Fangneng Zhan",
+      "Wanhua Li",
+      "Haowen Sun",
+      "Katerina Fragkiadaki",
+      "Hanspeter Pfister"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07687",
+    "title": "Testing and Evaluation of Underwater Vehicle Using Hardware-In-The-Loop Simulation with HoloOcean",
+    "authors": [
+      "Braden Meyers",
+      "Joshua G. Mangelson"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07654",
+    "title": "Time-Aware Policy Learning for Adaptive and Punctual Robot Control",
+    "authors": [
+      "Yinsen Jia",
+      "Boyuan Chen"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07619",
+    "title": "CAVER: Curious Audiovisual Exploring Robot",
+    "authors": [
+      "Luca Macesanu",
+      "Boueny Folefack",
+      "Samik Singh",
+      "Ruchira Ray",
+      "Ben Abbatematteo",
+      "Roberto Martín-Martín"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08419",
+    "title": "Probabilistic Safety Guarantee for Stochastic Control Systems Using Average Reward MDPs",
+    "authors": [
+      "Saber Omidi",
+      "Marek Petrik",
+      "Se Young Yoon",
+      "Momotaz Begum"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08297",
+    "title": "Work-in-Progress: Function-as-Subtask API Replacing Publish/Subscribe for OS-Native DAG Scheduling",
+    "authors": [
+      "Takahiro Ishikawa-Aso",
+      "Atsushi Yano",
+      "Yutaro Kobayashi",
+      "Takumi Jin",
+      "Yuuki Takano",
+      "Shinpei Kato"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08086",
+    "title": "Dynamic Sparsity: Challenging Common Sparsity Assumptions for Learning World Models in Robotic Reinforcement Learning Benchmarks",
+    "authors": [
+      "Muthukumar Pandaram",
+      "Jakob Hollenstein",
+      "David Drexel",
+      "Samuele Tosatto",
+      "Antonio Rodríguez-Sánchez",
+      "Justus Piater"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07928",
+    "title": "An Image-Based Path Planning Algorithm Using a UAV Equipped with Stereo Vision",
+    "authors": [
+      "Selim Ahmet Iz",
+      "Mustafa Unel"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07899",
+    "title": "Statistically Assuring Safety of Control Systems using Ensembles of Safety Filters and Conformal Prediction",
+    "authors": [
+      "Ihab Tabbara",
+      "Yuxuan Yang",
+      "Hussein Sibai"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07730",
+    "title": "Multistep Quasimetric Learning for Scalable Goal-conditioned Reinforcement Learning",
+    "authors": [
+      "Bill Chunyuan Zheng",
+      "Vivek Myers",
+      "Benjamin Eysenbach",
+      "Sergey Levine"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07565",
+    "title": "ARGUS: A Framework for Risk-Aware Path Planning in Tactical UGV Operations",
+    "authors": [
+      "Nuno Soares",
+      "António Grilo"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07418",
+    "title": "Lightning Grasp: High Performance Procedural Grasp Synthesis with Contact Fields",
+    "authors": [
+      "Zhao-Heng Yin",
+      "Pieter Abbeel"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07416",
+    "title": "Robot Learning from a Physical World Model",
+    "authors": [
+      "Jiageng Mao",
+      "Sicheng He",
+      "Hao-Ning Wu",
+      "Yang You",
+      "Shuyang Sun",
+      "Zhicheng Wang",
+      "Yanan Bao",
+      "Huizhong Chen",
+      "Leonidas Guibas",
+      "Vitor Guizilini",
+      "Howard Zhou",
+      "Yue Wang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07410",
+    "title": "Using Vision Language Models as Closed-Loop Symbolic Planners for Robotic Applications: A Control-Theoretic Perspective",
+    "authors": [
+      "Hao Wang",
+      "Sathwik Karnik",
+      "Bea Lim",
+      "Somil Bansal"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07407",
+    "title": "Unified Humanoid Fall-Safety Policy from a Few Demonstrations",
+    "authors": [
+      "Zhengjie Xu",
+      "Ye Li",
+      "Kwan-yee Lin",
+      "Stella X. Yu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07381",
+    "title": "Residual Rotation Correction using Tactile Equivariance",
+    "authors": [
+      "Yizhe Zhu",
+      "Zhang Ye",
+      "Boce Hu",
+      "Haibo Zhao",
+      "Yu Qi",
+      "Dian Wang",
+      "Robert Platt"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07375",
+    "title": "Exact Smooth Reformulations for Trajectory Optimization Under Signal Temporal Logic Specifications",
+    "authors": [
+      "Shaohang Han",
+      "Joris Verhagen",
+      "Jana Tumova"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07292",
+    "title": "PlanT 2.0: Exposing Biases and Structural Flaws in Closed-Loop Driving",
+    "authors": [
+      "Simon Gerstenecker",
+      "Andreas Geiger",
+      "Katrin Renz"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07275",
+    "title": "Robotic versus Human Teleoperation for Remote Ultrasound",
+    "authors": [
+      "David Black",
+      "Septimiu Salcudean"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07175",
+    "title": "Automated Generation of Continuous-Space Roadmaps for Routing Mobile Robot Fleets",
+    "authors": [
+      "Marvin Rüdt",
+      "Constantin Enke",
+      "Kai Furmans"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07155",
+    "title": "Dynamics-Decoupled Trajectory Alignment for Sim-to-Real Transfer in Reinforcement Learning for Autonomous Driving",
+    "authors": [
+      "Thomas Steinecker",
+      "Alexander Bienemann",
+      "Denis Trescher",
+      "Thorsten Luettel",
+      "Mirko Maehlisch"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07081",
+    "title": "HDCNet: A Hybrid Depth Completion Network for Grasping Transparent and Reflective Objects",
+    "authors": [
+      "Guanghu Xie",
+      "Mingxu Li",
+      "Songwei Wu",
+      "Yang Liu",
+      "Zongwu Xie",
+      "Baoshi Cao",
+      "Hong Liu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06998",
+    "title": "Raspi$^2$USBL: An open-source Raspberry Pi-Based Passive Inverted Ultra-Short Baseline Positioning System for Underwater Robotics",
+    "authors": [
+      "Jin Huang",
+      "Yingqiang Wang",
+      "Ying Chen"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06919",
+    "title": "Integration of Visual SLAM into Consumer-Grade Automotive Localization",
+    "authors": [
+      "Luis Diener",
+      "Jens Kalkkuhl",
+      "Markus Enzweiler"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06892",
+    "title": "Multi-Agent AI Framework for Road Situation Detection and C-ITS Message Generation",
+    "authors": [
+      "Kailin Tong",
+      "Selim Solmaz",
+      "Kenan Mujkic",
+      "Gottfried Allmer",
+      "Bo Leng"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06839",
+    "title": "Vision-Based System Identification of a Quadrotor",
+    "authors": [
+      "Selim Ahmet Iz",
+      "Mustafa Unel"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06801",
+    "title": "Vision-Aided Online A* Path Planning for Efficient and Safe Navigation of Service Robots",
+    "authors": [
+      "Praveen Kumar",
+      "Tushar Sandhan"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06796",
+    "title": "Human-Level Actuation for Humanoids",
+    "authors": [
+      "MD-Nazmus Sunbeam"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06754",
+    "title": "SlotVLA: Towards Modeling of Object-Relation Representations in Robotic Manipulation",
+    "authors": [
+      "Taisei Hanyu",
+      "Nhat Chung",
+      "Huy Le",
+      "Toan Nguyen",
+      "Yuki Ikebe",
+      "Anthony Gunderman",
+      "Duy Nguyen Ho Minh",
+      "Khoa Vo",
+      "Tung Kieu",
+      "Kashu Yamazaki",
+      "Chase Rainwater",
+      "Anh Nguyen",
+      "Ngan Le"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06749",
+    "title": "Semi-distributed Cross-modal Air-Ground Relative Localization",
+    "authors": [
+      "Weining Lu",
+      "Deer Bin",
+      "Lian Ma",
+      "Ming Ma",
+      "Zhihao Ma",
+      "Xiangyang Chen",
+      "Longfei Wang",
+      "Yixiao Feng",
+      "Zhouxian Jiang",
+      "Yongliang Shi",
+      "Bin Liang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06745",
+    "title": "Physically-Grounded Goal Imagination: Physics-Informed Variational Autoencoder for Self-Supervised Reinforcement Learning",
+    "authors": [
+      "Lan Thi Ha Nguyen",
+      "Kien Ton Manh",
+      "Anh Do Duc",
+      "Nam Pham Hai"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06673",
+    "title": "Programmable Telescopic Soft Pneumatic Actuators for Deployable and Shape Morphing Soft Robots",
+    "authors": [
+      "Joel Kemp",
+      "Andre Farinha",
+      "David Howard",
+      "Krishna Manaswi Digumarti",
+      "Josh Pinskier"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06667",
+    "title": "Rapidly Learning Soft Robot Control via Implicit Time-Stepping",
+    "authors": [
+      "Andrew Choi",
+      "Dezhong Tong"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06619",
+    "title": "How Do VLAs Effectively Inherit from VLMs?",
+    "authors": [
+      "Chuheng Zhang",
+      "Rushuai Yang",
+      "Xiaoyu Chen",
+      "Kaixin Wang",
+      "Li Zhao",
+      "Yi Chen",
+      "Jiang Bian"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06578",
+    "title": "Underactuated Biomimetic Autonomous Underwater Vehicle for Ecosystem Monitoring",
+    "authors": [
+      "Kaustubh Singh",
+      "Shivam Kumar",
+      "Shashikant Pawar",
+      "Sandeep Manjanna"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06575",
+    "title": "CoFineLLM: Conformal Finetuning of LLMs for Language-Instructed Robot Planning",
+    "authors": [
+      "Jun Wang",
+      "Yevgeniy Vorobeychik",
+      "Yiannis Kantaros"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06515",
+    "title": "Koopman global linearization of contact dynamics for robot locomotion and manipulation enables elaborate control",
+    "authors": [
+      "Cormac O'Neill",
+      "Jasmine Terrones",
+      "H. Harry Asada"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06500",
+    "title": "Adaptive PID Control for Robotic Systems via Hierarchical Meta-Learning and Reinforcement Learning with Physics-Based Data Augmentation",
+    "authors": [
+      "JiaHao Wu",
+      "ShengWen Yu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06496",
+    "title": "A Low-Rank Method for Vision Language Model Hallucination Mitigation in Autonomous Driving",
+    "authors": [
+      "Keke Long",
+      "Jiacheng Guo",
+      "Tianyun Zhang",
+      "Hongkai Yu",
+      "Xiaopeng Li"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06465",
+    "title": "Sim-to-Real Transfer in Deep Reinforcement Learning for Bipedal Locomotion",
+    "authors": [
+      "Lingfan Bao",
+      "Tianhu Peng",
+      "Chengxu Zhou"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06434",
+    "title": "Real Garment Benchmark (RGBench): A Comprehensive Benchmark for Robotic Garment Manipulation featuring a High-Fidelity Scalable Simulator",
+    "authors": [
+      "Wenkang Hu",
+      "Xincheng Tang",
+      "Yanzhi E",
+      "Yitong Li",
+      "Zhengjie Shu",
+      "Wei Li",
+      "Huamin Wang",
+      "Ruigang Yang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06397",
+    "title": "Whole-Body Control With Terrain Estimation of A 6-DoF Wheeled Bipedal Robot",
+    "authors": [
+      "Cong Wen",
+      "Yunfei Li",
+      "Kexin Liu",
+      "Yixin Qiu",
+      "Xuanhong Liao",
+      "Tianyu Wang",
+      "Dingchuan Liu",
+      "Tao Zhang",
+      "Ximin Lyu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06385",
+    "title": "From Demonstrations to Safe Deployment: Path-Consistent Safety Filtering for Diffusion Policies",
+    "authors": [
+      "Ralf Römer",
+      "Julian Balletshofer",
+      "Jakob Thumm",
+      "Marco Pavone",
+      "Angela P. Schoellig",
+      "Matthias Althoff"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06378",
+    "title": "ArtReg: Visuo-Tactile based Pose Tracking and Manipulation of Unseen Articulated Objects",
+    "authors": [
+      "Prajval Kumar Murali",
+      "Mohsen Kaboli"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06371",
+    "title": "Towards Adaptive Humanoid Control via Multi-Behavior Distillation and Reinforced Fine-Tuning",
+    "authors": [
+      "Yingnan Zhao",
+      "Xinmiao Wang",
+      "Dewei Wang",
+      "Xinzhe Liu",
+      "Dan Lu",
+      "Qilong Han",
+      "Peng Liu",
+      "Chenjia Bai"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06311",
+    "title": "External Photoreflective Tactile Sensing Based on Surface Deformation Measurement",
+    "authors": [
+      "Seiichi Yamamoto",
+      "Hiroki Ishizuka",
+      "Takumi Kawasetsu",
+      "Koh Hosoda",
+      "Takayuki Kameoka",
+      "Kango Yanagida",
+      "Takato Horii",
+      "Sei Ikeda",
+      "Osamu Oshiro"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06267",
+    "title": "Robust Differentiable Collision Detection for General Objects",
+    "authors": [
+      "Jiayi Chen",
+      "Wei Zhao",
+      "Liangwang Ruan",
+      "Baoquan Chen",
+      "He Wang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06240",
+    "title": "Affordance-Guided Coarse-to-Fine Exploration for Base Placement in Open-Vocabulary Mobile Manipulation",
+    "authors": [
+      "Tzu-Jung Lin",
+      "Jia-Fong Yeh",
+      "Hung-Ting Su",
+      "Chung-Yi Lin",
+      "Yi-Ting Chen",
+      "Winston H. Hsu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06202",
+    "title": "ExpReS-VLA: Specializing Vision-Language-Action Models Through Experience Replay and Retrieval",
+    "authors": [
+      "Shahram Najam Syed",
+      "Yatharth Ahuja",
+      "Arthur Jakobsson",
+      "Jeff Ichnowski"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06182",
+    "title": "OpenVLN: Open-world aerial Vision-Language Navigation",
+    "authors": [
+      "Peican Lin",
+      "Gan Sun",
+      "Chenxi Liu",
+      "Fazeng Li",
+      "Weihong Ren",
+      "Yang Cong"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06141",
+    "title": "PlaCo: a QP-based robot planning and control framework",
+    "authors": [
+      "Marc Duclusaud",
+      "Grégoire Passault",
+      "Vincent Padois",
+      "Olivier Ly"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06102",
+    "title": "Development and testing of novel soft sleeve actuators",
+    "authors": [
+      "Mohammed Abboodi"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05995",
+    "title": "Robustness study of the bio-inspired musculoskeletal arm robot based on the data-driven iterative learning algorithm",
+    "authors": [
+      "Jianbo Yuan",
+      "Jing Dai",
+      "Yerui Fan",
+      "Yaxiong Wu",
+      "Yunpeng Liang",
+      "Weixin Yan"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05936",
+    "title": "10 Open Challenges Steering the Future of Vision-Language-Action Models",
+    "authors": [
+      "Soujanya Poria",
+      "Navonil Majumder",
+      "Chia-Yu Hung",
+      "Amir Ali Bagherzadeh",
+      "Chuan Li",
+      "Kenneth Kwok",
+      "Ziwei Wang",
+      "Cheston Tan",
+      "Jiajun Wu",
+      "David Hsu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05889",
+    "title": "From Words to Safety: Language-Conditioned Safety Filtering for Robot Navigation",
+    "authors": [
+      "Zeyuan Feng",
+      "Haimingyue Zhang",
+      "Somil Bansal"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05886",
+    "title": "Fair and Safe: A Real-Time Hierarchical Control Framework for Intersections",
+    "authors": [
+      "Lei Shi",
+      "Yongju Kim",
+      "Xinzhi Zhong",
+      "Wissam Kontar",
+      "Qichao Liu",
+      "Soyoung Ahn"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05858",
+    "title": "ViTaMIn-B: A Reliable and Efficient Visuo-Tactile Bimanual Manipulation Interface",
+    "authors": [
+      "Chuanyu Li",
+      "Chaoyi Liu",
+      "Daotan Wang",
+      "Shuyu Zhang",
+      "Lusong Li",
+      "Zecui Zeng",
+      "Fangchen Liu",
+      "Jing Xu",
+      "Rui Chen"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05855",
+    "title": "Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills",
+    "authors": [
+      "Jiayu Zhou",
+      "Qiwei Wu",
+      "Jian Li",
+      "Zhe Chen",
+      "Xiaogang Xiong",
+      "Renjing Xu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05816",
+    "title": "3D Mapping Using a Lightweight and Low-Power Monocular Camera Embedded inside a Gripper of Limbed Climbing Robots",
+    "authors": [
+      "Taku Okawara",
+      "Ryo Nishibe",
+      "Mao Kasano",
+      "Kentaro Uno",
+      "Kazuya Yoshida"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05809",
+    "title": "Adversarial Game-Theoretic Algorithm for Dexterous Grasp Synthesis",
+    "authors": [
+      "Yu Chen",
+      "Botao He",
+      "Yuemin Mao",
+      "Arthur Jakobsson",
+      "Jeffrey Ke",
+      "Yiannis Aloimonos",
+      "Guanya Shi",
+      "Howie Choset",
+      "Jiayuan Mao",
+      "Jeffrey Ichnowski"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05798",
+    "title": "An Open-Source, Reproducible Tensegrity Robot that can Navigate Among Obstacles",
+    "authors": [
+      "William R. Johnson III",
+      "Patrick Meng",
+      "Nelson Chen",
+      "Luca Cimatti",
+      "Augustin Vercoutere",
+      "Mridul Aanjaneya",
+      "Rebecca Kramer-Bottiglio",
+      "Kostas E. Bekris"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05791",
+    "title": "VLAD-Grasp: Zero-shot Grasp Detection via Vision-Language Models",
+    "authors": [
+      "Manav Kulshrestha",
+      "S. Talha Bukhari",
+      "Damon Conover",
+      "Aniket Bera"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05785",
+    "title": "A Unified Stochastic Mechanism Underlying Collective Behavior in Ants, Physical Systems, and Robotic Swarms",
+    "authors": [
+      "Lianhao Yin",
+      "Haiping Yu",
+      "Pascal Spino",
+      "Daniela Rus"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05723",
+    "title": "TumorMap: A Laser-based Surgical Platform for 3D Tumor Mapping and Fully-Automated Tumor Resection",
+    "authors": [
+      "Guangshen Ma",
+      "Ravi Prakash",
+      "Beatrice Schleupner",
+      "Jeffrey Everitt",
+      "Arpit Mishra",
+      "Junqin Chen",
+      "Brian Mann",
+      "Boyuan Chen",
+      "Leila Bridgeman",
+      "Pei Zhong",
+      "Mark Draelos",
+      "William C. Eward",
+      "Patrick J. Codd"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05680",
+    "title": "VLM-driven Skill Selection for Robotic Assembly Tasks",
+    "authors": [
+      "Jeong-Jung Kim",
+      "Doo-Yeol Koh",
+      "Chang-Hyun Kim"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05642",
+    "title": "Lite VLA: Efficient Vision-Language-Action Control on CPU-Bound Edge Robots",
+    "authors": [
+      "Justin Williams",
+      "Kishor Datta Gupta",
+      "Roy George",
+      "Mrinmoy Sarkar"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07412",
+    "title": "TwinOR: Photorealistic Digital Twins of Dynamic Operating Rooms for Embodied AI Research",
+    "authors": [
+      "Han Zhang",
+      "Yiqing Shen",
+      "Roger D. Soberanis-Mukul",
+      "Ankita Ghosh",
+      "Hao Ding",
+      "Lalithkumar Seenivasan",
+      "Jose L. Porras",
+      "Zhekai Mao",
+      "Chenjia Li",
+      "Wenjie Xiao",
+      "Lonny Yarmus",
+      "Angela Christine Argento",
+      "Masaru Ishii",
+      "Mathias Unberath"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07377",
+    "title": "Real-Time LiDAR Super-Resolution via Frequency-Aware Multi-Scale Fusion",
+    "authors": [
+      "June Moh Goo",
+      "Zichao Zeng",
+      "Jan Boehm"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07071",
+    "title": "Multi-Agent Reinforcement Learning for Deadlock Handling among Autonomous Mobile Robots",
+    "authors": [
+      "Marcel Müller"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06841",
+    "title": "Aerial Image Stitching Using IMU Data from a UAV",
+    "authors": [
+      "Selim Ahmet Iz",
+      "Mustafa Unel"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06840",
+    "title": "PanoNav: Mapless Zero-Shot Object Navigation with Panoramic Scene Parsing and Dynamic Memory",
+    "authors": [
+      "Qunchao Jin",
+      "Yilin Wu",
+      "Changhao Chen"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06611",
+    "title": "On Accurate and Robust Estimation of 3D and 2D Circular Center: Method and Application to Camera-Lidar Calibration",
+    "authors": [
+      "Jiajun Jiang",
+      "Xiao Hu",
+      "Wancheng Liu",
+      "Wei Jiang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06471",
+    "title": "GHOST: Solving the Traveling Salesman Problem on Graphs of Convex Sets",
+    "authors": [
+      "Jingtao Tang",
+      "Hang Ma"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06341",
+    "title": "Scalable Verification of Neural Control Barrier Functions Using Linear Bound Propagation",
+    "authors": [
+      "Nikolaus Vertovec",
+      "Frederik Baymler Mathiesen",
+      "Thom Badings",
+      "Luca Laurenti",
+      "Alessandro Abate"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06084",
+    "title": "Model-free Adaptive Output Feedback Vibration Suppression in a Cantilever Beam",
+    "authors": [
+      "Juan Augusto Paredes Salazar",
+      "Ankit Goel"
+    ]
+  },
+  {
+    "arxiv_id": "2511.06036",
+    "title": "Towards Human-AI-Robot Collaboration and AI-Agent based Digital Twins for Parkinson's Disease Management: Review and Outlook",
+    "authors": [
+      "Hassan Hizeh",
+      "Rim Chighri",
+      "Muhammad Mahboob Ur Rahman",
+      "Mohamed A. Bahloul",
+      "Ali Muqaibel",
+      "Tareq Y. Al-Naffouri"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05982",
+    "title": "Runtime Safety Monitoring of Deep Neural Networks for Perception: A Survey",
+    "authors": [
+      "Albert Schotschneider",
+      "Svetlana Pavlitska",
+      "J. Marius Zöllner"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05900",
+    "title": "Disentangled Control of Multi-Agent Systems",
+    "authors": [
+      "Ruoyu Lin",
+      "Gennaro Notomista",
+      "Magnus Egerstedt"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05873",
+    "title": "EndoIR: Degradation-Agnostic All-in-One Endoscopic Image Restoration via Noise-Aware Routing Diffusion",
+    "authors": [
+      "Tong Chen",
+      "Xinyu Ma",
+      "Long Bai",
+      "Wenyang Wang",
+      "Yue Sun",
+      "Luping Zhou"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05683",
+    "title": "Social-Physical Interactions with Virtual Characters: Evaluating the Impact of Physicality through Encountered-Type Haptics",
+    "authors": [
+      "Eric Godden",
+      "Jacquie Groenewegen",
+      "Michael Wheeler",
+      "Matthew K.X.J. Pan"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05622",
+    "title": "Grounding Foundational Vision Models with 3D Human Poses for Robust Action Recognition",
+    "authors": [
+      "Nicholas Babey",
+      "Tiffany Gu",
+      "Yiheng Li",
+      "Cristian Meo",
+      "Kevin Zhu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05604",
+    "title": "In-process 3D Deviation Mapping and Defect Monitoring (3D-DM2) in High Production-rate Robotic Additive Manufacturing",
+    "authors": [
+      "Subash Gautam",
+      "Alejandro Vargas-Uscategui",
+      "Peter King",
+      "Hans Lohr",
+      "Alireza Bab-Hadiashar",
+      "Ivan Cole",
+      "Ehsan Asadi"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05540",
+    "title": "Token Is All You Need: Cognitive Planning through Belief-Intent Co-Evolution",
+    "authors": [
+      "Shiyao Sang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05426",
+    "title": "Bioinspired Soft Quadrotors Jointly Unlock Agility, Squeezability, and Collision Resilience",
+    "authors": [
+      "Luca Girardi",
+      "Gabriel Maquignaz",
+      "Stefano Mintchev"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05402",
+    "title": "Stable and Robust SLIP Model Control via Energy Conservation-Based Feedback Cancellation for Quadrupedal Applications",
+    "authors": [
+      "Muhammad Saud Ul Hassan",
+      "Derek Vasquez",
+      "Hamza Asif",
+      "Christian Hubicki"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05397",
+    "title": "EveryDayVLA: A Vision-Language-Action Model for Affordable Robotic Manipulation",
+    "authors": [
+      "Samarth Chopra",
+      "Alex McMoil",
+      "Ben Carnovale",
+      "Evan Sokolson",
+      "Rajkumar Kubendran",
+      "Samuel Dickerson"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05379",
+    "title": "ETHOS: A Robotic Encountered-Type Haptic Display for Social Interaction in Virtual Reality",
+    "authors": [
+      "Eric Godden",
+      "Jacquie Groenewegen",
+      "Matthew K.X.J. Pan"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05307",
+    "title": "Force-Safe Environment Maps and Real-Time Detection for Soft Robot Manipulators",
+    "authors": [
+      "Akua K. Dickson",
+      "Juan C. Pacheco Garcia",
+      "Andrew P. Sabelhaus"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05275",
+    "title": "TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models",
+    "authors": [
+      "Hokyun Im",
+      "Euijin Jeong",
+      "Jianlong Fu",
+      "Andrey Kolobov",
+      "Youngwoon Lee"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05234",
+    "title": "Context-aware Learned Mesh-based Simulation via Trajectory-Level Meta-Learning",
+    "authors": [
+      "Philipp Dahlinger",
+      "Niklas Freymuth",
+      "Tai Hoang",
+      "Tobias Würth",
+      "Michael Volpp",
+      "Luise Kärger",
+      "Gerhard Neumann"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05203",
+    "title": "Beyond Master and Apprentice: Grounding Foundation Models for Symbiotic Interactive Learning in a Shared Latent Space",
+    "authors": [
+      "Linus Nwankwo",
+      "Björn Ellensohn",
+      "Christian Rauch",
+      "Elmar Rueckert"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05199",
+    "title": "Let Me Show You: Learning by Retrieving from Egocentric Video for Robotic Manipulation",
+    "authors": [
+      "Yichen Zhu",
+      "Feifei Feng"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05185",
+    "title": "Procedimiento de auditoría de ciberseguridad para sistemas autónomos: metodología, amenazas y mitigaciones",
+    "authors": [
+      "Adrián Campazas-Vega",
+      "Claudia Álvarez-Aparicio",
+      "David Sobrín-Hidalgo",
+      "Laura Inyesto-Alonso",
+      "Francisco Javier Rodríguez-Lera",
+      "Vicente Matellán-Olivera",
+      "Ángel Manuel Guerrero-Higueras"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05158",
+    "title": "Follow-Me in Micro-Mobility with End-to-End Imitation Learning",
+    "authors": [
+      "Sahar Salimpour",
+      "Iacopo Catalano",
+      "Tomi Westerlund",
+      "Mohsen Falahi",
+      "Jorge Peña Queralta"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05129",
+    "title": "Decomposed Object Manipulation via Dual-Actor Policy",
+    "authors": [
+      "Bin Fan",
+      "Jianjian Jiang",
+      "Zhuohao Li",
+      "Yixiang He",
+      "Xiaoming Wu",
+      "Yihan Yang",
+      "Shengbang Liu",
+      "Weishi Zheng"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05052",
+    "title": "TAPOM: Task-Space Topology-Guided Motion Planning for Manipulating Elongated Object in Cluttered Environments",
+    "authors": [
+      "Zihao Li",
+      "Yiming Zhu",
+      "Zhe Zhong",
+      "Qinyuan Ren",
+      "Yijiang Huang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05033",
+    "title": "Epically Powerful: An open-source software and mechatronics infrastructure for wearable robotic systems",
+    "authors": [
+      "Jennifer K. Leestma",
+      "Siddharth R. Nathella",
+      "Christoph P. O. Nuesslein",
+      "Snehil Mathur",
+      "Gregory S. Sawicki",
+      "Aaron J. Young"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05026",
+    "title": "Tunable Passivity Control for Centralized Multiport Networked Systems",
+    "authors": [
+      "Xingyuan Zhou",
+      "Peter Paik",
+      "S. Farokh Atashzar"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05007",
+    "title": "MoE-DP: An MoE-Enhanced Diffusion Policy for Robust Long-Horizon Robotic Manipulation with Skill Decomposition and Failure Recovery",
+    "authors": [
+      "Baiye Cheng",
+      "Tianhai Liang",
+      "Suning Huang",
+      "Maanping Shao",
+      "Feihong Zhang",
+      "Botian Xu",
+      "Zhengrong Xue",
+      "Huazhe Xu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04994",
+    "title": "Encoding Biomechanical Energy Margin into Passivity-based Synchronization for Networked Telerobotic Systems",
+    "authors": [
+      "Xingyuan Zhou",
+      "Peter Paik",
+      "S. Farokh Atashzar"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04992",
+    "title": "A semi-analytical approach for computing the largest singularity-free spheres of a class of 6-6 Stewart-Gough platforms for specified orientation workspaces",
+    "authors": [
+      "Bibekananda Patra",
+      "Sandipan Bandyopadhyay"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04976",
+    "title": "iFlyBot-VLM Technical Report",
+    "authors": [
+      "Xin Nie",
+      "Zhiyuan Cheng",
+      "Yuan Zhang",
+      "Chao Ji",
+      "Jiajia Wu",
+      "Yuhan Zhang",
+      "Jia Pan"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04837",
+    "title": "Design Exploration for Protection and Cleaning of Solar Panels with Case Studies for Space Missions",
+    "authors": [
+      "Cameron Robinson",
+      "Ganghee Jang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04835",
+    "title": "Conformalized Non-uniform Sampling Strategies for Accelerated Sampling-based Motion Planning",
+    "authors": [
+      "Shubham Natraj",
+      "Bruno Sinopoli",
+      "Yiannis Kantaros"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04831",
+    "title": "Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning",
+    "authors": [
+      "NVIDIA",
+      "Mayank Mittal",
+      "Pascal Roth",
+      "James Tigue",
+      "Antoine Richard",
+      "Octi Zhang",
+      "Peter Du",
+      "Antonio Serrano-Muñoz",
+      "Xinjie Yao",
+      "René Zurbrügg",
+      "Nikita Rudin",
+      "Lukasz Wawrzyniak",
+      "Milad Rakhsha",
+      "Alain Denzler",
+      "Eric Heiden",
+      "Ales Borovicka",
+      "Ossama Ahmed",
+      "Iretiayo Akinola",
+      "Abrar Anwar",
+      "Mark T. Carlson",
+      "Ji Yuan Feng",
+      "Animesh Garg",
+      "Renato Gasoto",
+      "Lionel Gulich",
+      "Yijie Guo",
+      "M. Gussert",
+      "Alex Hansen",
+      "Mihir Kulkarni",
+      "Chenran Li",
+      "Wei Liu",
+      "Viktor Makoviychuk",
+      "Grzegorz Malczyk",
+      "Hammad Mazhar",
+      "Masoud Moghani",
+      "Adithyavairavan Murali",
+      "Michael Noseworthy",
+      "Alexander Poddubny",
+      "Nathan Ratliff",
+      "Welf Rehberg",
+      "Clemens Schwarke",
+      "Ritvik Singh",
+      "James Latham Smith",
+      "Bingjie Tang",
+      "Ruchik Thaker",
+      "Matthew Trepte",
+      "Karl Van Wyk",
+      "Fangzhou Yu",
+      "Alex Millane",
+      "Vikram Ramasamy",
+      "Remo Steiner",
+      "Sangeeta Subramanian",
+      "Clemens Volk",
+      "CY Chen",
+      "Neel Jawale",
+      "Ashwin Varghese Kuruttukulam",
+      "Michael A. Lin",
+      "Ajay Mandlekar",
+      "Karsten Patzwaldt",
+      "John Welsh",
+      "Huihua Zhao",
+      "Fatima Anes",
+      "Jean-Francois Lafleche",
+      "Nicolas Moënne-Loccoz",
+      "Soowan Park",
+      "Rob Stepinski",
+      "Dirk Van Gelder",
+      "Chris Amevor",
+      "Jan Carius",
+      "Jumyung Chang",
+      "Anka He Chen",
+      "Pablo de Heras Ciechomski",
+      "Gilles Daviet",
+      "Mohammad Mohajerani",
+      "Julia von Muralt",
+      "Viktor Reutskyy",
+      "Michael Sauter",
+      "Simon Schirm",
+      "Eric L. Shi",
+      "Pierre Terdiman",
+      "Kenny Vilella",
+      "Tobias Widmer",
+      "Gordon Yeoman",
+      "Tiffany Chen",
+      "Sergey Grizan",
+      "Cathy Li",
+      "Lotus Li",
+      "Connor Smith",
+      "Rafael Wiltz",
+      "Kostas Alexis",
+      "Yan Chang",
+      "David Chu",
+      "Linxi \"Jim\" Fan",
+      "Farbod Farshidian",
+      "Ankur Handa",
+      "Spencer Huang",
+      "Marco Hutter",
+      "Yashraj Narang",
+      "Soha Pouya",
+      "Shiwei Sheng",
+      "Yuke Zhu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04827",
+    "title": "Pixi: Unified Software Development and Distribution for Robotics and AI",
+    "authors": [
+      "Tobias Fischer",
+      "Wolf Vollprecht",
+      "Bas Zalmstra",
+      "Ruben Arts",
+      "Tim de Jager",
+      "Alejandro Fontan",
+      "Adam D Hines",
+      "Michael Milford",
+      "Silvio Traversaro",
+      "Daniel Claes",
+      "Scarlett Raine"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04812",
+    "title": "Unified Multimodal Diffusion Forcing for Forceful Manipulation",
+    "authors": [
+      "Zixuan Huang",
+      "Huaidian Hou",
+      "Dmitry Berenson"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04769",
+    "title": "ReGen: Generative Robot Simulation via Inverse Design",
+    "authors": [
+      "Phat Nguyen",
+      "Tsun-Hsuan Wang",
+      "Zhang-Wei Hong",
+      "Erfan Aasi",
+      "Andrew Silva",
+      "Guy Rosman",
+      "Sertac Karaman",
+      "Daniela Rus"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04758",
+    "title": "ScheduleStream: Temporal Planning with Samplers for GPU-Accelerated Multi-Arm Task and Motion Planning & Scheduling",
+    "authors": [
+      "Caelan Garrett",
+      "Fabio Ramos"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05396",
+    "title": "Sample Complexity of Distributionally Robust Off-Dynamics Reinforcement Learning with Online Interaction",
+    "authors": [
+      "Yiting He",
+      "Zhishuai Liu",
+      "Weixin Wang",
+      "Pan Xu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05355",
+    "title": "SAD-Flower: Flow Matching for Safe, Admissible, and Dynamically Consistent Planning",
+    "authors": [
+      "Tzu-Yuan Huang",
+      "Armin Lederer",
+      "Dai-Jie Wu",
+      "Xiaobing Dai",
+      "Sihua Zhang",
+      "Stefan Sosnowski",
+      "Shao-Hua Sun",
+      "Sandra Hirche"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05311",
+    "title": "Cleaning Maintenance Logs with LLM Agents for Improved Predictive Maintenance",
+    "authors": [
+      "Valeriu Dimidov",
+      "Faisal Hawlader",
+      "Sasan Jafarnejad",
+      "Raphaël Frank"
+    ]
+  },
+  {
+    "arxiv_id": "2511.05005",
+    "title": "Multi-agent Coordination via Flow Matching",
+    "authors": [
+      "Dongsu Lee",
+      "Daehee Lee",
+      "Amy Zhang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04679",
+    "title": "GentleHumanoid: Learning Upper-body Compliance for Contact-rich Human and Object Interaction",
+    "authors": [
+      "Qingzhou Lu",
+      "Yao Feng",
+      "Baiyu Shi",
+      "Michael Piseno",
+      "Zhenan Bao",
+      "C. Karen Liu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04671",
+    "title": "X-Diffusion: Training Diffusion Policies on Cross-Embodiment Human Demonstrations",
+    "authors": [
+      "Maximus A. Pace",
+      "Prithwish Dan",
+      "Chuanruo Ning",
+      "Atiksh Bhardwaj",
+      "Audrey Du",
+      "Edward W. Duan",
+      "Wei-Chiu Ma",
+      "Kushal Kedia"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04665",
+    "title": "Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions",
+    "authors": [
+      "Kaifeng Zhang",
+      "Shuo Sha",
+      "Hanxiao Jiang",
+      "Matthew Loper",
+      "Hyunjong Song",
+      "Guangyan Cai",
+      "Zhuo Xu",
+      "Xiaochen Hu",
+      "Changxi Zheng",
+      "Yunzhu Li"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04664",
+    "title": "SAFe-Copilot: Unified Shared Autonomy Framework",
+    "authors": [
+      "Phat Nguyen",
+      "Erfan Aasi",
+      "Shiva Sreeram",
+      "Guy Rosman",
+      "Andrew Silva",
+      "Sertac Karaman",
+      "Daniela Rus"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04555",
+    "title": "Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment",
+    "authors": [
+      "Tao Lin",
+      "Yilei Zhong",
+      "Yuxin Du",
+      "Jingjing Zhang",
+      "Jiting Liu",
+      "Yinxinyu Chen",
+      "Encheng Gu",
+      "Ziyan Liu",
+      "Hongyi Cai",
+      "Yanwen Zou",
+      "Lixing Zou",
+      "Zhaoye Zhou",
+      "Gen Li",
+      "Bo Zhao"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04421",
+    "title": "Temporal Action Selection for Action Chunking",
+    "authors": [
+      "Yueyang Weng",
+      "Xiaopeng Zhang",
+      "Yongjin Mu",
+      "Yingcong Zhu",
+      "Yanjie Li",
+      "Qi Liu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04381",
+    "title": "ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation",
+    "authors": [
+      "Dexin wang",
+      "Faliang Chang",
+      "Chunsheng Liu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04375",
+    "title": "Studying the Effect of Explicit Interaction Representations on Learning Scene-level Distributions of Human Trajectories",
+    "authors": [
+      "Anna Mészáros",
+      "Javier Alonso-Mora",
+      "Jens Kober"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04357",
+    "title": "GraSP-VLA: Graph-based Symbolic Action Representation for Long-Horizon Planning with VLA Policies",
+    "authors": [
+      "Maëlic Neau",
+      "Zoe Falomir",
+      "Paulo E. Santos",
+      "Anne-Gwenn Bosser",
+      "Cédric Buche"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04320",
+    "title": "MacroNav: Multi-Task Context Representation Learning Enables Efficient Navigation in Unknown Environments",
+    "authors": [
+      "Kuankuan Sima",
+      "Longbin Tang",
+      "Haozhe Ma",
+      "Lin Zhao"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04251",
+    "title": "Design and Control of a Coaxial Dual-rotor Reconfigurable Tailsitter UAV Based on Swashplateless Mechanism",
+    "authors": [
+      "Jinfeng Liang",
+      "Haocheng Guo",
+      "Ximin Lyu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04249",
+    "title": "Can Context Bridge the Reality Gap? Sim-to-Real Transfer of Context-Aware Policies",
+    "authors": [
+      "Marco Iannotta",
+      "Yuxuan Yang",
+      "Johannes A. Stork",
+      "Erik Schaffernicht",
+      "Todor Stoyanov"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04199",
+    "title": "GraspView: Active Perception Scoring and Best-View Optimization for Robotic Grasping in Cluttered Environments",
+    "authors": [
+      "Shenglin Wang",
+      "Mingtong Dai",
+      "Jingxuan Su",
+      "Lingbo Liu",
+      "Chunjie Chen",
+      "Xinyu Wu",
+      "Liang Lin"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04180",
+    "title": "PUL-SLAM: Path-Uncertainty Co-Optimization with Lightweight Stagnation Detection for Efficient Robotic Exploration",
+    "authors": [
+      "Yizhen Yin",
+      "Dapeng Feng",
+      "Hongbo Chen",
+      "Yuhua Qi"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04131",
+    "title": "BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning",
+    "authors": [
+      "Yitang Li",
+      "Zhengyi Luo",
+      "Tonghe Zhang",
+      "Cunxi Dai",
+      "Anssi Kanervisto",
+      "Andrea Tirinzoni",
+      "Haoyang Weng",
+      "Kris Kitani",
+      "Mateusz Guzek",
+      "Ahmed Touati",
+      "Alessandro Lazaric",
+      "Matteo Pirotta",
+      "Guanya Shi"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04109",
+    "title": "CBMC-V3: A CNS-inspired Control Framework Towards Manipulation Agility with SNN",
+    "authors": [
+      "Yanbo Pang",
+      "Qingkai Li",
+      "Mingguo Zhao"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04052",
+    "title": "Enhancing Fault-Tolerant Space Computing: Guidance Navigation and Control (GNC) and Landing Vision System (LVS) Implementations on Next-Gen Multi-Core Processors",
+    "authors": [
+      "Kyongsik Yun",
+      "David Bayard",
+      "Gerik Kubiak",
+      "Austin Owens",
+      "Andrew Johnson",
+      "Ryan Johnson",
+      "Dan Scharf",
+      "Thomas Lu"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04042",
+    "title": "An LLM-based Framework for Human-Swarm Teaming Cognition in Disaster Search and Rescue",
+    "authors": [
+      "Kailun Ji",
+      "Xiaoyu Hu",
+      "Xinyu Zhang",
+      "Jun Chen"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04009",
+    "title": "Integrating Ergonomics and Manipulability for Upper Limb Postural Optimization in Bimanual Human-Robot Collaboration",
+    "authors": [
+      "Chenzui Li",
+      "Yiming Chen",
+      "Xi Wu",
+      "Giacinto Barresi",
+      "Fei Chen"
+    ]
+  },
+  {
+    "arxiv_id": "2511.03996",
+    "title": "Learning Vision-Driven Reactive Soccer Skills for Humanoid Robots",
+    "authors": [
+      "Yushi Wang",
+      "Changsheng Luo",
+      "Penghui Chen",
+      "Jianran Liu",
+      "Weijian Sun",
+      "Tong Guo",
+      "Kechang Yang",
+      "Biao Hu",
+      "Yangang Zhang",
+      "Mingguo Zhao"
+    ]
+  },
+  {
+    "arxiv_id": "2511.03931",
+    "title": "Dynamic Shape Control of Soft Robots Enabled by Data-Driven Model Reduction",
+    "authors": [
+      "Iman Adibnazari",
+      "Harsh Sharma",
+      "Myungsun Park",
+      "Jacobo Cervera-Torralba",
+      "Boris Kramer",
+      "Michael T. Tolley"
+    ]
+  },
+  {
+    "arxiv_id": "2511.04388",
+    "title": "BoRe-Depth: Self-supervised Monocular Depth Estimation with Boundary Refinement for Embedded Systems",
+    "authors": [
+      "Chang Liu",
+      "Juan Li",
+      "Sheng Zhang",
+      "Chang Liu",
+      "Jie Li",
+      "Xu Zhang"
+    ]
+  },
+  {
+    "arxiv_id": "2511.03882",
+    "title": "Investigating Robot Control Policy Learning for Autonomous X-ray-guided Spine Procedures",
+    "authors": [
+      "Florence Klitzner",
+      "Blanca Inigo",
+      "Benjamin D. Killeen",
+      "Lalithkumar Seenivasan",
+      "Michelle Song",
+      "Axel Krieger",
+      "Mathias Unberath"
+    ]
+  },
+  {
+    "arxiv_id": "2511.03733",
+    "title": "HACI: A Haptic-Audio Code Interface to Improve Educational Outcomes for Visually Impaired Introductory Programming Students",
+    "authors": [
+      "Pratham Gandhi"
+    ]
+  }
+]

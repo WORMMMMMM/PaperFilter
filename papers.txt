@@ -1,0 +1,805 @@
+arXiv Robotics 论文标题列表
+爬取时间: 2025-11-13 10:48:33
+总计: 200 篇论文
+================================================================================
+
+1. IFG: Internet-Scale Guidance for Functional Grasping Generation
+   arXiv ID: 2511.09558
+   作者: Ray Muxin Liu, Mingxuan Li, Kenneth Shaw 等
+
+2. SpatialActor: Exploring Disentangled Spatial Representations for Robust Robotic Manipulation
+   arXiv ID: 2511.09555
+   作者: Hao Shi, Bin Xie, Yingfei Liu 等
+
+3. MAP-VLA: Memory-Augmented Prompting for Vision-Language-Action Model in Robotic Manipulation
+   arXiv ID: 2511.09516
+   作者: Runhao Li, Wenkai Guo, Zhenyu Wu 等
+
+4. WMPO: World Model-based Policy Optimization for Vision-Language-Action Models
+   arXiv ID: 2511.09515
+   作者: Fangqi Zhu, Zhengyang Yan, Zicong Hong 等
+
+5. SPIDER: Scalable Physics-Informed Dexterous Retargeting
+   arXiv ID: 2511.09484
+   作者: Chaoyi Pan, Changhao Wang, Haozhi Qi 等
+
+6. CoRL-MPPI: Enhancing MPPI With Learnable Behaviours For Efficient And Provably-Safe Multi-Robot Collision Avoidance
+   arXiv ID: 2511.09331
+   作者: Stepan Dergachev, Artem Pshenitsyn, Aleksandr Panov 等
+
+7. UMIGen: A Unified Framework for Egocentric Point Cloud Generation and Cross-Embodiment Robotic Imitation Learning
+   arXiv ID: 2511.09302
+   作者: Yan Huang, Shoujie Li, Xingting Li 等
+
+8. Unveiling the Impact of Data and Model Scaling on High-Level Control for Humanoid Robots
+   arXiv ID: 2511.09241
+   作者: Yuxi Wei, Zirui Wang, Kangning Yin 等
+
+9. LODESTAR: Degeneracy-Aware LiDAR-Inertial Odometry with Adaptive Schmidt-Kalman Filter and Data Exploitation
+   arXiv ID: 2511.09142
+   作者: Eungchang Mason Lee, Kevin Christiansen Marsim, Hyun Myung
+
+10. RGMP: Recurrent Geometric-prior Multimodal Policy for Generalizable Humanoid Robot Manipulation
+   arXiv ID: 2511.09141
+   作者: Xuetao Li, Wenke Huang, Nengyuan Pan 等
+
+11. Data Assessment for Embodied Intelligence
+   arXiv ID: 2511.09119
+   作者: Jiahao Xiao, Bowen Yan, Jianbo Zhang 等
+
+12. Decoupling Torque and Stiffness: A Unified Modeling and Control Framework for Antagonistic Artificial Muscles
+   arXiv ID: 2511.09104
+   作者: Amirhossein Kazemipour, Robert K. Katzschmann
+
+13. APEX: Action Priors Enable Efficient Exploration for Robust Motion Tracking on Legged Robots
+   arXiv ID: 2511.09091
+   作者: Shivam Sood, Laukik Nakhwa, Sun Ge 等
+
+14. D-AWSIM: Distributed Autonomous Driving Simulator for Dynamic Map Generation Framework
+   arXiv ID: 2511.09080
+   作者: Shunsuke Ito, Chaoran Zhao, Ryo Okamura 等
+
+15. SMF-VO: Direct Ego-Motion Estimation via Sparse Motion Fields
+   arXiv ID: 2511.09072
+   作者: Sangheon Yang, Yeongin Yoon, Hong Mo Jung 等
+
+16. A Quantum Tunneling and Bio-Phototactic Driven Enhanced Dwarf Mongoose Optimizer for UAV Trajectory Planning and Engineering Problem
+   arXiv ID: 2511.09020
+   作者: Mingyang Yu, Haorui Yang, Kangning An 等
+
+17. UniMM-V2X: MoE-Enhanced Multi-Level Fusion for End-to-End Cooperative Autonomous Driving
+   arXiv ID: 2511.09013
+   作者: Ziyi Song, Chen Xia, Chenbing Wang 等
+
+18. Think, Remember, Navigate: Zero-Shot Object-Goal Navigation with VLM-Powered Reasoning
+   arXiv ID: 2511.08942
+   作者: Mobin Habibpour, Fatemeh Afghah
+
+19. Expand Your SCOPE: Semantic Cognition over Potential-Based Exploration for Embodied Visual Navigation
+   arXiv ID: 2511.08935
+   作者: Ningnan Wang, Weihuang Chen, Liming Chen 等
+
+20. A Shared Control Framework for Mobile Robots with Planning-Level Intention Prediction
+   arXiv ID: 2511.08912
+   作者: Jinyu Zhang, Lijun Han, Feng Jian 等
+
+21. MirrorLimb: Implementing hand pose acquisition and robot teleoperation based on RealMirror
+   arXiv ID: 2511.08865
+   作者: Cong Tai, Hansheng Wu, Haixu Long 等
+
+22. XPRESS: X-Band Radar Place Recognition via Elliptical Scan Shaping
+   arXiv ID: 2511.08863
+   作者: Hyesu Jang, Wooseong Yang, Ayoung Kim 等
+
+23. Low-cost Multi-agent Fleet for Acoustic Cooperative Localization Research
+   arXiv ID: 2511.08822
+   作者: Nelson Durrant, Braden Meyers, Matthew McMurray 等
+
+24. Dual-Arm Whole-Body Motion Planning: Leveraging Overlapping Kinematic Chains
+   arXiv ID: 2511.08778
+   作者: Richard Cheng, Peter Werner, Carolyn Matl
+
+25. CENIC: Convex Error-controlled Numerical Integration for Contact
+   arXiv ID: 2511.08771
+   作者: Vince Kurtz, Alejandro Castro
+
+26. ATOM-CBF: Adaptive Safe Perception-Based Control under Out-of-Distribution Measurements
+   arXiv ID: 2511.08741
+   作者: Kai S. Yun, Navid Azizan
+
+27. Intuitive Programming, Adaptive Task Planning, and Dynamic Role Allocation in Human-Robot Collaboration
+   arXiv ID: 2511.08732
+   作者: Marta Lagomarsino, Elena Merlo, Andrea Pupa 等
+
+28. Practical and Performant Enhancements for Maximization of Algebraic Connectivity
+   arXiv ID: 2511.08694
+   作者: Leonard Jung, Alan Papalia, Kevin Doherty 等
+
+29. HOTFLoc++: End-to-End Hierarchical LiDAR Place Recognition, Re-Ranking, and 6-DoF Metric Localisation in Forests
+   arXiv ID: 2511.09170
+   作者: Ethan Griffiths, Maryam Haghighat, Simon Denman 等
+
+30. Argus: Resilience-Oriented Safety Assurance Framework for End-to-End ADSs
+   arXiv ID: 2511.09032
+   作者: Dingji Wang, You Lu, Bihuan Chen 等
+
+31. Diffusion Policies with Value-Conditional Optimization for Offline Reinforcement Learning
+   arXiv ID: 2511.08922
+   作者: Yunchang Ma, Tenglong Liu, Yixing Lan 等
+
+32. Information-Driven Fault Detection and Identification for Multi-Agent Spacecraft Systems: Collaborative On-Orbit Inspection Mission
+   arXiv ID: 2511.08752
+   作者: Akshita Gupta, Arna Bhardwaj, Yashwanth Kumar Nakka 等
+
+33. A Multi-Drone Multi-View Dataset and Deep Learning Framework for Pedestrian Detection and Tracking
+   arXiv ID: 2511.08615
+   作者: Kosta Dakic, Kanchana Thilakarathna, Rodrigo N. Calheiros 等
+
+34. Evader-Agnostic Team-Based Pursuit Strategies in Partially-Observable Environments
+   arXiv ID: 2511.05812
+   作者: Addison Kalanther, Daniel Bostwick, Chinmay Maheshwari 等
+
+35. SeFA-Policy: Fast and Accurate Visuomotor Policy Learning with Selective Flow Alignment
+   arXiv ID: 2511.08583
+   作者: Rong Xue, Jiageng Mao, Mingtong Zhang 等
+
+36. Safe and Optimal Learning from Preferences via Weighted Temporal Logic with Applications in Robotics and Formula 1
+   arXiv ID: 2511.08502
+   作者: Ruya Karagulle, Cristian-Ioan Vasile, Necmiye Ozay
+
+37. A Supervised Autonomous Resection and Retraction Framework for Transurethral Enucleation of the Prostatic Median Lobe
+   arXiv ID: 2511.08490
+   作者: Mariana Smith, Tanner Watts, Susheela Sharma Stern 等
+
+38. Intuitive control of supernumerary robotic limbs through a tactile-encoded neural interface
+   arXiv ID: 2511.08454
+   作者: Tianyu Jia, Xingchen Yang, Ciaran McGeady 等
+
+39. Human Motion Intent Inferencing in Teleoperation Through a SINDy Paradigm
+   arXiv ID: 2511.08377
+   作者: Michael Bowman, Xiaoli Zhang
+
+40. A CODECO Case Study and Initial Validation for Edge Orchestration of Autonomous Mobile Robots
+   arXiv ID: 2511.08354
+   作者: H. Zhu, T. Samizadeh, R. C. Sofia
+
+41. Learning Omnidirectional Locomotion for a Salamander-Like Quadruped Robot
+   arXiv ID: 2511.08299
+   作者: Zhiang Liu, Yang Liu, Yongchun Fang 等
+
+42. X-IONet: Cross-Platform Inertial Odometry Network with Dual-Stage Attention
+   arXiv ID: 2511.08277
+   作者: Dehan Shen, Changhao Chen
+
+43. Real-Time Performance Analysis of Multi-Fidelity Residual Physics-Informed Neural Process-Based State Estimation for Robotic Systems
+   arXiv ID: 2511.08231
+   作者: Devin Hunter, Chinwendu Enyioha
+
+44. Prioritizing Perception-Guided Self-Supervision: A New Paradigm for Causal Modeling in End-to-End Autonomous Driving
+   arXiv ID: 2511.08214
+   作者: Yi Huang, Zhan Qu, Lihui Jiang 等
+
+45. PerspAct: Enhancing LLM Situated Collaboration Skills through Perspective Taking and Active Vision
+   arXiv ID: 2511.08098
+   作者: Sabrina Patania, Luca Annese, Anita Pellegrini 等
+
+46. Model Predictive Control via Probabilistic Inference: A Tutorial
+   arXiv ID: 2511.08019
+   作者: Kohei Honda
+
+47. AVOID-JACK: Avoidance of Jackknifing for Swarms of Long Heavy Articulated Vehicles
+   arXiv ID: 2511.08016
+   作者: Adrian Schönnagel, Michael Dubé, Christoph Steup 等
+
+48. A Two-Layer Electrostatic Film Actuator with High Actuation Stress and Integrated Brake
+   arXiv ID: 2511.08005
+   作者: Huacen Wang, Hongqiang Wang
+
+49. Effective Game-Theoretic Motion Planning via Nested Search
+   arXiv ID: 2511.08001
+   作者: Avishav Engle, Andrey Zhitnikov, Oren Salzman 等
+
+50. USV Obstacles Detection and Tracking in Marine Environments
+   arXiv ID: 2511.07950
+   作者: Yara AlaaEldin, Enrico Simetti, Francesca Odone
+
+51. Local Path Planning with Dynamic Obstacle Avoidance in Unstructured Environments
+   arXiv ID: 2511.07927
+   作者: Okan Arif Guvenkaya, Selim Ahmet Iz, Mustafa Unel
+
+52. Dual-MPC Footstep Planning for Robust Quadruped Locomotion
+   arXiv ID: 2511.07921
+   作者: Byeong-Il Ham, Hyun-Bin Kim, Jeonguk Kang 等
+
+53. EquiMus: Energy-Equivalent Dynamic Modeling and Simulation of Musculoskeletal Robots Driven by Linear Elastic Actuators
+   arXiv ID: 2511.07887
+   作者: Yinglei Zhu, Xuguang Dong, Qiyao Wang 等
+
+54. A Comprehensive Experimental Characterization of Mechanical Layer Jamming Systems
+   arXiv ID: 2511.07882
+   作者: Jessica Gumowski, Krishna Manaswi Digumarti, David Howard
+
+55. Occlusion-Aware Ground Target Search by a UAV in an Urban Environment
+   arXiv ID: 2511.07822
+   作者: Collin Hague, Artur Wolek
+
+56. SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control
+   arXiv ID: 2511.07820
+   作者: Zhengyi Luo, Ye Yuan, Tingwu Wang 等
+
+57. Virtual Traffic Lights for Multi-Robot Navigation: Decentralized Planning with Centralized Conflict Resolution
+   arXiv ID: 2511.07811
+   作者: Sagar Gupta, Thanh Vinh Nguyen, Thieu Long Phan 等
+
+58. Benchmarking Resilience and Sensitivity of Polyurethane-Based Vision-Based Tactile Sensors
+   arXiv ID: 2511.07797
+   作者: Benjamin Davis, Hannah Stuart
+
+59. High-Altitude Balloon Station-Keeping with First Order Model Predictive Control
+   arXiv ID: 2511.07761
+   作者: Myles Pasetsky, Jiawei Lin, Bradley Guo 等
+
+60. Navigating the Wild: Pareto-Optimal Visual Decision-Making in Image Space
+   arXiv ID: 2511.07750
+   作者: Durgakant Pushp, Weizhe Chen, Zheng Chen 等
+
+61. ViPRA: Video Prediction for Robot Actions
+   arXiv ID: 2511.07732
+   作者: Sandeep Routray, Hengkai Pan, Unnat Jain 等
+
+62. LLM-GROP: Visually Grounded Robot Task and Motion Planning with Large Language Models
+   arXiv ID: 2511.07727
+   作者: Xiaohan Zhang, Yan Ding, Yohei Hayamizu 等
+
+63. A QP Framework for Improving Data Collection: Quantifying Device-Controller Performance in Robot Teleoperation
+   arXiv ID: 2511.07720
+   作者: Yuxuan Zhao, Yuanchen Tang, Jindi Zhang 等
+
+64. RoboTAG: End-to-end Robot Configuration Estimation via Topological Alignment Graph
+   arXiv ID: 2511.07717
+   作者: Yifan Liu, Fangneng Zhan, Wanhua Li 等
+
+65. Testing and Evaluation of Underwater Vehicle Using Hardware-In-The-Loop Simulation with HoloOcean
+   arXiv ID: 2511.07687
+   作者: Braden Meyers, Joshua G. Mangelson
+
+66. Time-Aware Policy Learning for Adaptive and Punctual Robot Control
+   arXiv ID: 2511.07654
+   作者: Yinsen Jia, Boyuan Chen
+
+67. CAVER: Curious Audiovisual Exploring Robot
+   arXiv ID: 2511.07619
+   作者: Luca Macesanu, Boueny Folefack, Samik Singh 等
+
+68. Probabilistic Safety Guarantee for Stochastic Control Systems Using Average Reward MDPs
+   arXiv ID: 2511.08419
+   作者: Saber Omidi, Marek Petrik, Se Young Yoon 等
+
+69. Work-in-Progress: Function-as-Subtask API Replacing Publish/Subscribe for OS-Native DAG Scheduling
+   arXiv ID: 2511.08297
+   作者: Takahiro Ishikawa-Aso, Atsushi Yano, Yutaro Kobayashi 等
+
+70. Dynamic Sparsity: Challenging Common Sparsity Assumptions for Learning World Models in Robotic Reinforcement Learning Benchmarks
+   arXiv ID: 2511.08086
+   作者: Muthukumar Pandaram, Jakob Hollenstein, David Drexel 等
+
+71. An Image-Based Path Planning Algorithm Using a UAV Equipped with Stereo Vision
+   arXiv ID: 2511.07928
+   作者: Selim Ahmet Iz, Mustafa Unel
+
+72. Statistically Assuring Safety of Control Systems using Ensembles of Safety Filters and Conformal Prediction
+   arXiv ID: 2511.07899
+   作者: Ihab Tabbara, Yuxuan Yang, Hussein Sibai
+
+73. Multistep Quasimetric Learning for Scalable Goal-conditioned Reinforcement Learning
+   arXiv ID: 2511.07730
+   作者: Bill Chunyuan Zheng, Vivek Myers, Benjamin Eysenbach 等
+
+74. ARGUS: A Framework for Risk-Aware Path Planning in Tactical UGV Operations
+   arXiv ID: 2511.07565
+   作者: Nuno Soares, António Grilo
+
+75. Lightning Grasp: High Performance Procedural Grasp Synthesis with Contact Fields
+   arXiv ID: 2511.07418
+   作者: Zhao-Heng Yin, Pieter Abbeel
+
+76. Robot Learning from a Physical World Model
+   arXiv ID: 2511.07416
+   作者: Jiageng Mao, Sicheng He, Hao-Ning Wu 等
+
+77. Using Vision Language Models as Closed-Loop Symbolic Planners for Robotic Applications: A Control-Theoretic Perspective
+   arXiv ID: 2511.07410
+   作者: Hao Wang, Sathwik Karnik, Bea Lim 等
+
+78. Unified Humanoid Fall-Safety Policy from a Few Demonstrations
+   arXiv ID: 2511.07407
+   作者: Zhengjie Xu, Ye Li, Kwan-yee Lin 等
+
+79. Residual Rotation Correction using Tactile Equivariance
+   arXiv ID: 2511.07381
+   作者: Yizhe Zhu, Zhang Ye, Boce Hu 等
+
+80. Exact Smooth Reformulations for Trajectory Optimization Under Signal Temporal Logic Specifications
+   arXiv ID: 2511.07375
+   作者: Shaohang Han, Joris Verhagen, Jana Tumova
+
+81. PlanT 2.0: Exposing Biases and Structural Flaws in Closed-Loop Driving
+   arXiv ID: 2511.07292
+   作者: Simon Gerstenecker, Andreas Geiger, Katrin Renz
+
+82. Robotic versus Human Teleoperation for Remote Ultrasound
+   arXiv ID: 2511.07275
+   作者: David Black, Septimiu Salcudean
+
+83. Automated Generation of Continuous-Space Roadmaps for Routing Mobile Robot Fleets
+   arXiv ID: 2511.07175
+   作者: Marvin Rüdt, Constantin Enke, Kai Furmans
+
+84. Dynamics-Decoupled Trajectory Alignment for Sim-to-Real Transfer in Reinforcement Learning for Autonomous Driving
+   arXiv ID: 2511.07155
+   作者: Thomas Steinecker, Alexander Bienemann, Denis Trescher 等
+
+85. HDCNet: A Hybrid Depth Completion Network for Grasping Transparent and Reflective Objects
+   arXiv ID: 2511.07081
+   作者: Guanghu Xie, Mingxu Li, Songwei Wu 等
+
+86. Raspi$^2$USBL: An open-source Raspberry Pi-Based Passive Inverted Ultra-Short Baseline Positioning System for Underwater Robotics
+   arXiv ID: 2511.06998
+   作者: Jin Huang, Yingqiang Wang, Ying Chen
+
+87. Integration of Visual SLAM into Consumer-Grade Automotive Localization
+   arXiv ID: 2511.06919
+   作者: Luis Diener, Jens Kalkkuhl, Markus Enzweiler
+
+88. Multi-Agent AI Framework for Road Situation Detection and C-ITS Message Generation
+   arXiv ID: 2511.06892
+   作者: Kailin Tong, Selim Solmaz, Kenan Mujkic 等
+
+89. Vision-Based System Identification of a Quadrotor
+   arXiv ID: 2511.06839
+   作者: Selim Ahmet Iz, Mustafa Unel
+
+90. Vision-Aided Online A* Path Planning for Efficient and Safe Navigation of Service Robots
+   arXiv ID: 2511.06801
+   作者: Praveen Kumar, Tushar Sandhan
+
+91. Human-Level Actuation for Humanoids
+   arXiv ID: 2511.06796
+   作者: MD-Nazmus Sunbeam
+
+92. SlotVLA: Towards Modeling of Object-Relation Representations in Robotic Manipulation
+   arXiv ID: 2511.06754
+   作者: Taisei Hanyu, Nhat Chung, Huy Le 等
+
+93. Semi-distributed Cross-modal Air-Ground Relative Localization
+   arXiv ID: 2511.06749
+   作者: Weining Lu, Deer Bin, Lian Ma 等
+
+94. Physically-Grounded Goal Imagination: Physics-Informed Variational Autoencoder for Self-Supervised Reinforcement Learning
+   arXiv ID: 2511.06745
+   作者: Lan Thi Ha Nguyen, Kien Ton Manh, Anh Do Duc 等
+
+95. Programmable Telescopic Soft Pneumatic Actuators for Deployable and Shape Morphing Soft Robots
+   arXiv ID: 2511.06673
+   作者: Joel Kemp, Andre Farinha, David Howard 等
+
+96. Rapidly Learning Soft Robot Control via Implicit Time-Stepping
+   arXiv ID: 2511.06667
+   作者: Andrew Choi, Dezhong Tong
+
+97. How Do VLAs Effectively Inherit from VLMs?
+   arXiv ID: 2511.06619
+   作者: Chuheng Zhang, Rushuai Yang, Xiaoyu Chen 等
+
+98. Underactuated Biomimetic Autonomous Underwater Vehicle for Ecosystem Monitoring
+   arXiv ID: 2511.06578
+   作者: Kaustubh Singh, Shivam Kumar, Shashikant Pawar 等
+
+99. CoFineLLM: Conformal Finetuning of LLMs for Language-Instructed Robot Planning
+   arXiv ID: 2511.06575
+   作者: Jun Wang, Yevgeniy Vorobeychik, Yiannis Kantaros
+
+100. Koopman global linearization of contact dynamics for robot locomotion and manipulation enables elaborate control
+   arXiv ID: 2511.06515
+   作者: Cormac O'Neill, Jasmine Terrones, H. Harry Asada
+
+101. Adaptive PID Control for Robotic Systems via Hierarchical Meta-Learning and Reinforcement Learning with Physics-Based Data Augmentation
+   arXiv ID: 2511.06500
+   作者: JiaHao Wu, ShengWen Yu
+
+102. A Low-Rank Method for Vision Language Model Hallucination Mitigation in Autonomous Driving
+   arXiv ID: 2511.06496
+   作者: Keke Long, Jiacheng Guo, Tianyun Zhang 等
+
+103. Sim-to-Real Transfer in Deep Reinforcement Learning for Bipedal Locomotion
+   arXiv ID: 2511.06465
+   作者: Lingfan Bao, Tianhu Peng, Chengxu Zhou
+
+104. Real Garment Benchmark (RGBench): A Comprehensive Benchmark for Robotic Garment Manipulation featuring a High-Fidelity Scalable Simulator
+   arXiv ID: 2511.06434
+   作者: Wenkang Hu, Xincheng Tang, Yanzhi E 等
+
+105. Whole-Body Control With Terrain Estimation of A 6-DoF Wheeled Bipedal Robot
+   arXiv ID: 2511.06397
+   作者: Cong Wen, Yunfei Li, Kexin Liu 等
+
+106. From Demonstrations to Safe Deployment: Path-Consistent Safety Filtering for Diffusion Policies
+   arXiv ID: 2511.06385
+   作者: Ralf Römer, Julian Balletshofer, Jakob Thumm 等
+
+107. ArtReg: Visuo-Tactile based Pose Tracking and Manipulation of Unseen Articulated Objects
+   arXiv ID: 2511.06378
+   作者: Prajval Kumar Murali, Mohsen Kaboli
+
+108. Towards Adaptive Humanoid Control via Multi-Behavior Distillation and Reinforced Fine-Tuning
+   arXiv ID: 2511.06371
+   作者: Yingnan Zhao, Xinmiao Wang, Dewei Wang 等
+
+109. External Photoreflective Tactile Sensing Based on Surface Deformation Measurement
+   arXiv ID: 2511.06311
+   作者: Seiichi Yamamoto, Hiroki Ishizuka, Takumi Kawasetsu 等
+
+110. Robust Differentiable Collision Detection for General Objects
+   arXiv ID: 2511.06267
+   作者: Jiayi Chen, Wei Zhao, Liangwang Ruan 等
+
+111. Affordance-Guided Coarse-to-Fine Exploration for Base Placement in Open-Vocabulary Mobile Manipulation
+   arXiv ID: 2511.06240
+   作者: Tzu-Jung Lin, Jia-Fong Yeh, Hung-Ting Su 等
+
+112. ExpReS-VLA: Specializing Vision-Language-Action Models Through Experience Replay and Retrieval
+   arXiv ID: 2511.06202
+   作者: Shahram Najam Syed, Yatharth Ahuja, Arthur Jakobsson 等
+
+113. OpenVLN: Open-world aerial Vision-Language Navigation
+   arXiv ID: 2511.06182
+   作者: Peican Lin, Gan Sun, Chenxi Liu 等
+
+114. PlaCo: a QP-based robot planning and control framework
+   arXiv ID: 2511.06141
+   作者: Marc Duclusaud, Grégoire Passault, Vincent Padois 等
+
+115. Development and testing of novel soft sleeve actuators
+   arXiv ID: 2511.06102
+   作者: Mohammed Abboodi
+
+116. Robustness study of the bio-inspired musculoskeletal arm robot based on the data-driven iterative learning algorithm
+   arXiv ID: 2511.05995
+   作者: Jianbo Yuan, Jing Dai, Yerui Fan 等
+
+117. 10 Open Challenges Steering the Future of Vision-Language-Action Models
+   arXiv ID: 2511.05936
+   作者: Soujanya Poria, Navonil Majumder, Chia-Yu Hung 等
+
+118. From Words to Safety: Language-Conditioned Safety Filtering for Robot Navigation
+   arXiv ID: 2511.05889
+   作者: Zeyuan Feng, Haimingyue Zhang, Somil Bansal
+
+119. Fair and Safe: A Real-Time Hierarchical Control Framework for Intersections
+   arXiv ID: 2511.05886
+   作者: Lei Shi, Yongju Kim, Xinzhi Zhong 等
+
+120. ViTaMIn-B: A Reliable and Efficient Visuo-Tactile Bimanual Manipulation Interface
+   arXiv ID: 2511.05858
+   作者: Chuanyu Li, Chaoyi Liu, Daotan Wang 等
+
+121. Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills
+   arXiv ID: 2511.05855
+   作者: Jiayu Zhou, Qiwei Wu, Jian Li 等
+
+122. 3D Mapping Using a Lightweight and Low-Power Monocular Camera Embedded inside a Gripper of Limbed Climbing Robots
+   arXiv ID: 2511.05816
+   作者: Taku Okawara, Ryo Nishibe, Mao Kasano 等
+
+123. Adversarial Game-Theoretic Algorithm for Dexterous Grasp Synthesis
+   arXiv ID: 2511.05809
+   作者: Yu Chen, Botao He, Yuemin Mao 等
+
+124. An Open-Source, Reproducible Tensegrity Robot that can Navigate Among Obstacles
+   arXiv ID: 2511.05798
+   作者: William R. Johnson III, Patrick Meng, Nelson Chen 等
+
+125. VLAD-Grasp: Zero-shot Grasp Detection via Vision-Language Models
+   arXiv ID: 2511.05791
+   作者: Manav Kulshrestha, S. Talha Bukhari, Damon Conover 等
+
+126. A Unified Stochastic Mechanism Underlying Collective Behavior in Ants, Physical Systems, and Robotic Swarms
+   arXiv ID: 2511.05785
+   作者: Lianhao Yin, Haiping Yu, Pascal Spino 等
+
+127. TumorMap: A Laser-based Surgical Platform for 3D Tumor Mapping and Fully-Automated Tumor Resection
+   arXiv ID: 2511.05723
+   作者: Guangshen Ma, Ravi Prakash, Beatrice Schleupner 等
+
+128. VLM-driven Skill Selection for Robotic Assembly Tasks
+   arXiv ID: 2511.05680
+   作者: Jeong-Jung Kim, Doo-Yeol Koh, Chang-Hyun Kim
+
+129. Lite VLA: Efficient Vision-Language-Action Control on CPU-Bound Edge Robots
+   arXiv ID: 2511.05642
+   作者: Justin Williams, Kishor Datta Gupta, Roy George 等
+
+130. TwinOR: Photorealistic Digital Twins of Dynamic Operating Rooms for Embodied AI Research
+   arXiv ID: 2511.07412
+   作者: Han Zhang, Yiqing Shen, Roger D. Soberanis-Mukul 等
+
+131. Real-Time LiDAR Super-Resolution via Frequency-Aware Multi-Scale Fusion
+   arXiv ID: 2511.07377
+   作者: June Moh Goo, Zichao Zeng, Jan Boehm
+
+132. Multi-Agent Reinforcement Learning for Deadlock Handling among Autonomous Mobile Robots
+   arXiv ID: 2511.07071
+   作者: Marcel Müller
+
+133. Aerial Image Stitching Using IMU Data from a UAV
+   arXiv ID: 2511.06841
+   作者: Selim Ahmet Iz, Mustafa Unel
+
+134. PanoNav: Mapless Zero-Shot Object Navigation with Panoramic Scene Parsing and Dynamic Memory
+   arXiv ID: 2511.06840
+   作者: Qunchao Jin, Yilin Wu, Changhao Chen
+
+135. On Accurate and Robust Estimation of 3D and 2D Circular Center: Method and Application to Camera-Lidar Calibration
+   arXiv ID: 2511.06611
+   作者: Jiajun Jiang, Xiao Hu, Wancheng Liu 等
+
+136. GHOST: Solving the Traveling Salesman Problem on Graphs of Convex Sets
+   arXiv ID: 2511.06471
+   作者: Jingtao Tang, Hang Ma
+
+137. Scalable Verification of Neural Control Barrier Functions Using Linear Bound Propagation
+   arXiv ID: 2511.06341
+   作者: Nikolaus Vertovec, Frederik Baymler Mathiesen, Thom Badings 等
+
+138. Model-free Adaptive Output Feedback Vibration Suppression in a Cantilever Beam
+   arXiv ID: 2511.06084
+   作者: Juan Augusto Paredes Salazar, Ankit Goel
+
+139. Towards Human-AI-Robot Collaboration and AI-Agent based Digital Twins for Parkinson's Disease Management: Review and Outlook
+   arXiv ID: 2511.06036
+   作者: Hassan Hizeh, Rim Chighri, Muhammad Mahboob Ur Rahman 等
+
+140. Runtime Safety Monitoring of Deep Neural Networks for Perception: A Survey
+   arXiv ID: 2511.05982
+   作者: Albert Schotschneider, Svetlana Pavlitska, J. Marius Zöllner
+
+141. Disentangled Control of Multi-Agent Systems
+   arXiv ID: 2511.05900
+   作者: Ruoyu Lin, Gennaro Notomista, Magnus Egerstedt
+
+142. EndoIR: Degradation-Agnostic All-in-One Endoscopic Image Restoration via Noise-Aware Routing Diffusion
+   arXiv ID: 2511.05873
+   作者: Tong Chen, Xinyu Ma, Long Bai 等
+
+143. Social-Physical Interactions with Virtual Characters: Evaluating the Impact of Physicality through Encountered-Type Haptics
+   arXiv ID: 2511.05683
+   作者: Eric Godden, Jacquie Groenewegen, Michael Wheeler 等
+
+144. Grounding Foundational Vision Models with 3D Human Poses for Robust Action Recognition
+   arXiv ID: 2511.05622
+   作者: Nicholas Babey, Tiffany Gu, Yiheng Li 等
+
+145. In-process 3D Deviation Mapping and Defect Monitoring (3D-DM2) in High Production-rate Robotic Additive Manufacturing
+   arXiv ID: 2511.05604
+   作者: Subash Gautam, Alejandro Vargas-Uscategui, Peter King 等
+
+146. Token Is All You Need: Cognitive Planning through Belief-Intent Co-Evolution
+   arXiv ID: 2511.05540
+   作者: Shiyao Sang
+
+147. Bioinspired Soft Quadrotors Jointly Unlock Agility, Squeezability, and Collision Resilience
+   arXiv ID: 2511.05426
+   作者: Luca Girardi, Gabriel Maquignaz, Stefano Mintchev
+
+148. Stable and Robust SLIP Model Control via Energy Conservation-Based Feedback Cancellation for Quadrupedal Applications
+   arXiv ID: 2511.05402
+   作者: Muhammad Saud Ul Hassan, Derek Vasquez, Hamza Asif 等
+
+149. EveryDayVLA: A Vision-Language-Action Model for Affordable Robotic Manipulation
+   arXiv ID: 2511.05397
+   作者: Samarth Chopra, Alex McMoil, Ben Carnovale 等
+
+150. ETHOS: A Robotic Encountered-Type Haptic Display for Social Interaction in Virtual Reality
+   arXiv ID: 2511.05379
+   作者: Eric Godden, Jacquie Groenewegen, Matthew K.X.J. Pan
+
+151. Force-Safe Environment Maps and Real-Time Detection for Soft Robot Manipulators
+   arXiv ID: 2511.05307
+   作者: Akua K. Dickson, Juan C. Pacheco Garcia, Andrew P. Sabelhaus
+
+152. TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models
+   arXiv ID: 2511.05275
+   作者: Hokyun Im, Euijin Jeong, Jianlong Fu 等
+
+153. Context-aware Learned Mesh-based Simulation via Trajectory-Level Meta-Learning
+   arXiv ID: 2511.05234
+   作者: Philipp Dahlinger, Niklas Freymuth, Tai Hoang 等
+
+154. Beyond Master and Apprentice: Grounding Foundation Models for Symbiotic Interactive Learning in a Shared Latent Space
+   arXiv ID: 2511.05203
+   作者: Linus Nwankwo, Björn Ellensohn, Christian Rauch 等
+
+155. Let Me Show You: Learning by Retrieving from Egocentric Video for Robotic Manipulation
+   arXiv ID: 2511.05199
+   作者: Yichen Zhu, Feifei Feng
+
+156. Procedimiento de auditoría de ciberseguridad para sistemas autónomos: metodología, amenazas y mitigaciones
+   arXiv ID: 2511.05185
+   作者: Adrián Campazas-Vega, Claudia Álvarez-Aparicio, David Sobrín-Hidalgo 等
+
+157. Follow-Me in Micro-Mobility with End-to-End Imitation Learning
+   arXiv ID: 2511.05158
+   作者: Sahar Salimpour, Iacopo Catalano, Tomi Westerlund 等
+
+158. Decomposed Object Manipulation via Dual-Actor Policy
+   arXiv ID: 2511.05129
+   作者: Bin Fan, Jianjian Jiang, Zhuohao Li 等
+
+159. TAPOM: Task-Space Topology-Guided Motion Planning for Manipulating Elongated Object in Cluttered Environments
+   arXiv ID: 2511.05052
+   作者: Zihao Li, Yiming Zhu, Zhe Zhong 等
+
+160. Epically Powerful: An open-source software and mechatronics infrastructure for wearable robotic systems
+   arXiv ID: 2511.05033
+   作者: Jennifer K. Leestma, Siddharth R. Nathella, Christoph P. O. Nuesslein 等
+
+161. Tunable Passivity Control for Centralized Multiport Networked Systems
+   arXiv ID: 2511.05026
+   作者: Xingyuan Zhou, Peter Paik, S. Farokh Atashzar
+
+162. MoE-DP: An MoE-Enhanced Diffusion Policy for Robust Long-Horizon Robotic Manipulation with Skill Decomposition and Failure Recovery
+   arXiv ID: 2511.05007
+   作者: Baiye Cheng, Tianhai Liang, Suning Huang 等
+
+163. Encoding Biomechanical Energy Margin into Passivity-based Synchronization for Networked Telerobotic Systems
+   arXiv ID: 2511.04994
+   作者: Xingyuan Zhou, Peter Paik, S. Farokh Atashzar
+
+164. A semi-analytical approach for computing the largest singularity-free spheres of a class of 6-6 Stewart-Gough platforms for specified orientation workspaces
+   arXiv ID: 2511.04992
+   作者: Bibekananda Patra, Sandipan Bandyopadhyay
+
+165. iFlyBot-VLM Technical Report
+   arXiv ID: 2511.04976
+   作者: Xin Nie, Zhiyuan Cheng, Yuan Zhang 等
+
+166. Design Exploration for Protection and Cleaning of Solar Panels with Case Studies for Space Missions
+   arXiv ID: 2511.04837
+   作者: Cameron Robinson, Ganghee Jang
+
+167. Conformalized Non-uniform Sampling Strategies for Accelerated Sampling-based Motion Planning
+   arXiv ID: 2511.04835
+   作者: Shubham Natraj, Bruno Sinopoli, Yiannis Kantaros
+
+168. Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning
+   arXiv ID: 2511.04831
+   作者: NVIDIA, Mayank Mittal, Pascal Roth 等
+
+169. Pixi: Unified Software Development and Distribution for Robotics and AI
+   arXiv ID: 2511.04827
+   作者: Tobias Fischer, Wolf Vollprecht, Bas Zalmstra 等
+
+170. Unified Multimodal Diffusion Forcing for Forceful Manipulation
+   arXiv ID: 2511.04812
+   作者: Zixuan Huang, Huaidian Hou, Dmitry Berenson
+
+171. ReGen: Generative Robot Simulation via Inverse Design
+   arXiv ID: 2511.04769
+   作者: Phat Nguyen, Tsun-Hsuan Wang, Zhang-Wei Hong 等
+
+172. ScheduleStream: Temporal Planning with Samplers for GPU-Accelerated Multi-Arm Task and Motion Planning & Scheduling
+   arXiv ID: 2511.04758
+   作者: Caelan Garrett, Fabio Ramos
+
+173. Sample Complexity of Distributionally Robust Off-Dynamics Reinforcement Learning with Online Interaction
+   arXiv ID: 2511.05396
+   作者: Yiting He, Zhishuai Liu, Weixin Wang 等
+
+174. SAD-Flower: Flow Matching for Safe, Admissible, and Dynamically Consistent Planning
+   arXiv ID: 2511.05355
+   作者: Tzu-Yuan Huang, Armin Lederer, Dai-Jie Wu 等
+
+175. Cleaning Maintenance Logs with LLM Agents for Improved Predictive Maintenance
+   arXiv ID: 2511.05311
+   作者: Valeriu Dimidov, Faisal Hawlader, Sasan Jafarnejad 等
+
+176. Multi-agent Coordination via Flow Matching
+   arXiv ID: 2511.05005
+   作者: Dongsu Lee, Daehee Lee, Amy Zhang
+
+177. GentleHumanoid: Learning Upper-body Compliance for Contact-rich Human and Object Interaction
+   arXiv ID: 2511.04679
+   作者: Qingzhou Lu, Yao Feng, Baiyu Shi 等
+
+178. X-Diffusion: Training Diffusion Policies on Cross-Embodiment Human Demonstrations
+   arXiv ID: 2511.04671
+   作者: Maximus A. Pace, Prithwish Dan, Chuanruo Ning 等
+
+179. Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions
+   arXiv ID: 2511.04665
+   作者: Kaifeng Zhang, Shuo Sha, Hanxiao Jiang 等
+
+180. SAFe-Copilot: Unified Shared Autonomy Framework
+   arXiv ID: 2511.04664
+   作者: Phat Nguyen, Erfan Aasi, Shiva Sreeram 等
+
+181. Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment
+   arXiv ID: 2511.04555
+   作者: Tao Lin, Yilei Zhong, Yuxin Du 等
+
+182. Temporal Action Selection for Action Chunking
+   arXiv ID: 2511.04421
+   作者: Yueyang Weng, Xiaopeng Zhang, Yongjin Mu 等
+
+183. ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation
+   arXiv ID: 2511.04381
+   作者: Dexin wang, Faliang Chang, Chunsheng Liu
+
+184. Studying the Effect of Explicit Interaction Representations on Learning Scene-level Distributions of Human Trajectories
+   arXiv ID: 2511.04375
+   作者: Anna Mészáros, Javier Alonso-Mora, Jens Kober
+
+185. GraSP-VLA: Graph-based Symbolic Action Representation for Long-Horizon Planning with VLA Policies
+   arXiv ID: 2511.04357
+   作者: Maëlic Neau, Zoe Falomir, Paulo E. Santos 等
+
+186. MacroNav: Multi-Task Context Representation Learning Enables Efficient Navigation in Unknown Environments
+   arXiv ID: 2511.04320
+   作者: Kuankuan Sima, Longbin Tang, Haozhe Ma 等
+
+187. Design and Control of a Coaxial Dual-rotor Reconfigurable Tailsitter UAV Based on Swashplateless Mechanism
+   arXiv ID: 2511.04251
+   作者: Jinfeng Liang, Haocheng Guo, Ximin Lyu
+
+188. Can Context Bridge the Reality Gap? Sim-to-Real Transfer of Context-Aware Policies
+   arXiv ID: 2511.04249
+   作者: Marco Iannotta, Yuxuan Yang, Johannes A. Stork 等
+
+189. GraspView: Active Perception Scoring and Best-View Optimization for Robotic Grasping in Cluttered Environments
+   arXiv ID: 2511.04199
+   作者: Shenglin Wang, Mingtong Dai, Jingxuan Su 等
+
+190. PUL-SLAM: Path-Uncertainty Co-Optimization with Lightweight Stagnation Detection for Efficient Robotic Exploration
+   arXiv ID: 2511.04180
+   作者: Yizhen Yin, Dapeng Feng, Hongbo Chen 等
+
+191. BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning
+   arXiv ID: 2511.04131
+   作者: Yitang Li, Zhengyi Luo, Tonghe Zhang 等
+
+192. CBMC-V3: A CNS-inspired Control Framework Towards Manipulation Agility with SNN
+   arXiv ID: 2511.04109
+   作者: Yanbo Pang, Qingkai Li, Mingguo Zhao
+
+193. Enhancing Fault-Tolerant Space Computing: Guidance Navigation and Control (GNC) and Landing Vision System (LVS) Implementations on Next-Gen Multi-Core Processors
+   arXiv ID: 2511.04052
+   作者: Kyongsik Yun, David Bayard, Gerik Kubiak 等
+
+194. An LLM-based Framework for Human-Swarm Teaming Cognition in Disaster Search and Rescue
+   arXiv ID: 2511.04042
+   作者: Kailun Ji, Xiaoyu Hu, Xinyu Zhang 等
+
+195. Integrating Ergonomics and Manipulability for Upper Limb Postural Optimization in Bimanual Human-Robot Collaboration
+   arXiv ID: 2511.04009
+   作者: Chenzui Li, Yiming Chen, Xi Wu 等
+
+196. Learning Vision-Driven Reactive Soccer Skills for Humanoid Robots
+   arXiv ID: 2511.03996
+   作者: Yushi Wang, Changsheng Luo, Penghui Chen 等
+
+197. Dynamic Shape Control of Soft Robots Enabled by Data-Driven Model Reduction
+   arXiv ID: 2511.03931
+   作者: Iman Adibnazari, Harsh Sharma, Myungsun Park 等
+
+198. BoRe-Depth: Self-supervised Monocular Depth Estimation with Boundary Refinement for Embedded Systems
+   arXiv ID: 2511.04388
+   作者: Chang Liu, Juan Li, Sheng Zhang 等
+
+199. Investigating Robot Control Policy Learning for Autonomous X-ray-guided Spine Procedures
+   arXiv ID: 2511.03882
+   作者: Florence Klitzner, Blanca Inigo, Benjamin D. Killeen 等
+
+200. HACI: A Haptic-Audio Code Interface to Improve Educational Outcomes for Visually Impaired Introductory Programming Students
+   arXiv ID: 2511.03733
+   作者: Pratham Gandhi
+
