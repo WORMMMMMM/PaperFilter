@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaperFilter - Robotics论文搜索</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 PaperFilter</h1>
+            <p class="subtitle">arXiv Robotics 论文抓取与智能搜索</p>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <button id="scrapeBtn" class="btn btn-primary">
+                    <span class="btn-icon">🔍</span>
+                    <span class="btn-text">抓取论文</span>
+                </button>
+                <div id="scrapeStatus" class="status"></div>
+            </div>
+
+            <div class="control-group">
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="输入搜索关键词，例如：diffusion, reinforcement learning, manipulation..."
+                        class="search-input"
+                    >
+                    <button id="searchBtn" class="btn btn-search">
+                        <span class="btn-icon">🔎</span>
+                        <span class="btn-text">搜索</span>
+                    </button>
+                </div>
+                <div id="searchStatus" class="status"></div>
+            </div>
+        </div>
+
+        <div class="info-bar">
+            <span id="paperCount">论文数量: 0</span>
+            <span id="searchReady" class="badge">搜索未就绪</span>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>处理中...</p>
+        </div>
+
+        <div id="papersContainer" class="papers-container">
+            <div class="empty-state">
+                <p>👆 点击"抓取论文"按钮开始抓取论文，或使用搜索功能查找相关论文</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
+
