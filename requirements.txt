@@ -1,9 +1,17 @@
-requests>=2.31.0
-beautifulsoup4>=4.12.0
-lxml>=4.9.0
+# arXiv AI 论文助手 - 依赖包
+
+# Web框架
 flask>=2.3.0
 flask-cors>=4.0.0
-sentence-transformers>=2.2.0
-faiss-cpu>=1.7.4
-numpy>=1.24.0
 
+# HTTP请求
+requests>=2.31.0
+
+# HTML解析
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# 可选：本地向量搜索（如果不使用GLM可以使用本地嵌入）
+# sentence-transformers>=2.2.0
+# faiss-cpu>=1.7.4
+# numpy>=1.24.0

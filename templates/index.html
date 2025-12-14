@@ -3,60 +3,1100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PaperFilter - Robotics论文搜索</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>arXiv AI 论文助手</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0e14;
+            --bg-secondary: #0f1419;
+            --bg-tertiary: #151b23;
+            --bg-card: #1a222c;
+            --accent-cyan: #00d9ff;
+            --accent-magenta: #ff00aa;
+            --accent-yellow: #ffcc00;
+            --accent-green: #39ff14;
+            --text-primary: #e6e6e6;
+            --text-secondary: #8b949e;
+            --text-muted: #6e7681;
+            --border-color: #21262d;
+            --glow-cyan: 0 0 20px rgba(0, 217, 255, 0.3);
+            --glow-magenta: 0 0 20px rgba(255, 0, 170, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* 背景效果 */
+        .bg-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                linear-gradient(rgba(0, 217, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 217, 255, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .bg-glow {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            filter: blur(150px);
+            opacity: 0.15;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .glow-1 {
+            background: var(--accent-cyan);
+            top: -200px;
+            right: -200px;
+        }
+
+        .glow-2 {
+            background: var(--accent-magenta);
+            bottom: -200px;
+            left: -200px;
+        }
+
+        /* 主容器 */
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* 头部 */
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .logo-icon {
+            font-size: 3rem;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-magenta));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        h1 {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 2.5rem;
+            font-weight: 600;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-magenta));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-top: 0.5rem;
+        }
+
+        /* 搜索区域 */
+        .search-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1.25rem 1.5rem;
+            padding-right: 140px;
+            font-size: 1.1rem;
+            font-family: 'Noto Sans SC', sans-serif;
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            color: var(--text-primary);
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-cyan);
+            box-shadow: var(--glow-cyan);
+        }
+
+        .search-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .search-btn {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 500;
+            font-family: 'Noto Sans SC', sans-serif;
+            background: linear-gradient(135deg, var(--accent-cyan), #00a8cc);
+            border: none;
+            border-radius: 8px;
+            color: var(--bg-primary);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .search-btn:hover {
+            transform: translateY(-50%) scale(1.02);
+            box-shadow: var(--glow-cyan);
+        }
+
+        .search-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        /* 搜索选项 */
+        .search-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .option-group {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .option-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .option-input {
+            width: 60px;
+            padding: 0.5rem;
+            font-size: 0.9rem;
+            font-family: 'JetBrains Mono', monospace;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-primary);
+            text-align: center;
+        }
+
+        .option-input:focus {
+            outline: none;
+            border-color: var(--accent-cyan);
+        }
+
+        .toggle-switch {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+        }
+
+        .toggle-checkbox {
+            display: none;
+        }
+
+        .toggle-slider {
+            width: 44px;
+            height: 24px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .toggle-slider::after {
+            content: '';
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            background: var(--text-secondary);
+            border-radius: 50%;
+            top: 2px;
+            left: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .toggle-checkbox:checked + .toggle-slider {
+            background: var(--accent-cyan);
+            border-color: var(--accent-cyan);
+        }
+
+        .toggle-checkbox:checked + .toggle-slider::after {
+            transform: translateX(20px);
+            background: var(--bg-primary);
+        }
+
+        /* 状态提示 */
+        .status-bar {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem 1.5rem;
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .status-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent-green);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .status-text {
+            color: var(--text-secondary);
+        }
+
+        .keywords-display {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+        }
+
+        .keyword-tag {
+            padding: 0.25rem 0.75rem;
+            background: rgba(0, 217, 255, 0.1);
+            border: 1px solid rgba(0, 217, 255, 0.3);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: var(--accent-cyan);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* 进度条 */
+        .progress-section {
+            margin-top: 1.5rem;
+            display: none;
+        }
+
+        .progress-section.active {
+            display: block;
+        }
+
+        .progress-steps {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            flex: 1;
+            position: relative;
+        }
+
+        .step::after {
+            content: '';
+            position: absolute;
+            top: 15px;
+            left: 50%;
+            width: 100%;
+            height: 2px;
+            background: var(--border-color);
+            z-index: 0;
+        }
+
+        .step:last-child::after {
+            display: none;
+        }
+
+        .step-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            z-index: 1;
+            transition: all 0.3s ease;
+        }
+
+        .step.active .step-icon {
+            border-color: var(--accent-cyan);
+            background: rgba(0, 217, 255, 0.1);
+            animation: stepPulse 1.5s infinite;
+        }
+
+        .step.completed .step-icon {
+            border-color: var(--accent-green);
+            background: var(--accent-green);
+            color: var(--bg-primary);
+        }
+
+        @keyframes stepPulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(0, 217, 255, 0.4); }
+            50% { box-shadow: 0 0 0 8px rgba(0, 217, 255, 0); }
+        }
+
+        .step-label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        .step.active .step-label,
+        .step.completed .step-label {
+            color: var(--text-primary);
+        }
+
+        /* 结果区域 */
+        .results-section {
+            display: none;
+        }
+
+        .results-section.active {
+            display: block;
+        }
+
+        /* 总结卡片 */
+        .summary-card {
+            background: linear-gradient(135deg, rgba(255, 0, 170, 0.1), rgba(0, 217, 255, 0.1));
+            border: 1px solid rgba(255, 0, 170, 0.3);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .summary-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .summary-icon {
+            font-size: 1.5rem;
+        }
+
+        .summary-title {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: var(--accent-magenta);
+        }
+
+        .summary-content {
+            color: var(--text-primary);
+            line-height: 1.8;
+            white-space: pre-wrap;
+        }
+
+        /* 论文列表 */
+        .papers-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .papers-title {
+            font-size: 1.3rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .papers-count {
+            padding: 0.25rem 0.75rem;
+            background: rgba(0, 217, 255, 0.1);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: var(--accent-cyan);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .view-toggle {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .view-btn {
+            padding: 0.5rem 1rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .view-btn:hover {
+            border-color: var(--accent-cyan);
+            color: var(--text-primary);
+        }
+
+        .view-btn.active {
+            background: rgba(0, 217, 255, 0.1);
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+
+        /* 论文卡片 */
+        .papers-grid {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .paper-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .paper-card:hover {
+            border-color: var(--accent-cyan);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(0, 217, 255, 0.1);
+        }
+
+        .paper-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .paper-title {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            line-height: 1.4;
+            flex: 1;
+        }
+
+        .paper-title a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .paper-title a:hover {
+            color: var(--accent-cyan);
+        }
+
+        .relevance-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .relevance-high {
+            background: rgba(57, 255, 20, 0.15);
+            color: var(--accent-green);
+            border: 1px solid rgba(57, 255, 20, 0.3);
+        }
+
+        .relevance-medium {
+            background: rgba(255, 204, 0, 0.15);
+            color: var(--accent-yellow);
+            border: 1px solid rgba(255, 204, 0, 0.3);
+        }
+
+        .relevance-low {
+            background: rgba(255, 0, 170, 0.15);
+            color: var(--accent-magenta);
+            border: 1px solid rgba(255, 0, 170, 0.3);
+        }
+
+        .paper-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .paper-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .paper-abstract {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+
+        .paper-reason {
+            padding: 0.75rem 1rem;
+            background: rgba(0, 217, 255, 0.05);
+            border-left: 3px solid var(--accent-cyan);
+            border-radius: 0 8px 8px 0;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .paper-links {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        .paper-link {
+            padding: 0.5rem 1rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .paper-link:hover {
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+
+        /* 加载动画 */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(10, 14, 20, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            display: none;
+        }
+
+        .loading-overlay.active {
+            display: flex;
+        }
+
+        .loading-content {
+            text-align: center;
+        }
+
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 3px solid var(--border-color);
+            border-top-color: var(--accent-cyan);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1.5rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            color: var(--text-primary);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .loading-subtext {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* 空状态 */
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-muted);
+        }
+
+        .empty-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .search-input {
+                padding-right: 1rem;
+                padding-bottom: 4rem;
+            }
+
+            .search-btn {
+                right: 8px;
+                top: auto;
+                bottom: 8px;
+                transform: none;
+                width: calc(100% - 16px);
+            }
+
+            .search-options {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .progress-steps {
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+
+            .step::after {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
+    <div class="bg-grid"></div>
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
     <div class="container">
         <header>
-            <h1>📚 PaperFilter</h1>
-            <p class="subtitle">arXiv Robotics 论文抓取与智能搜索</p>
+            <div class="logo">
+                <span class="logo-icon">🔬</span>
+                <h1>arXiv AI 论文助手</h1>
+            </div>
+            <p class="subtitle">智能搜索 • AI筛选 • 研究导航</p>
         </header>
 
-        <div class="controls">
-            <div class="control-group">
-                <button id="scrapeBtn" class="btn btn-primary">
-                    <span class="btn-icon">🔍</span>
-                    <span class="btn-text">抓取论文</span>
-                </button>
-                <div id="scrapeStatus" class="status"></div>
-            </div>
-
-            <div class="control-group">
+        <section class="search-section">
                 <div class="search-box">
                     <input 
                         type="text" 
                         id="searchInput" 
-                        placeholder="输入搜索关键词，例如：diffusion, reinforcement learning, manipulation..."
                         class="search-input"
-                    >
-                    <button id="searchBtn" class="btn btn-search">
-                        <span class="btn-icon">🔎</span>
-                        <span class="btn-text">搜索</span>
+                    placeholder="描述你想研究的主题，例如：Contact-rich Manipulation、机器人灵巧操作、强化学习在机械臂控制中的应用..."
+                >
+                <button id="searchBtn" class="search-btn">
+                    <span>🚀</span>
+                    <span>智能搜索</span>
                     </button>
+            </div>
+
+            <div class="search-options">
+                <div class="option-group">
+                    <span class="option-label">搜索数量</span>
+                    <input type="number" id="maxResults" class="option-input" value="50" min="10" max="200">
                 </div>
-                <div id="searchStatus" class="status"></div>
+                <div class="option-group">
+                    <span class="option-label">筛选数量</span>
+                    <input type="number" id="topK" class="option-input" value="10" min="3" max="30">
+                </div>
+                <label class="toggle-switch">
+                    <span class="option-label">智能关键词</span>
+                    <input type="checkbox" id="autoKeywords" class="toggle-checkbox" checked>
+                    <span class="toggle-slider"></span>
+                </label>
             </div>
+
+            <div class="status-bar" id="statusBar">
+                <div class="status-indicator"></div>
+                <span class="status-text" id="statusText">准备就绪，等待输入...</span>
         </div>
 
-        <div class="info-bar">
-            <span id="paperCount">论文数量: 0</span>
-            <span id="searchReady" class="badge">搜索未就绪</span>
+            <div id="keywordsDisplay" class="keywords-display" style="display: none;"></div>
+
+            <div class="progress-section" id="progressSection">
+                <div class="progress-steps">
+                    <div class="step" id="step1">
+                        <div class="step-icon">1</div>
+                        <span class="step-label">生成关键词</span>
+                    </div>
+                    <div class="step" id="step2">
+                        <div class="step-icon">2</div>
+                        <span class="step-label">搜索论文</span>
+                    </div>
+                    <div class="step" id="step3">
+                        <div class="step-icon">3</div>
+                        <span class="step-label">AI分析</span>
+                    </div>
+                    <div class="step" id="step4">
+                        <div class="step-icon">4</div>
+                        <span class="step-label">生成总结</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="results-section" id="resultsSection">
+            <div class="summary-card" id="summaryCard" style="display: none;">
+                <div class="summary-header">
+                    <span class="summary-icon">✨</span>
+                    <span class="summary-title">AI 研究方向总结</span>
+                </div>
+                <div class="summary-content" id="summaryContent"></div>
         </div>
 
-        <div id="loading" class="loading hidden">
-            <div class="spinner"></div>
-            <p>处理中...</p>
+            <div class="papers-header">
+                <div class="papers-title">
+                    <span>📚</span>
+                    <span>筛选结果</span>
+                    <span class="papers-count" id="papersCount">0 篇</span>
+                </div>
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="filtered">AI推荐</button>
+                    <button class="view-btn" data-view="all">全部结果</button>
+                </div>
         </div>
 
-        <div id="papersContainer" class="papers-container">
+            <div class="papers-grid" id="papersGrid">
             <div class="empty-state">
-                <p>👆 点击"抓取论文"按钮开始抓取论文，或使用搜索功能查找相关论文</p>
+                    <div class="empty-icon">🔍</div>
+                    <p>输入研究主题开始搜索</p>
+                </div>
             </div>
+        </section>
+    </div>
+
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text" id="loadingText">正在搜索...</div>
+            <div class="loading-subtext" id="loadingSubtext">请稍候</div>
         </div>
     </div>
 
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script>
+        // 全局状态
+        let currentData = {
+            papers: [],
+            filteredPapers: [],
+            summary: '',
+            keywords: []
+        };
+        let currentView = 'filtered';
+
+        // DOM元素
+        const searchInput = document.getElementById('searchInput');
+        const searchBtn = document.getElementById('searchBtn');
+        const maxResultsInput = document.getElementById('maxResults');
+        const topKInput = document.getElementById('topK');
+        const autoKeywordsCheckbox = document.getElementById('autoKeywords');
+        const statusText = document.getElementById('statusText');
+        const keywordsDisplay = document.getElementById('keywordsDisplay');
+        const progressSection = document.getElementById('progressSection');
+        const resultsSection = document.getElementById('resultsSection');
+        const summaryCard = document.getElementById('summaryCard');
+        const summaryContent = document.getElementById('summaryContent');
+        const papersCount = document.getElementById('papersCount');
+        const papersGrid = document.getElementById('papersGrid');
+        const loadingOverlay = document.getElementById('loadingOverlay');
+        const loadingText = document.getElementById('loadingText');
+        const loadingSubtext = document.getElementById('loadingSubtext');
+
+        // 事件监听
+        searchBtn.addEventListener('click', performSearch);
+        searchInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') performSearch();
+        });
+
+        document.querySelectorAll('.view-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentView = btn.dataset.view;
+                renderPapers();
+            });
+        });
+
+        // 主搜索函数
+        async function performSearch() {
+            const query = searchInput.value.trim();
+            if (!query) {
+                updateStatus('请输入搜索主题', 'error');
+                return;
+            }
+
+            const maxResults = parseInt(maxResultsInput.value) || 50;
+            const topK = parseInt(topKInput.value) || 10;
+            const autoKeywords = autoKeywordsCheckbox.checked;
+
+            // 重置状态
+            resetProgress();
+            showLoading('正在启动智能搜索...', '分析您的研究需求');
+            progressSection.classList.add('active');
+            resultsSection.classList.remove('active');
+
+            try {
+                // 步骤1：生成关键词
+                updateStep(1, 'active');
+                updateLoading('生成搜索关键词...', '使用AI分析研究主题');
+
+                const response = await fetch('/api/search', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        query,
+                        max_results: maxResults,
+                        top_k: topK,
+                        auto_keywords: autoKeywords
+                    })
+                });
+
+                const data = await response.json();
+
+                if (!data.success) {
+                    throw new Error(data.error || '搜索失败');
+                }
+
+                // 显示关键词
+                updateStep(1, 'completed');
+                showKeywords(data.keywords);
+
+                // 步骤2完成
+                updateStep(2, 'completed');
+                
+                // 步骤3完成
+                updateStep(3, 'completed');
+
+                // 步骤4完成
+                updateStep(4, 'completed');
+
+                // 保存数据
+                currentData = {
+                    papers: data.papers || [],
+                    filteredPapers: data.filtered_papers || [],
+                    summary: data.summary || '',
+                    keywords: data.keywords || []
+                };
+
+                // 显示结果
+                hideLoading();
+                displayResults();
+                updateStatus(`找到 ${data.total_found} 篇论文，AI筛选出 ${data.filtered_papers.length} 篇最相关的`, 'success');
+
+            } catch (error) {
+                hideLoading();
+                updateStatus('搜索失败: ' + error.message, 'error');
+                console.error(error);
+            }
+        }
+
+        // 显示结果
+        function displayResults() {
+            resultsSection.classList.add('active');
+
+            // 显示总结
+            if (currentData.summary) {
+                summaryCard.style.display = 'block';
+                summaryContent.textContent = currentData.summary;
+            } else {
+                summaryCard.style.display = 'none';
+            }
+
+            renderPapers();
+        }
+
+        // 渲染论文列表
+        function renderPapers() {
+            const papers = currentView === 'filtered' 
+                ? currentData.filteredPapers 
+                : currentData.papers.map(p => ({ paper: p }));
+
+            papersCount.textContent = `${papers.length} 篇`;
+
+            if (papers.length === 0) {
+                papersGrid.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">📭</div>
+                        <p>没有找到论文</p>
+                    </div>
+                `;
+                return;
+            }
+
+            papersGrid.innerHTML = papers.map((item, index) => {
+                const paper = item.paper || item;
+                const score = item.relevance_score;
+                const reason = item.reason;
+
+                const relevanceClass = score >= 70 ? 'relevance-high' 
+                    : score >= 50 ? 'relevance-medium' 
+                    : 'relevance-low';
+
+                const authors = (paper.authors || []).slice(0, 3).join(', ');
+                const abstract = (paper.abstract || '').slice(0, 300) + (paper.abstract?.length > 300 ? '...' : '');
+
+                return `
+                    <div class="paper-card">
+                        <div class="paper-header">
+                            <h3 class="paper-title">
+                                <a href="${paper.abs_link}" target="_blank">${paper.title}</a>
+                            </h3>
+                            ${score !== undefined ? `
+                                <span class="relevance-badge ${relevanceClass}">${score}分</span>
+                            ` : ''}
+                        </div>
+                        <div class="paper-meta">
+                            <span>📑 ${paper.arxiv_id}</span>
+                            <span>👤 ${authors}${paper.authors?.length > 3 ? ' 等' : ''}</span>
+                            ${paper.submitted_date ? `<span>📅 ${paper.submitted_date}</span>` : ''}
+                        </div>
+                        <p class="paper-abstract">${abstract}</p>
+                        ${reason ? `
+                            <div class="paper-reason">
+                                <strong>AI推荐理由：</strong>${reason}
+                            </div>
+                        ` : ''}
+                        <div class="paper-links">
+                            <a href="${paper.abs_link}" target="_blank" class="paper-link">
+                                📄 摘要页
+                            </a>
+                            <a href="${paper.pdf_link || paper.abs_link.replace('abs', 'pdf') + '.pdf'}" target="_blank" class="paper-link">
+                                📥 PDF
+                            </a>
+                            <a href="${paper.html_link}" target="_blank" class="paper-link">
+                                🌐 HTML
+                            </a>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // 辅助函数
+        function updateStatus(text, type = 'info') {
+            statusText.textContent = text;
+        }
+
+        function showKeywords(keywords) {
+            if (keywords && keywords.length > 0) {
+                keywordsDisplay.style.display = 'flex';
+                keywordsDisplay.innerHTML = keywords.map(k => 
+                    `<span class="keyword-tag">${k}</span>`
+                ).join('');
+            }
+        }
+
+        function resetProgress() {
+            for (let i = 1; i <= 4; i++) {
+                const step = document.getElementById(`step${i}`);
+                step.classList.remove('active', 'completed');
+            }
+            keywordsDisplay.style.display = 'none';
+        }
+
+        function updateStep(stepNum, state) {
+            const step = document.getElementById(`step${stepNum}`);
+            step.classList.remove('active', 'completed');
+            step.classList.add(state);
+        }
+
+        function showLoading(text, subtext) {
+            loadingText.textContent = text;
+            loadingSubtext.textContent = subtext;
+            loadingOverlay.classList.add('active');
+        }
+
+        function updateLoading(text, subtext) {
+            loadingText.textContent = text;
+            loadingSubtext.textContent = subtext;
+        }
+
+        function hideLoading() {
+            loadingOverlay.classList.remove('active');
+        }
+
+        // 页面加载时检查历史
+        async function checkHistory() {
+            try {
+                const response = await fetch('/api/history');
+                const data = await response.json();
+                if (data.success && data.data) {
+                    currentData = {
+                        papers: data.data.papers || [],
+                        filteredPapers: data.data.filtered_papers || [],
+                        summary: data.data.summary || '',
+                        keywords: data.data.keywords || []
+                    };
+                    if (currentData.filteredPapers.length > 0) {
+                        searchInput.value = data.data.query || '';
+                        showKeywords(currentData.keywords);
+                        displayResults();
+                        updateStatus('已加载上次搜索结果', 'info');
+                    }
+                }
+            } catch (e) {
+                console.log('无历史记录');
+            }
+        }
+
+        checkHistory();
+    </script>
 </body>
 </html>
-
